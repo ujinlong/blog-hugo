@@ -1,0 +1,41 @@
+.link-card {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border-top: 1px solid #dee2e6;
+}
+
+.link-card--body {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.link-card--favicon {
+  min-width:62px;
+  height: 62px;
+  object-fit: contain;
+}
+
+.link-card--info p {
+  margin: unset;
+}
+
+.link-card--footer {
+  background-color: rgba(0,0,0,.05);
+}
+
+body.night .link-card--footer {
+  background-color: rgba(255,255,255,.05);
+}
+
+.link-card--attribution {
+  margin: 0.5rem;
+  margin-right: 1rem;
+  text-align: right;
+}

@@ -1,0 +1,8 @@
+{{- $prefix := "https://" -}}
+{{- $baseUrl := .Get 0 -}}
+{{- $id := .Get 1 -}}
+{{- $json := getJSON $prefix $baseUrl "/api/v1/statuses/" $id -}}
+<blockquote class="fediverse-status">
+  {{- $json.content | markdownify -}}
+  <p>&mdash;&nbsp;{{- $json.account.display_name -}}&nbsp;(@{{- $json.account.acct -}}) <a href="{{- $json.url -}}">{{- dateFormat "January 2, 2006" $json.created_at -}}</a></p>
+</blockquote>

@@ -1,0 +1,8 @@
+- id: last_mod_on
+  translation: 最后修改：
+- id: published_on
+  translation: 发布时间：
+- id: no_newer_posts
+  translation: 这就是最新的文章了。
+- id: no_older_posts
+  translation: 没有更黑的黑历史啦。

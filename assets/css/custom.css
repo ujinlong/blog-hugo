@@ -1,0 +1,328 @@
+/* Customisations to Hugo Diary by loikein */
+
+:root {
+  --hr-height: 1.5rem;
+  --archive-indent: 3.5rem;
+}
+
+@font-face {
+  font-display: swap;
+}
+
+body.night {
+  --gray: #ccc;
+}
+
+::selection {
+  /* color: #fcfcfc; */
+  background: rgba(65, 180, 241, 0.3);
+}
+
+time {
+  font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
+  letter-spacing: -1px;
+}
+
+/* post title */
+
+.stream-container .post .post-head-wrapper-text-only .post-title {
+  line-height: 42px;
+}
+
+@media screen and (max-width:1020px) {
+  .stream-container .post .post-head-wrapper-text-only .post-title {
+    line-height: 1.5em;
+  }
+}
+
+/* post title area */
+
+.post-title-main {
+  margin-top: -1px;
+}
+
+.post-subtitle,
+.stream-container .post .post-head-wrapper-text-only .post-title .post-subtitle {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0;
+  margin-top: 9px;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  align-items: baseline;
+  line-height: 1.5;
+  gap: 1.5rem;
+}
+
+.post-meta,
+.stream-container .post .post-head-wrapper-text-only .post-title .post-meta {
+  margin-top: 30px;
+}
+
+.post-meta .post-time {
+  display: inline-block;
+}
+
+.post-meta .post-time,
+.post-meta .material-icons {
+  opacity: .6;
+}
+
+@media (max-width: 500px) {
+  .post-meta {
+    display: block;
+  }
+  .post-meta .post-time {
+    display: block;
+  }
+  .post-meta .post-tags,
+  .post-meta .post-cats,
+  .draft-label {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+
+/* post body */
+
+.post-body h2 {
+  margin-top: calc(20px + 1em);
+}
+
+.post-body h3{
+  margin-top: calc(10px + 1em);
+}
+
+b, strong {
+  text-decoration: underline;
+  color: #111;
+}
+
+.post-body hr {
+  padding: 0;
+  border: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: var(--hr-height);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.post-body hr:after {
+  content: "//";
+  /* content: "\12199"; */
+  /* content: "⁂"; */
+  /* content: "❡"; */
+  color: #777;
+  font-size: var(--hr-height);
+}
+
+.mark, mark {
+  background-color: rgb(255,212,0,7%);
+}
+
+code {
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+
+.post-body li>p {
+  margin-bottom: 0;
+}
+
+.post-body > ul > li,
+.post-body > ol > li {
+  margin-bottom: 0.5rem;
+}
+
+/* blockquote */
+
+blockquote, blockquote *:not(a) {
+  color: #010c14;
+  background: none;
+}
+
+body.night blockquote *:not(a) {
+  color: #e6e6e6 !important;
+}
+
+blockquote p {
+  margin-bottom: 1rem;
+}
+
+blockquote p:last-of-type,
+blockquote .row:last-of-type {
+  margin-bottom: 0;
+}
+
+/* not working?? */
+/*
+.twitter-tweet p:last-of-type {
+  margin-bottom: 1rem !important;
+}
+*/
+
+.fediverse-status p:last-of-type {
+  margin-top: 1rem;
+}
+
+.fediverse-status span.invisible {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.fediverse-status a * {
+  color: inherit;
+}
+
+/* animated sticker & video */
+
+.post-body .sticker {
+  border-radius: 0;
+}
+
+.post-body .sticker,
+.post-body .post-video {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+body.night .post-body .sticker,
+body.night .post-body .post-video {
+  opacity: .8;
+}
+
+/* image */
+
+img,
+.post-body img,
+.stream-container .post .post-body-wrapper .post-body img {
+  border-radius: 0;
+  object-fit: contain;
+}
+
+.post-body img:not([class]),
+.stream-container .post .post-body-wrapper .post-body img:not([class]) {
+  border: solid 1px #777;
+  margin: auto;
+}
+
+.post-body figure {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* .highlight pre {
+  background: rgba(33,150,243,7%)!important;
+} */
+
+/* toc */
+
+.toc .toc-content {
+    padding-left: 30px;
+  }
+
+.toc .toc-content > ul {
+  padding: 0;
+}
+
+.toc .toc-content > ul > ul {
+  padding: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  .toc .toc-content {
+    padding: 20px;
+  }
+}
+
+.toc .toc-content > ul > ul > li {
+  counter-increment: counter_toc_h2;
+  counter-reset: counter_toc_h3;
+}
+
+.toc .toc-content > ul > ul > li::before {
+  content: counter(counter_toc_h2)". ";
+}
+
+.toc .toc-content > ul > ul > ul > li {
+  counter-increment: counter_toc_h3;
+}
+
+.toc .toc-content > ul > ul > ul > li::before {
+  content: counter(counter_toc_h3)". ";
+}
+
+/* all list pages */
+
+.post-item-meta {
+  opacity: .6;
+}
+
+.post-item-meta .material-icons{
+  vertical-align: middle;
+  margin-bottom: 3px;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+
+/* taxonomy */
+
+.stream-container .post-list-container .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title,
+.stream-container .post-list-container > * .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.stream-container .post-list-container .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title-small,
+.stream-container .post-list-container > * .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title-small {
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: bolder;
+}
+
+/* archive */
+
+.archive--year,
+body.night h2.archive--year {
+  color: var(--gray);
+}
+
+.archive--list-item {
+  text-indent: calc(-1 * var(--archive-indent) - 1rem);
+  padding-left: calc(var(--archive-indent) + 0.3rem);
+  list-style:none;
+}
+
+.archive--date {
+  display: inline-block;
+  width: var(--archive-indent);
+  padding-left: calc(var(--archive-indent) + 1rem);
+  font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
+  letter-spacing: -1px;
+}
+
+.post-item-summary {
+  color: #676D71;
+}
+
+.draft-label {
+  color: #037BBA;
+  border: 1px solid #037BBA;
+  padding: 0 5px 0 5px ;
+  border-radius: 10px;
+}
+
+/* codepen */
+
+.cp_embed_wrapper {
+  margin-bottom: 1rem;
+}

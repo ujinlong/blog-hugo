@@ -1,0 +1,18 @@
+{{/* DEFAULTS */}}
+{{ $user    := "loikein" }}
+{{ $height  := 400 }}
+{{ $tab     := "result" }}{{/* html|css|js|result */}}
+{{ $theme   := "dark" }}{{/* create on codepen.io */}}
+
+<p
+    class="codepen"
+    data-height="{{ or (.Get "height") $height }}"
+    data-theme-id="{{ or (.Get "theme") $theme }}"
+    data-default-tab="{{ or (.Get "tab") $tab }}"
+    data-user="{{ or (.Get "user") $user }}"
+    data-slug-hash="{{ .Get "id" }}"
+    data-preview="true" 
+    data-pen-title="note-attrib-selector">
+<span>See the Pen <a href="https://codepen.io/loikein/pen/XoRjJJ">note-attrib-selector</a> by loikein (<a href="https://codepen.io/loikein">@loikein</a>) on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

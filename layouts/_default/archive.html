@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div ref="streamContainer" class="stream-container">
+<div class="post-list-container post-list-container-shadow">
+<div class="post">
+<div class="post-head-wrapper-text-only">
+  <div class="post-title">{{ .Title }}</div>
+</div>
+
+<div class="post-body-wrapper">
+<div class="post-body archive-body">
+
+{{ .Content }}
+
+{{- $type := .Type -}}
+<!-- Group articles by year and loop through them -->
+{{- range (.Site.RegularPages.GroupByDate "2006") -}}
+<!-- Get articles to display -->
+{{- $articles := (where .Pages "Type" $type) -}}
+<!-- Count articles returned -->
+{{- $articles_count := len $articles -}}
+<!-- Check if a proper year is returned and if it contains any articles -->
+{{ if and (gt .Key 1) (gt $articles_count 0) }}
+{{- range $index, $value := (where .Pages "Type" $type) -}}
+  {{ if not $index }}
+  <!-- Display a header in the first loop -->
+  <h2 class="archive--year">{{ .Date.Format "2006" }} / {{ $articles_count }} post{{ if ne $articles_count 1 }}s{{ end }}</h2>
+  <ul class="article--list">
+  {{ end }}
+  <!-- Display articles here -->
+  <li class="archive--list-item">
+    <a href="{{ .RelPermalink }}">
+    <span class="archive--date">{{ .Date.Format "Jan 02" }}</span>{{ if .Draft }}<span class="draft-label">{{ i18n "draft" }}</span>&nbsp;{{ end }}{{ .Title  }}
+    </a>
+  </li>
+  {{ end }}
+  </ul>
+{{ end }}
+{{ end }}
+
+</div>
+</div>
+</div>
+</div>
+</div>
+{{ end }}

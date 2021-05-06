@@ -1,0 +1,13 @@
+{{ $videoID := index .Params 0 }}
+{{ $pageNum := index .Params 1 | default 1}}
+{{ $4x3 := .Get "4x3" | default "false" }}
+
+{{ if (findRE "^[bB][vV][0-9a-zA-Z]+$" $videoID) }}
+<div class="video-container {{ with $4x3 }}{{ if eq . "true" }}video-container--4x3{{ else }}video-container--16x9{{ end }}{{ end }}">
+<iframe src="//player.bilibili.com/player.html?bvid={{ $videoID }}&page={{ $pageNum }}&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-same-origin allow-scripts" loading="lazy"></iframe>
+</div>
+{{ else }}
+<div class="video-container video-container--16x9">
+<iframe src="//player.bilibili.com/player.html?aid={{ $videoID }}&page={{ $pageNum }}&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-same-origin allow-scripts" loading="lazy"></iframe>
+</div>
+{{ end }}

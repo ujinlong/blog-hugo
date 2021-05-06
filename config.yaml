@@ -1,0 +1,77 @@
+baseURL: "https://playground.loikein.one/hugo-diary-public/"
+canonifyURLs: true
+DefaultContentLanguage: zh
+hasCJKLanguage: true
+languageCode: en-gb
+publishDir: "../hugo-diary-public"
+
+title: 此生未命名
+copyright: loikein 2021
+theme: diary
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: dracula
+    # https://xyproto.github.io/splash/docs/longer/all.html
+    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
+
+ignoreFiles:
+  - blog-*.xml$
+ignoreErrors: 
+  - "error-remote-getjson"
+
+params:
+  title: 此生未命名／Untitled Life
+  subtitle: 用爱和理性对抗荒谬
+  enableGitalk: false
+  enableOpenGraph: true
+  enableTwitterCards: true
+  disableAutoCollapse: true
+  description: 一个无趣的人的无趣的博客。
+  customCSS: true
+  # gitalk:
+  #   owner: user
+  #   repo: repo name
+  #   client_id: your client id
+  #   client_secret: your client secret
+
+taxonomies:
+  tag: tags
+  category: categories
+
+menu:
+  main:
+    - url: /about/
+      name: 关于／About
+      weight: 1
+    - url: /archives/posts/
+      name: 归档／Archive
+      weight: 2
+    # - url: /tags/
+    #   name: 标签／Tags
+    #   weight: 3
+    - url: /categories/
+      name: 分类／Categories
+      weight: 4
+    - url: /toolbox/
+      name: 工具箱／Toolbox
+      weight: 5
+    - url: /projects/
+      name: 个人项目／Projects
+      weight: 6
+    - name: 搜索／Search
+      url: "https://www.ecosia.org/search?q=site%3Ablog.loikein.one"
+      weight: 7
+    - url: /index.xml
+      name: RSS
+      weight: 10

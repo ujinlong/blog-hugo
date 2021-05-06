@@ -1,0 +1,83 @@
+/* https://gist.github.com/loikein/7b2a4f7d98d366a732dafd755b5248ff */
+
+/* section title counter */
+
+.post-body:not(.archive-body) h2{
+  counter-increment: counter_h2;
+  counter-reset: counter_h3;
+}
+
+.post-body:not(.archive-body) h2::before {
+  content: counter(counter_h2)". ";
+}
+
+.post-body:not(.archive-body) h3 {
+  counter-increment: counter_h3;
+}
+
+.post-body:not(.archive-body) h3::before {
+  content: counter(counter_h2)"."counter(counter_h3)". ";
+}
+
+/* two-col */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 1rem 0;
+  gap: 0.3rem;
+}
+
+.row .column {
+  width: 100%;
+}
+
+.row .column:nth-of-type(2n) {
+  margin-left: 1rem;
+}
+
+@media (min-width: 600px) {
+  .row {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    gap: 1rem;
+  }
+  .row .column:nth-of-type(2n) {
+    margin-left: unset;
+  }
+}
+
+body.night .post-body .row,
+body.night .post-body .row .column {
+  color: #e6e6e6;
+}
+
+/* responsive iframe */
+
+.video-container{
+    position: relative;
+    height: 0;
+}
+
+.video-container--4x3{ padding-bottom: 75%; }
+.video-container--16x9{ padding-bottom: 56.25%; }
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* embedded gist normalization */
+.gist table,
+.gist table tr th,
+.gist table tr td{
+  border: 0px;
+}
+
+.gist tbody tr:nth-of-type(odd) {
+  background-color: unset;
+}

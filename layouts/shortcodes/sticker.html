@@ -1,0 +1,15 @@
+{{ $name := .Get "name" | default (.Get 0) }}
+{{ $folder := .Get "folder" | default "sticker" }}
+{{ $height := .Get "h" | default 150 }}
+{{ $alt    := .Get "alt" | default "animated sticker" }}
+{{ $animated := .Get "animated" | default "true" }}
+{{ $loop := .Get "loop" | default "true" }}
+
+{{ with $animated }}{{ if eq . "true" }}
+<video autoplay {{ if ne $loop "false" }}loop{{ end }} muted disablePictureInPicture class="sticker" height={{ $height }}>
+    <source src="/{{ $folder }}/{{ $name }}.mp4" type="video/mp4">
+    <img src="/{{ $folder }}/{{ $name }}.gif">
+</video>
+{{ else }}
+<img src="/{{ $folder }}/{{ $name }}" class="sticker" height={{ $height }}>
+{{ end }}{{ end }}

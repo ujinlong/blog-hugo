@@ -1,0 +1,33 @@
+<div class="post-item-meta">
+    <time>{{- i18n "format_date" .PublishDate -}}</time>
+
+    {{- if gt .Params.categories 0 -}}
+    <i class="material-icons" style="">folder</i>
+    {{ range .Params.categories }}{{ . }}&nbsp;{{ end }}
+    {{- end -}}
+
+    {{- if gt .Params.tags 0 -}}
+    <i class="material-icons" style="">label</i>
+    {{ range .Params.tags }}{{ . }}&nbsp;{{ end }}
+    {{- end -}}
+
+    <!-- Reading Time Start -->
+    {{ if .Site.Params.enableReadingTime }}
+    <i class="material-icons" style="font-size:10px">schedule</i>
+    {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+
+    {{ $minutes := math.Floor (div $readTime 60) }}
+    {{ $seconds := mod $readTime 60 }}
+
+    {{ if gt $minutes 0}}
+    {{ $minutes }} {{ cond (eq $minutes 1) "minute" "min" }}
+    {{ end }}
+    {{ $seconds }} {{ cond (eq $seconds 1) "second" "s" }}
+    {{ end }}
+    <!-- Reading Time End -->
+
+    {{ if .Draft }}
+    &emsp;
+    <span class="draft-label">{{ i18n "draft" }}</span>
+    {{ end }}
+</div>

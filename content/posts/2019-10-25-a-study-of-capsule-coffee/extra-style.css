@@ -1,0 +1,8 @@
+table {
+  counter-reset: tr-number;
+  min-width: 80%;
+}
+tr>td:nth-child(1)::before{
+  counter-increment: tr-number;
+  content: counter(tr-number);
+}

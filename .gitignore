@@ -1,0 +1,18 @@
+# macOS General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# files
+blog-*.xml
+5855d6e376141a96.mp4
+bb7b1cf09d2b80bc.mp4
+
+# folders
+/public/
+resources/
+thumbnails/
+exampleSite/
+draft/
+drafts/
+_gen/
