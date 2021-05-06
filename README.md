@@ -8,3 +8,4 @@ Well, here we are.
 
 - [Host on Netlify | Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#configure-hugo-version-in-netlify)
 - [[SOLVED]Do I need to build the public folder if I host on Netlify? - support - HUGO](https://discourse.gohugo.io/t/18615)
+- [public directory and output not generated · Issue #4407 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/4407#issuecomment-365530120)
