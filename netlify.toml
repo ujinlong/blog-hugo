@@ -1,6 +1,6 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
-  publish = "/public/"
+  publish = "public"
+  command = "hugo --gc --minify"
 
 [build.environment]
   HUGO_VERSION = "0.83.1"
@@ -8,6 +8,9 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+
+[context.split1]
+  command = "hugo --gc --minify --enableGitInfo"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
