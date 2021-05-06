@@ -1,9 +1,8 @@
-baseURL: "https://playground.loikein.one/hugo-diary-public/"
+baseURL: "https://epic-mestorf-3202f7.netlify.app/"
 canonifyURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
 languageCode: en-gb
-publishDir: "../hugo-diary-public"
 
 title: 此生未命名
 copyright: loikein 2021
