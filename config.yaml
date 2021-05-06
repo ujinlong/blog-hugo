@@ -3,6 +3,7 @@ canonifyURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
 languageCode: en-gb
+publishDir: public
 
 title: 此生未命名
 copyright: loikein 2021
