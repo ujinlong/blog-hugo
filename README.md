@@ -4,6 +4,55 @@
 
 Well, here we are.
 
+## Commands
+
+### Local
+
+```bash
+hugo server --buildDrafts --disableFastRender
+```
+
+### Codespace
+
+- Install Browser Preview (`auchenberg.vscode-browser-preview`)
+
+- Install Chrome: (Credit: [How to install Chrome browser properly via command line? - Ask Ubuntu](https://askubuntu.com/a/79284))
+
+    ```bash
+    cd ..
+
+    pwd
+    # /workspaces
+
+    sudo apt-get install libxss1 libappindicator1 libindicator7
+
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+    sudo apt install ./google-chrome*.deb
+    ```
+
+- Configure the extension with:
+
+    ```json
+    "browser-preview.chromeExecutable": "/usr/bin/google-chrome",
+    "browser-preview.ignoreHttpsErrors": true,
+    "browser-preview.startUrl": "localhost:1818",
+    ```
+
+- Run Hugo server with fixed port: ([all options](https://gohugo.io/commands/hugo_server/#options))
+
+    ```bash
+    hugo server --buildDrafts --port 1818 --baseURL "https://loikein-blog-hugo-w8cj-1818.githubpreview.dev/"
+    ```
+
+- Access `https://loikein-blog-hugo-w8cj-1818.githubpreview.dev/` once to log into GitHub.
+
+- Then can access:
+    - `localhost:1818` directly from the Browser Preview, or
+    - `https://loikein-blog-hugo-w8cj-1818.githubpreview.dev/` from iPad, etc.
+
+- Notice that any draft (only exists on local machine) will not show up.
+
 ## Refs
 
 - [Host on Netlify | Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#configure-hugo-version-in-netlify)
