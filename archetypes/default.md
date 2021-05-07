@@ -1,6 +1,8 @@
 ---
+author: loikein
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+published: {{ .Date }}
+categories: []
+tags: []
 draft: true
 ---
-
