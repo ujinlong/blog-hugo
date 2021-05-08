@@ -192,6 +192,10 @@ blockquote .row:last-of-type {
   margin-bottom: 1rem;
 }
 
+.fediverse-status footer {
+  margin-top: 1rem;
+}
+
 /* temporary solution to a pseudo-footer */
 .twitter-tweet { font-style: italic; }
 .twitter-tweet p { font-style: normal; }

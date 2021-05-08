@@ -4,3 +4,7 @@
   translation: Pulished on
 - id: click_to_open
   translation: "Click to open:"
+- id: ruby_rp_start
+  translation: "(reading: "
+- id: ruby_rp_end
+  translation: ")"
