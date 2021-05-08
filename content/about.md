@@ -66,6 +66,8 @@ If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/)
 
 ## 友链／Links
 
-- [Let Melon Ripe - Eggi's blog](https://captaineggi.github.io/) \- 瓜总的博客
-- [櫻川家：：浅羽](https://asaba.sakuragawa.moe/) \- 浅羽的博客
-<!-- - [稍后再说](https://woshiyulei.blogspot.com/) \- 李总的博客 -->
+- 瓜总的博客：[Let Melon Ripe - Eggi's blog](https://captaineggi.github.io/)
+- 浅羽的博客：[櫻川家：：浅羽](https://asaba.sakuragawa.moe/)
+- 凪冬的博客：[致幻想的你 – 一个囤积癖的乐园](https://soulbookstore.blog/)
+
+<!-- - 李总的博客：[稍后再说](https://woshiyulei.blogspot.com/) -->

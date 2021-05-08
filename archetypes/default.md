@@ -1,7 +1,7 @@
 ---
 author: loikein
 title: "{{ replace .Name "-" " " | title }}"
-published: {{ .Date }}
+published: "{{ .Date }}"
 categories: []
 tags: []
 draft: true

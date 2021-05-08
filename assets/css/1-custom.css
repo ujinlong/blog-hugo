@@ -3,6 +3,8 @@
 :root {
   --hr-height: 1.5rem;
   --archive-indent: 3.5rem;
+  --black: #010c14;
+  --dark-gray: #777;
 }
 
 @font-face {
@@ -11,6 +13,7 @@
 
 body.night {
   --gray: #ccc;
+  --black: #e6e6e6;
 }
 
 ::selection {
@@ -71,6 +74,18 @@ time {
   opacity: .6;
 }
 
+.draft-label {
+  color: #037BBA;
+  border: 1px solid #037BBA;
+  padding: 0 5px 0 5px ;
+  border-radius: 10px;
+}
+
+.draft-label *:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 500px) {
   .post-meta {
     display: block;
@@ -117,7 +132,7 @@ b, strong {
   /* content: "\12199"; */
   /* content: "⁂"; */
   /* content: "❡"; */
-  color: #777;
+  color: var(--dark-gray);
   font-size: var(--hr-height);
 }
 
@@ -128,6 +143,14 @@ b, strong {
 code {
   padding-top: .2rem;
   padding-bottom: .2rem;
+}
+
+.post-body details {
+  margin-bottom: 1rem;
+}
+
+.post-body details[open] summary {
+  margin-bottom: 1rem;
 }
 
 .post-body li>p {
@@ -141,13 +164,18 @@ code {
 
 /* blockquote */
 
-blockquote, blockquote *:not(a) {
-  color: #010c14;
+blockquote,
+blockquote *:not(a) {
+  color: var(--black);
   background: none;
 }
 
 body.night blockquote *:not(a) {
-  color: #e6e6e6 !important;
+  color: var(--black) !important;
+}
+
+body.night blockquote a * {
+  color: inherit !important;
 }
 
 blockquote p {
@@ -159,16 +187,14 @@ blockquote .row:last-of-type {
   margin-bottom: 0;
 }
 
-/* not working?? */
-/*
-.twitter-tweet p:last-of-type {
-  margin-bottom: 1rem !important;
-}
-*/
-
+.twitter-tweet p:last-of-type,
 .fediverse-status p:last-of-type {
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+/* temporary solution to a pseudo-footer */
+.twitter-tweet { font-style: italic; }
+.twitter-tweet p { font-style: normal; }
 
 .fediverse-status span.invisible {
   visibility: visible !important;
@@ -210,7 +236,7 @@ img,
 
 .post-body img:not([class]),
 .stream-container .post .post-body-wrapper .post-body img:not([class]) {
-  border: solid 1px #777;
+  border: solid 1px var(--dark-gray);
   margin: auto;
 }
 
@@ -312,13 +338,6 @@ body.night h2.archive--year {
 
 .post-item-summary {
   color: #676D71;
-}
-
-.draft-label {
-  color: #037BBA;
-  border: 1px solid #037BBA;
-  padding: 0 5px 0 5px ;
-  border-radius: 10px;
 }
 
 /* codepen */

@@ -39,6 +39,7 @@ params:
   disableAutoCollapse: true
   description: 一个无趣的人的无趣的博客。
   customCSS: true
+  customJS: true
   # gitalk:
   #   owner: user
   #   repo: repo name

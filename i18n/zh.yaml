@@ -6,3 +6,5 @@
   translation: 这就是最新的文章了。
 - id: no_older_posts
   translation: 没有更黑的黑历史啦。
+- id: click_to_open
+  translation: 点击展开：

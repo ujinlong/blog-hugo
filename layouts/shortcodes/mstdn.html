@@ -4,5 +4,5 @@
 {{- $json := getJSON $prefix $baseUrl "/api/v1/statuses/" $id -}}
 <blockquote class="fediverse-status">
   {{- $json.content | markdownify -}}
-  <p>&mdash;&nbsp;{{- $json.account.display_name -}}&nbsp;(@{{- $json.account.acct -}}) <a href="{{- $json.url -}}">{{- dateFormat "January 2, 2006" $json.created_at -}}</a></p>
+  <footer>&mdash;&nbsp;<cite>{{- $json.account.display_name -}}&nbsp;(@{{- $json.account.acct -}}) <a href="{{- $json.url -}}">{{- dateFormat "January 2, 2006" $json.created_at -}}</a></cite></footer>
 </blockquote>

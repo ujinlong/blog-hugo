@@ -2,3 +2,5 @@
   translation: Last modified on
 - id: published_on
   translation: Pulished on
+- id: click_to_open
+  translation: "Click to open:"

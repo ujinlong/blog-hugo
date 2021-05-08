@@ -41,11 +41,17 @@ Not looping vs. looping:
 
 ### Link card
 
-{{<preview src="https://blog.ypertex.com/articles/useful-hugo-templating/">}}
+{{< preview "https://blog.ypertex.com/articles/useful-hugo-templating/" >}}
 
 ### Fediverse status
 
 {{< mstdn mastodon.social 106070125652504343 >}}
+
+### Tweet refined (not yet)
+
+Currently waiting for [gohugoio/hugo Issue #5617](https://github.com/gohugoio/hugo/issues/5617) to be implemented.
+
+{{< twitter 877500564405444608 >}}
 
 ### Bilibili
 

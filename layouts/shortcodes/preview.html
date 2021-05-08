@@ -1,4 +1,4 @@
-{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
+{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src" | default (.Get 0))) }}
 <div class="link-card">
     <div class="link-card--body">
         {{ with .data.logo }}
