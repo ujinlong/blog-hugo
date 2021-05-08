@@ -76,3 +76,26 @@ menu:
     - url: /index.xml
       name: RSS
       weight: 10
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: false
+    enableDNT: true
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
