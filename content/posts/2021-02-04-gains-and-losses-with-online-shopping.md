@@ -12,7 +12,7 @@ title: 2021 年 1 月网络购物得与失
 
 ## Ringke Variation Laptop Stand
 
-{{< figure name="2021-02-04-shopping-1.jpg" alt="Ringke Variation Laptop Stand" >}}
+{{< figure name="2021-02-04-shopping-1.jpg" alt="Ringke Variation Laptop Stand" h=200 >}}
 
 两年前纯粹是因为好看买了 elago Portable Flip Stand，但其实这货除了好看就没其他优点了，磁力很弱，容易歪来歪去，之类的。之前电脑送修，需要拆下来，再贴回去之后就老爱掉，终于受不了了。
 
@@ -20,13 +20,13 @@ title: 2021 年 1 月网络购物得与失
 
 ## The Great Courses series
 
-{{< figure name="2021-02-04-shopping-2.jpg" alt="The Neuroscience of Everyday Life" >}}
+{{< figure name="2021-02-04-shopping-2.jpg" alt="The Neuroscience of Everyday Life" h=200 >}}
 
-{{< figure name="2021-02-04-shopping-3.jpg" alt="The Science of Information" >}}
+{{< figure name="2021-02-04-shopping-3.jpg" alt="The Science of Information" h=200 >}}
 
-{{< figure name="2021-02-04-shopping-4.jpg" alt="Cognitive Behavioral Therapy" >}}
+{{< figure name="2021-02-04-shopping-4.jpg" alt="Cognitive Behavioral Therapy" h=200 >}}
 
-{{< figure name="2021-02-04-shopping-5.jpg" alt="The Story of Human Language" >}}
+{{< figure name="2021-02-04-shopping-5.jpg" alt="The Story of Human Language" h=200 >}}
 
 朋友推荐了这个有声书系列，最近才想起来，刚好（。）Audible 里累积了四个积分，我就挑了四本从题目来看最感兴趣的。
 

@@ -16,6 +16,11 @@
   gap: 1rem;
 }
 
+.link-card--title {
+  font-size: 1.1rem;
+  font-style: bold;
+}
+
 .link-card--favicon {
   min-width:62px;
   height: 62px;

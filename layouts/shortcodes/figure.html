@@ -1,23 +1,28 @@
-{{ $name := .Get "name" | default (.Get 0) }}
-{{ $folder := .Get "folder" | default "post-img" }}
-{{ $height := .Get "h" | default 200 }}
 {{ $alt := .Get "alt" | default "image" }}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end -}}
-    <img src="/{{ $folder }}/{{ $name }}"
+    {{- if .Get "src" -}}
+    <img src="{{ .Get "src" }}"
          alt="{{ $alt | markdownify| plainify }}"
-         title="{{ $alt | markdownify| plainify }}"
+         {{- with .Get "h" }} height="{{ . }}"{{ end -}}
          {{- with .Get "w" }} width="{{ . }}"{{ end -}}
-         height="{{ $height }}"
     /><!-- Closing img tag -->
+    {{- else -}}
+    <img src="/{{ .Get "folder" | default "post-img" }}/{{ .Get "name" }}"
+         alt="{{ $alt | markdownify| plainify }}"
+         {{- with .Get "h" }} height="{{ . }}"{{ end -}}
+         {{- with .Get "w" }} width="{{ . }}"{{ end -}}
+    /><!-- Closing img tag -->
+    {{- end -}}
+
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <figcaption>
             {{ with (.Get "title") -}}
-                <h4>{{ . }}</h4>
+                <p>{{ . }}</p>
             {{- end -}}
             {{- if or (.Get "caption") (.Get "attr") -}}<p>
                 {{- .Get "caption" | markdownify -}}

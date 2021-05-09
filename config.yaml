@@ -2,7 +2,7 @@ baseURL: "https://epic-mestorf-3202f7.netlify.app/"
 canonifyURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
-languageCode: en-gb
+languageCode: zh-Hans
 publishDir: public
 
 title: 此生未命名
@@ -74,7 +74,7 @@ menu:
       url: "https://www.ecosia.org/search?q=site%3Ablog.loikein.one"
       weight: 7
     - url: /index.xml
-      name: RSS
+      name: 订阅／RSS
       weight: 10
 
 privacy:

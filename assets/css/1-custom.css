@@ -41,7 +41,8 @@ time {
 /* post title area */
 
 .post-title-main {
-  margin-top: -1px;
+  margin-top: 3px;
+  margin-bottom: 0;
 }
 
 .post-subtitle,
@@ -49,7 +50,7 @@ time {
   font-size: 18px;
   line-height: 1.5;
   padding: 0;
-  margin-top: 9px;
+  margin-top: 11px;
   margin-bottom: 1rem;
 }
 
@@ -62,7 +63,7 @@ time {
 
 .post-meta,
 .stream-container .post .post-head-wrapper-text-only .post-title .post-meta {
-  margin-top: 30px;
+  margin-top: 27px;
 }
 
 .post-meta .post-time {
@@ -102,6 +103,10 @@ time {
 }
 
 /* post body */
+
+.stream-container .post .post-body-wrapper {
+  padding: 37px 35px 35px;
+}
 
 .post-body h2 {
   margin-top: calc(20px + 1em);
@@ -248,6 +253,36 @@ img,
   display: inline-block;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.post-body figure figcaption {
+  text-align: center;
+}
+
+/* .post-body figure figcaption:after {
+  width: 30%;
+  content: "/";
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid var(--gray);
+} */
+
+.post-body figure figcaption p:last-of-type {
+  margin-bottom: 0;
+}
+
+.post-body figure.no-border img {
+  border: none !important;
+}
+
+.post-body figure.full-width {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.post-body figure.full-width img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* .highlight pre {

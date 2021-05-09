@@ -5,7 +5,7 @@
         <img src="{{ .url }}" alt="" class="link-card--favicon">
         {{ end }}
         <div class="link-card--info">
-            <h6><a href="{{ .data.url }}"class="stretched-link">{{ .data.title | title }}</a></h6>
+            <p class="link-card--title"><a href="{{ .data.url }}"class="stretched-link">{{ .data.title | title }}</a></p>
             {{ with .data.description }}<p>{{ . | htmlUnescape | markdownify }}</p>{{ end }}
         </div>
     </div>
