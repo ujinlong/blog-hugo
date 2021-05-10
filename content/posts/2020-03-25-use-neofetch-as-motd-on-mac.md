@@ -45,4 +45,4 @@ if [[ -e $HOME/motd.sh ]]; then source $HOME/motd.sh; fi
   
 保存，`$ source ~/.zshrc`，下一次打开终端或者打开新标签页就能看到结果了：  
 
-[![](../images/thumbnails/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)](../images/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)
+[![](/post-img/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)](../images/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)

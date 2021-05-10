@@ -13,7 +13,7 @@ title: 睡不着博物馆 004：Apple Person
   
 武茵怡（我）  
 
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%25AD%25A6%25E8%258C%25B5%25E6%2580%25A1.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%25AD%25A6%25E8%258C%25B5%25E6%2580%25A1.png)
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%25AD%25A6%25E8%258C%25B5%25E6%2580%25A1.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%25AD%25A6%25E8%258C%25B5%25E6%2580%25A1.png)
 
 iPhone X 第一主人公（白色），生日：5.12  
 正在北京，局部多云，20度  
@@ -57,22 +57,22 @@ iTunes 使用者
 ](https://3.bp.blogspot.com/-81MkzrbbQYI/WnCpJO5WD6I/AAAAAAAAAh0/fNeV7Bk2NFkPBmPzXCgFOh8EqmpViWldwCLcBGAs/s1600/%25E6%2588%25B4%25E8%258D%25A3%25E5%25BE%25B7.png)
 戴荣德  
 
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%2588%25B4%25E8%258D%25A3%25E5%25BE%25B7.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%2588%25B4%25E8%258D%25A3%25E5%25BE%25B7.png)跟我互发
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%2588%25B4%25E8%258D%25A3%25E5%25BE%25B7.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%2588%25B4%25E8%258D%25A3%25E5%25BE%25B7.png)跟我互发
 animoji  
   
 李美岚  
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%259D%258E%25E7%25BE%258E%25E5%25B2%259A.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%259D%258E%25E7%25BE%258E%25E5%25B2%259A.png)最近的某天下午要考试  
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%259D%258E%25E7%25BE%258E%25E5%25B2%259A.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E6%259D%258E%25E7%25BE%258E%25E5%25B2%259A.png)最近的某天下午要考试  
   
 伟文  
 今晚6~7点跟我有约，生日？  
   
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E5%2588%2598%25E5%25AE%25B6%25E8%2595%25B4.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E5%2588%2598%25E5%25AE%25B6%25E8%2595%25B4.png)刘家蕴  
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E5%2588%2598%25E5%25AE%25B6%25E8%2595%25B4.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E5%2588%2598%25E5%25AE%25B6%25E8%2595%25B4.png)刘家蕴  
 因故不能跟我一起出来玩（说好的上班呢？），正在被我发照片  
   
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E8%2594%25A1%25E8%258B%25A5%25E8%258F%2581.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E8%2594%25A1%25E8%258B%25A5%25E8%258F%2581.png)蔡若菁  
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E8%2594%25A1%25E8%258B%25A5%25E8%258F%2581.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E8%2594%25A1%25E8%258B%25A5%25E8%258F%2581.png)蔡若菁  
 正在跟我约不知道什么，换到了马路对面那家，没有事先通知她，她到了之后发现一个人都没有  
   
-[![](../images/thumbnails/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E7%2581%258C%25E5%25AE%25B6%25E9%2594%25AE.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E7%2581%258C%25E5%25AE%25B6%25E9%2594%25AE.png)灌家键
+[![](/post-img/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E7%2581%258C%25E5%25AE%25B6%25E9%2594%25AE.png)](../images/2018-01-30-shui-bu-zhao-bo-wu-guan-004-apple-person-%25E7%2581%258C%25E5%25AE%25B6%25E9%2594%25AE.png)灌家键
 = Lynne  
 iPhone X 第三主人公（黑色），我的朋友  
 有无线充电版，内部人员？  

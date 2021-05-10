@@ -20,7 +20,7 @@ title: 播客世界的邀请函：听播客，发现新播客，用播客改善�
 的自动缩短空白时间功能，一共为我缩减了 116
 小时的空白时间。我一共听过的播客时长，怎么也得有空白时间的十倍以上吧？  
 
-[![](../images/thumbnails/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)](../images/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)
+[![](/post-img/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)](../images/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)
 
 这样应该能震住妳了（笑）那我们就正式开始吧。  
   

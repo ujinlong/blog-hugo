@@ -49,7 +49,7 @@ Terminal：`conda install -c conda-forge jupyter_contrib_nbextensions`
 of Contents (2)， 点 Enable 就行了。  
 上图：  
 
-[![](../images/thumbnails/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)](../images/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)
+[![](/post-img/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)](../images/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)
 
   
 

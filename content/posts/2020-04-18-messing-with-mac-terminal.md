@@ -20,7 +20,7 @@ Terminal
 折腾后：鼠标点击切换面板；左边是正常的
 shell；右上是可以模糊搜索的历史；右下是文件浏览器，用鼠标或者键盘控制，右键复制文件路径。  
 
-[![](../images/thumbnails/2020-04-18-zhe-teng-mac-wo-xiang-yao-yi-ge-gen-rstudio-yi-yang-de-terminal-%25E6%2588%25AA%25E5%25B1%258F2020-04-17%2B11.11.12.png)](../images/2020-04-18-zhe-teng-mac-wo-xiang-yao-yi-ge-gen-rstudio-yi-yang-de-terminal-%25E6%2588%25AA%25E5%25B1%258F2020-04-17%2B11.11.12.png)
+[![](/post-img/2020-04-18-zhe-teng-mac-wo-xiang-yao-yi-ge-gen-rstudio-yi-yang-de-terminal-%25E6%2588%25AA%25E5%25B1%258F2020-04-17%2B11.11.12.png)](../images/2020-04-18-zhe-teng-mac-wo-xiang-yao-yi-ge-gen-rstudio-yi-yang-de-terminal-%25E6%2588%25AA%25E5%25B1%258F2020-04-17%2B11.11.12.png)
 
 看起来还不错，可以假装用上 RStudio 了。  
   

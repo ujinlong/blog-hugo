@@ -46,7 +46,7 @@ www 域用上（还没想好用来干嘛）。
     `HTTPS 重定向`（不在截图范围里）都点是（需要过几分钟才会起效） 
 8.  结束
 
-[![](../images/thumbnails/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)
+[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)
 
   
 
@@ -69,8 +69,8 @@ www 域用上（还没想好用来干嘛）。
 
 GitHub repo 设置成功页面：  
 
-[![](../images/thumbnails/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)
+[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)
 
 示例 DNS：  
 
-[![](../images/thumbnails/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)
+[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)

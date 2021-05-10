@@ -22,21 +22,21 @@ bookmark](https://www.math.ucla.edu/~robjohn/math/mathjax.html)
 测试：发送 `测试：$$\sum_{i=1}^{\infty} \phi^i$$`  
 发送后点击 bookmark（start MathJax），效果：  
 
-[![](../images/thumbnails/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-08-07%2B15.54.17.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-08-07%2B15.54.17.png)
+[![](/post-img/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-08-07%2B15.54.17.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-08-07%2B15.54.17.png)
 
 ***
 
 地址：[loikein/pawoo-light-theme](https://gist.github.com/loikein/776bc65e6b10b011aa68989311c815c0)  
 效果：  
 
-[![](../images/thumbnails/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-12%2B12.11.38.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-12%2B12.11.38.png)
+[![](/post-img/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-12%2B12.11.38.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-12%2B12.11.38.png)
 
   
 我从来不喜欢暗色主题，晚上玩手机也只是把浅色主题的亮度调得很低，深色背景让我有一种，厄，看不清楚字的感觉。  
 下了个 [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe)，发现有人发了 [Mastodon - Light Deck Style](https://userstyles.org/styles/141745/mastodon-light-deck-style)，以这个为蓝本修改的。  
 原来是下图这样，可以看出，并没有彻底浅色化，然后有些审美（……）跟我自己不太和。  
 
-[![](../images/thumbnails/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-141745_after.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-141745_after.png)
+[![](/post-img/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-141745_after.png)](../images/2019-08-07-pawoo-mastodon-ding-zhi-qian-se-zhu-ti-2019-8-7-mathjax-xian-shi-141745_after.png)
 
 改动如下：  
 

@@ -69,7 +69,7 @@ compatibility。
 button。比如说双击自定义按键就可以唤出 App
 Switcher，在通知中心单击自定义按键可以回到刚才用的 app，等等。  
 
-[![](../images/thumbnails/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6355.JPG)](../images/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6355.JPG)
+[![](/post-img/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6355.JPG)](../images/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6355.JPG)
 
 ## 一些不容易发现的功能／app 
 
@@ -101,7 +101,7 @@ Zotero
 By
 Identifier」（魔棒图标），再粘贴论文或者图书的链接，就会自动检测并添加了。
 
-![](../images/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6357.PNG)
+![](/post-img/2020-10-27-ipados-14-ban-gong-ji-lu-yi-ji-yi-dian-guan-yu-whats-a-real-computer-de-gan-xiang-IMG_6357.PNG)
 
 ## 没有 Mac 做不了的事情 & 总结 
 
@@ -121,19 +121,10 @@ GitBook repo，这里特指在 Safari 里编辑，GitHub for iOS
 和测试的代码就更不可能了（除非妳有远程服务器然后 SSH
 过去然后……但是我并没有。）
 
-嘛，当然，如果有这些需求的话基本不会只有一个
-iPad；但是电脑总是会坏的，常常有一个 Windows／Mac
-备机也不太现实……但由我这段经历可见 iPad 就算是备机也不太合格啊。
+嘛，当然，如果有这些需求的话基本不会只有一个 iPad；但是电脑总是会坏的，常常有一个 Windows／Mac 备机也不太现实……但由我这段经历可见 iPad 就算是备机也不太合格啊。
 
 我对 iOS 最大的牢骚就是，每件事情都必须有专用的 app
-才能完成，即使是现在有了 Split View 依然很麻烦。用电脑的话，基本上浏览器
-+ 文本编辑器 + 终端三件套就可以解决 90% 的问题了，然而在 iOS
-上简直是天方夜谭。要写文件？下载 iWork + Google suite，运气不好还得在
-Google Drive 和 Google Docs 之间左右横跳。要聊天？在 Mac 上一个
-[Rambox](https://github.com/ramboxapp/community-edition)
-就能解决的事情，在 iPad 上要下载一整个文件夹的 app（yes, I am aware of
-IM+）。要管理剪贴板？网上有不少步骤几百个我都懒得仔细研究的
-Shortcuts，还得搭配 iCloud 使用。
+才能完成，即使是现在有了 Split View 依然很麻烦。用电脑的话，基本上浏览器 \+ 文本编辑器 \+ 终端三件套就可以解决 90% 的问题了，然而在 iOS 上简直是天方夜谭。要写文件？下载 iWork + Google suite，运气不好还得在 Google Drive 和 Google Docs 之间左右横跳。要聊天？在 Mac 上一个 [Rambox](https://github.com/ramboxapp/community-edition) 就能解决的事情，在 iPad 上要下载一整个文件夹的 app（yes, I am aware of IM\+）。要管理剪贴板？网上有不少步骤几百个我都懒得仔细研究的 Shortcuts，还得搭配 iCloud 使用。
 
 就这，还敢说「什么是电脑」？
 

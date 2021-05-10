@@ -23,7 +23,7 @@ LOFTER）但后来懒得一个个写了，感觉每月总结一次是比较合�
 
 ## Sagrotan Kids Foam Soap for Children (6 pack)
 
-[![](../images/thumbnails/2020-12-07-2020-nian-11-yue-wang-luo-gou-wu-de-yu-shi-81MS5VwufYL._AC_SX425_.jpg)](../images/2020-12-07-2020-nian-11-yue-wang-luo-gou-wu-de-yu-shi-81MS5VwufYL._AC_SX425_.jpg)
+[![](/post-img/2020-12-07-2020-nian-11-yue-wang-luo-gou-wu-de-yu-shi-81MS5VwufYL._AC_SX425_.jpg)](../images/2020-12-07-2020-nian-11-yue-wang-luo-gou-wu-de-yu-shi-81MS5VwufYL._AC_SX425_.jpg)
 
 滴露泡泡洗手液，常规回购。买所谓「儿童版」是因为正常版在亚马逊上太贵，没有其他特别原因。味道有点大，记得一开始不适应，但是我都用到第不知道多少瓶了，鼻子早已失灵。
 

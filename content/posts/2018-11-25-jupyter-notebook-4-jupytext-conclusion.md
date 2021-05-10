@@ -17,7 +17,7 @@ title: Jupyter 自救日记（4）jupytext + 总结
 我一开始接触 Jupyter 的理由很简单，就是拿它来代替我马上订阅到期的 Ulysses。我没有写长文的习惯，短的文章要不放在这里要不放在手机备忘录里，Ulysses 对我而言只是一个同步很方便的 Markdown / 代码 / 笔记收集处而已。  
 重复了很多遍还是要说，我是一个懒人。我喜欢所见即所得，喜欢四处同步，喜欢一步到位，不喜欢重复劳动。所以（？）我一直不甚喜欢 Markdown，平时数学笔记[用 Pages](https://support.apple.com/zh-cn/HT202501)，长这样：  
 
-[![](../images/thumbnails/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.30.20.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.30.20.png)
+[![](/post-img/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.30.20.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.30.20.png)
 
 
 之前写过一篇[关于 Ulysses 的博文](https://loikein.blogspot.com/2018/09/ulysses.html)，其实那是我第一次试图在 Ulysses 里面放表格，非常麻烦，且只有在预览的时候才能看到表格效果。我还尝试过在 Ulysses 里插入数学公式，倒是[在文件顶端加两行](https://ulysses.app/tutorials/writing-equations)就行了，但总还是有点不爽。还有一点，我半年前开始订阅 Ulysses 的时候，对计算机技术并没有现在这么得心应手，大学期间学的计算机课 75% 是在这半年里（大四下学期）学的，思维方式和读英文文档的舒适度可谓日新月异。  
@@ -25,11 +25,11 @@ title: Jupyter 自救日记（4）jupytext + 总结
 至于 R，上个月（10.16）来波恩报到之后，看到教授推荐，我才第一次在电脑里装了 RStudio，然后开始在 DataCamp 上面上课，至今只上完了 10 门课，在这期间几乎一直用 Ulysses 记笔记（因为 Pages 没有代码高亮功能）。  
 一开始的笔记是这样的，写起来还挺顺手：  
 
-[![](../images/thumbnails/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.19.30.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.19.30.png)
+[![](/post-img/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.19.30.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.19.30.png)
 
 开始学做图之后，想能够同时看到代码和做图效果，就每次都要在 RStudio 里 run 一遍，保存图片，再粘贴到 Ulysses，很是恼人：  
 
-[![](../images/thumbnails/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.20.39.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.20.39.png)
+[![](/post-img/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.20.39.png)](../images/2018-11-25-jupyter-zi-jiu-ri-ji-4-jupytext-zong-jie-Screenshot%2B2018-11-25%2Bat%2B19.20.39.png)
 
   
 有一天不知怎的看到了[这篇文章](https://www.jianshu.com/p/86117613b7a6)，心里一惊。虽然我并不写程序，但这种文字、代码、运行结果的混排真是正正地戳中了我记笔记的痛点。修改了代码之后直接在笔记本里运行，直接更新结果，简直是[学习编程](https://i.imgur.com/IarNH89.jpg)的法宝。于是开始了漫长（怎么才过了十天）的搬家过程。  

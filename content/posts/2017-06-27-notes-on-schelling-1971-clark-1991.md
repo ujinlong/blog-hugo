@@ -54,7 +54,7 @@ Model 1 (linear):
   
   
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-06-16%2B08.48.27.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-06-16%2B08.48.27.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-06-16%2B08.48.27.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2017-06-16%2B08.48.27.png)
 
 In this linear space there live two kinds of residents, the stars and
 the zeros, each have a 50% share of the whole line. They start with a
@@ -123,7 +123,7 @@ Figure 3 shows another example with the same neighbourhood and
 preference settings.  
   
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B3.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B3.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B3.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B3.png)
 
   
   
@@ -140,7 +140,7 @@ minority.
 Two observations can be made from the results shown in Fig. 6.  
   
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6.png)
 
   
   
@@ -194,7 +194,7 @@ page.
 
 Following are notes for the original paper:  
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7.png)[](https://2.bp.blogspot.com/-aS68Nz3TncQ/WUNk4zRrorI/AAAAAAAAAYU/5u27BWReev0712JMaw782zjsOsyrr527QCEwYBhgL/s1600/Fig%2B7.png)[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B8.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B8.png)[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B10.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B10.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7.png)[](https://2.bp.blogspot.com/-aS68Nz3TncQ/WUNk4zRrorI/AAAAAAAAAYU/5u27BWReev0712JMaw782zjsOsyrr527QCEwYBhgL/s1600/Fig%2B7.png)[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B8.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B8.png)[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B10.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B10.png)
 
   
   
@@ -409,7 +409,7 @@ residents of the opposite kind.
 so they still need to be multiplied with the population  
   
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-BIG_GRAPH-b.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-BIG_GRAPH-b.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-BIG_GRAPH-b.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-BIG_GRAPH-b.png)
 
   
   
@@ -464,7 +464,7 @@ Blacks, Hispanics and Whites in Los Angeles.
 I’ll omit LA because it has three graphs in every step by its own. They
 are pretty much the same.  
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B4.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B4.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B4.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B4.png)
 
   
   
@@ -492,7 +492,7 @@ really want to live with them.
 But remember these are the tolerance distribution, so they still need to
 be multiplied with the population.  
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6-dup.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6-dup.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6-dup.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B6-dup.png)
 
   
 
@@ -508,7 +508,7 @@ the model.
   
 Let’s take a closer look at two of them.  
 
-[![](../images/thumbnails/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7-1.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7-1.png)
+[![](/post-img/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7-1.png)](../images/2017-06-27-parable-of-the-polygons-notes-on-schelling-1971-clark-1991-Fig%2B7-1.png)
 
   
   

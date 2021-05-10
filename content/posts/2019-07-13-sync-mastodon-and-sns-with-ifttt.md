@@ -15,7 +15,7 @@ title: 用 IFTTT 同步各类社交网站至 Mastodon（阶段性总结）
 
 ***
 
-[![](../images/thumbnails/2019-07-13-yong-ifttt-tong-bu-ge-lei-she-jiao-wang-zhan-zhi-mastodon-jie-duan-xing-zong-jie-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-13%2B10.18.05.png)](../images/2019-07-13-yong-ifttt-tong-bu-ge-lei-she-jiao-wang-zhan-zhi-mastodon-jie-duan-xing-zong-jie-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-13%2B10.18.05.png)
+[![](/post-img/2019-07-13-yong-ifttt-tong-bu-ge-lei-she-jiao-wang-zhan-zhi-mastodon-jie-duan-xing-zong-jie-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-13%2B10.18.05.png)](../images/2019-07-13-yong-ifttt-tong-bu-ge-lei-she-jiao-wang-zhan-zhi-mastodon-jie-duan-xing-zong-jie-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-07-13%2B10.18.05.png)
 
 
 

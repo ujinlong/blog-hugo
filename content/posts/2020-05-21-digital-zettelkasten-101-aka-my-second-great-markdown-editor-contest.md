@@ -74,7 +74,7 @@ and this is a side-by-side screenshot (left: 1Writer, right: Blockquote,
 both in iPad portrait mode):  
   
 
-[![](../images/thumbnails/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)
+[![](/post-img/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)
 
   
 
@@ -114,7 +114,7 @@ not modify the dark theme that I forked from, only the light theme that
 I actually want to use.  
   
 
-[![](../images/thumbnails/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)
+[![](/post-img/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)
 
   
 PS: If you cannot compile PDF in Zettlr, in RStudio, or any LaTeX file

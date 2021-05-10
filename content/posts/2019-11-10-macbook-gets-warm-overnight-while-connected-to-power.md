@@ -59,7 +59,7 @@ doing the basic: turning off the two toggles in power setting that were
 checked. Let's see what happens tomorrow.  
   
 
-[![](../images/thumbnails/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.45.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.45.png)
+[![](/post-img/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.45.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.45.png)
 
   
 
@@ -75,7 +75,7 @@ Today's wake reason log, pretty much nothing has changed.
 So I consulted one of the reddit thread, and turned on two toggles in do
 not disturb settings. Let's see what happens tomorrow.  
 
-[![](../images/thumbnails/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.57.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.57.png)
+[![](/post-img/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.57.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.29.57.png)
 
   
 
@@ -126,7 +126,7 @@ Tried the fix in this thread: [corespeechd is sending a massive amount t… - Ap
   
   
 
-[![](../images/thumbnails/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.30.07.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.30.07.png)
+[![](/post-img/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.30.07.png)](../images/2019-11-10-journal-day-8-macbook-gets-very-warm-overnight-while-closed-connected-to-power-adapter-Screenshot%2B2020-03-08%2Bat%2B19.30.07.png)
 
   
 
