@@ -28,16 +28,24 @@ Hello world [test](#)
 {{< /col >}}
 {{< /row >}}
 
+### Ruby
+
+{{< ruby "你好世界" "hello world" >}}
+
 ### Video
 
-{{< video name="scream" folder="sticker" >}}
+{{< video name="scream" folder="sticker" mute="false" w="50%" >}}
 
 ### Emoji sticker
 
-Not looping vs. looping:
+Static:
 
-{{< sticker name="scream" h=200 loop="false" >}}
-{{< sticker name="scream" h=200 >}}
+{{< sticker name="css-is-awesome.png" h=120 animated="false" >}}
+
+Animated: not looping vs. looping
+
+{{< sticker name="nice" h=200 loop="false" >}}
+{{< sticker name="nice" h=200 >}}
 
 ### Link card
 
