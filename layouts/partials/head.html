@@ -6,14 +6,14 @@
   {{ $description = .Site.Params.description}}
 {{end}}
 
-<meta charset="UTF-8">
-<meta name="X-UA-Compatible" content="IE=edge">
-<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="format-detection" content="telephone=no">
-<meta name="description" content="{{ $description }}">
-<meta name="renderer" content="webkit">
-<meta name="theme-color" content="#ffffff">
+<meta charset="UTF-8" />
+<meta name="X-UA-Compatible" content="IE=edge" />
+<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="{{ $description }}" />
+<meta name="renderer" content="webkit" />
+<meta name="theme-color" content="#ffffff" />
 
 <!-- open-graph -->
 {{if .Site.Params.enableOpenGraph}}
@@ -39,45 +39,58 @@
 <script src="{{"/vendor/js/popper.min.js" | relURL}}" ></script>
 <script src="{{"/vendor/js/bootstrap.min.js" | relURL}}" ></script>
 <script src="{{"/vendor/js/smooth-scroll.polyfills.min.js" | relURL}}" ></script>
-<link type="text/css" rel="stylesheet" href="{{"/vendor/css/bootstrap.min.css" | relURL}}">
+<link type="text/css" rel="stylesheet" href="{{"/vendor/css/bootstrap.min.css" | relURL}}" />
 <script src="{{"/vendor/js/vue.min.js" | relURL}}" ></script>
 
 {{if .Site.Params.manifest}}
-<link rel="manifest" href="{{.Site.Params.manifest}}">
+<link rel="manifest" href="{{.Site.Params.manifest}}" />
 {{end}}
 
 {{ if .Site.Params.favicon }}
-<link rel="icon" href="{{ .Site.Params.favicon | absURL }}">
+<link rel="icon" href="{{ .Site.Params.favicon | absURL }}" />
 <!-- favicon -->
 {{ end }}
 
 {{ $styles := resources.Get "scss/journal.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen" />
 
 {{ if not .Site.Params.disableDarkmode }}
 {{ $darkmode := resources.Get "scss/dark-mode.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $darkmode.Permalink }}" integrity="{{ $darkmode.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $darkmode.Permalink }}" integrity="{{ $darkmode.Data.Integrity }}" media="screen" />
 {{ end }}
 
 <!-- custom CSS (site wide) under ./assets/css/ -->
 {{ if .Site.Params.customCSS }}
 {{ $style := resources.Match "css/**.css" | resources.Concat "custom.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" />
 {{ end }}
 
 <!-- custom CSS (page-wise) under each page folder -->
-{{ with $.Resources.GetMatch "**.css" }}
-{{ $style := . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ if .Params.css.file }}
+  {{ with $.Resources.Match "**.css" }}
+  {{ $style := . | resources.Concat "extra.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen" />
+  {{ end }}
+{{ end }}
+{{ if .Params.css.src }}
+  <link rel="stylesheet" href="{{ .Params.css.src }}" media="screen" />
 {{ end }}
 
-<script src="{{.Site.BaseURL}}/js/loadCSS.js"></script>
-<script>
-  loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&display=swap");
-</script>
+<!-- asynchronously load Google Fonts -->
+<!-- https://csswizardry.com/2020/05/the-fastest-google-fonts/#google-fonts-async-snippet -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&display=swap" />
+</noscript>
 
 {{ if .Params.enableMathJax }}
-  {{ partial "mathjax.html" . }}
+  {{- partial "mathjax.html" . -}}
 {{ end }}
 
 {{ if and (not (.Params.disableToC) ) (.IsPage) }}
@@ -89,7 +102,7 @@
 {{ end }}
 
 {{ if and (.Site.Params.enableGitalk) (.IsPage) }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" />
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="{{"/vendor/js/md5.min.js" | relURL}}"></script>
 <script>

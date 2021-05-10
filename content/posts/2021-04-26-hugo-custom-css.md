@@ -1,7 +1,7 @@
 ---
 author: loikein
 published: "2021-04-26 22:25:05.631 +0200"
-lastmod: "2021-05-03 15:22:55.905 +0200"
+lastmod: "2021-05-10T20:15:13+0200"
 slug: 2021-04-26-hugo-custom-css-the-right-way
 categories:
 - 笔记
@@ -15,6 +15,8 @@ description: 又名：浪费生命的一百种方法
 ***
 
 发现了这个，改天研究一下……：[Best way to include JavaScript libraries in Hugo sites - support - HUGO](https://discourse.gohugo.io/t/best-way-to-include-javascript-libraries-in-hugo-sites/13614/2)
+
+2021-05-10 更新：已经加入 layout。
 
 ***
 

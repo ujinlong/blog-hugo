@@ -6,9 +6,8 @@ slug: 2019-10-25-a-study-of-capsule-coffee
 categories:
 - 生活
 title: 胶囊咖啡总结
-resources:
-  - src: extra-style.css
-    title: style
+css:
+    file: "extra-style.css"
 ---
 ## 咖啡
 
