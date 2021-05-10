@@ -73,7 +73,7 @@ menu:
     - name: 搜索／Search
       url: "https://www.ecosia.org/search?q=site%3Ablog.loikein.one"
       weight: 7
-    - url: /index.xml
+    - url: /rss/
       name: 订阅／RSS
       weight: 10
 
