@@ -1,0 +1,3 @@
+[submodule "drafts"]
+	path = content/drafts
+	url = https://github.com/loikein/blog-hugo-drafts.git
