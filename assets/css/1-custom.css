@@ -167,6 +167,11 @@ code {
   margin-bottom: 0.5rem;
 }
 
+body.night .post-body ruby,
+body.night .post-body ruby * {
+  color: #e6e6e6;
+}
+
 /* blockquote */
 
 blockquote,

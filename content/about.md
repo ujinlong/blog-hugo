@@ -9,7 +9,7 @@ title: 关于
 _build:
   list: never
 ---
-[![GitHub Repo](https://img.shields.io/badge/Source-Code-037BBA.svg)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys)
+[![GitHub Repo](https://img.shields.io/badge/Repo-GitHub-037BBA.svg)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys)
 
 ## 关于我／About me
 
