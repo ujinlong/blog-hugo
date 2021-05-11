@@ -28,7 +28,7 @@ title: Blogdown 日记：从入门到（还没）放弃
 
 虽然也怪我经验不足吧，请看：  
 
-[![](/post-img/2019-01-06-blogdown-ri-ji-cong-ru-men-dao-huan-mei-fang-qi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-01-06%2B12.17.33.png)](../images/2019-01-06-blogdown-ri-ji-cong-ru-men-dao-huan-mei-fang-qi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-01-06%2B12.17.33.png)
+![](/post-img/2019-01-06-blogdown-1.png)
 
 就，@\#$%^&\*。  
   
@@ -50,7 +50,7 @@ CSS 回来研究。（不想加 JS 还是挺不方便的）
   
 预览：  
 
-[![](/post-img/2019-01-06-blogdown-ri-ji-cong-ru-men-dao-huan-mei-fang-qi-%25E5%25B1%258F%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2019-01-03%2B10.13.37.png)](https://loikein.github.io/2018/12/29/notes-math-proof/)
+![](/post-img/2019-01-06-blogdown-2.png)
 
 不知道为啥不能滚动，所以标题太多的另外一篇 C 笔记就 overflow 了，待我再研究研究。  
   

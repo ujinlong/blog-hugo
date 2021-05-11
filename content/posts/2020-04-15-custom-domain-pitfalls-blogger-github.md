@@ -1,7 +1,8 @@
 ---
 author: loikein
 published: "2020-04-15T19:52:00+02:00"
-slug: 2020-04-15-pitfalls-with-custom-domain-for-blogger-and-github-pages
+lastmod: "2020-04-15T22:35:53.566+02:00"
+slug: 2020-04-15-custom-domain-pitfalls-blogger-github
 categories:
 - 笔记
 tags:
@@ -46,9 +47,8 @@ www 域用上（还没想好用来干嘛）。
     `HTTPS 重定向`（不在截图范围里）都点是（需要过几分钟才会起效） 
 8.  结束
 
-[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.31.25.png)
+![](/post-img/2020-04-15-custom-domain-pitfalls-1.png)
 
-  
 
 ## GitHub Page
 
@@ -69,8 +69,8 @@ www 域用上（还没想好用来干嘛）。
 
 GitHub repo 设置成功页面：  
 
-[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.43.26.png)
+![](/post-img/2020-04-15-custom-domain-pitfalls-2.png)
 
 示例 DNS：  
 
-[![](/post-img/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)](../images/2020-04-15-zi-ding-yi-yu-ming-cai-de-keng-blogger-github-page-%25E6%2588%25AA%25E5%25B1%258F2020-04-15%2B19.46.03.png)
+![](/post-img/2020-04-15-custom-domain-pitfalls-3.png)

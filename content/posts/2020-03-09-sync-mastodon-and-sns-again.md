@@ -17,7 +17,7 @@ title: 再谈同步社交网站至 Mastodon（微博，RSS，原生图片）
 Extract Pattern（正则表达式），应该会准确很多  
 2021-04-25 更新：我已经很久没用过微博了，不保证微博那部分还能用。
 
-------------------------------------------------------------------------
+--------
 
   
 去年七月我总结了 [如何用 IFTTT cross-post 到 Mastodon](../2019-07-13-sync-mastodon-and-sns-with-ifttt/)，然后就没怎么管那些规则，几天前有一位[网友评论](http://disq.us/p/27rp895)说微博同步不了了。其实在
@@ -63,8 +63,6 @@ repo，没想到一次成功，讲讲具体要怎么搞。
 8.  好了，这个链接就是妳的微博的 RSS
     链接。最好粘贴到备忘录或者之类的地方，方便等下使用。
 
-<!-- -->
-
 这个 Heroku app 占用的资源不是很多，我目前看来是可以一直用免费帐号的。  
   
 如果妳连 Heroku 都不想注册，可以试试
@@ -86,7 +84,7 @@ repo，没想到一次成功，讲讲具体要怎么搞。
 
 结果是比较丑的，例子：  
 
-[![](/post-img/2020-03-09-zai-tan-tong-bu-she-jiao-wang-zhan-zhi-mastodon-wei-bo-rss-yuan-sheng-tu-pian-%25E6%2588%25AA%25E5%25B1%258F2020-03-0918.04.24.png)](../images/2020-03-09-zai-tan-tong-bu-she-jiao-wang-zhan-zhi-mastodon-wei-bo-rss-yuan-sheng-tu-pian-%25E6%2588%25AA%25E5%25B1%258F2020-03-0918.04.24.png)
+![](/post-img/2020-03-09-sync-mastodon-again-1.png)
 
 没办法啦（摊手）  
   
@@ -178,6 +176,6 @@ Path B（不带图片的微博）：
 好了！发完微博后十分钟左右就可以看到自己发了一条带原生图片的嘟嘟啦。例子（我偷懒用了原来的
 token，所以客户端还是写着 IFTTT）：  
 
-[![](/post-img/2020-03-09-zai-tan-tong-bu-she-jiao-wang-zhan-zhi-mastodon-wei-bo-rss-yuan-sheng-tu-pian-%25E6%2588%25AA%25E5%25B1%258F2020-03-0918.49.48.png)](../images/2020-03-09-zai-tan-tong-bu-she-jiao-wang-zhan-zhi-mastodon-wei-bo-rss-yuan-sheng-tu-pian-%25E6%2588%25AA%25E5%25B1%258F2020-03-0918.49.48.png)
+![](/post-img/2020-03-09-sync-mastodon-again-2.png)
 
 是不是很复杂 :P 佩服一下自己。

@@ -1,7 +1,8 @@
 ---
 author: loikein
 published: "2020-05-21T21:28:00+02:00"
-slug: 2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest
+lastmod: "2020-06-07T10:00:30.293+02:00"
+slug: 2020-05-21-digital-zettelkasten-101
 categories:
 - 应用程序
 tags:
@@ -12,7 +13,7 @@ title: Digital Zettelkasten 101, aka My Second Great Markdown Editor Contest
 ---
 Edit: I found out that both Blockquote and 1Writer support `<mark>highlight</mark>`.  
 
-------------------------------------------------------------------------
+-----------------
 
 Recently I have been reading about this thing called Zettelkasten.
 Obviously, a huge point of doing Zettelkasten is to use real paper
@@ -72,11 +73,9 @@ opened it in both 1Writer and Blockquote. You can find the source file
 [here](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c5768),
 and this is a side-by-side screenshot (left: 1Writer, right: Blockquote,
 both in iPad portrait mode):  
-  
 
-[![](/post-img/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-STIIITCH_2020_05_21_08_05_23.JPEG)
+![](/post-img/2020-05-21-digital-zettelkasten-1.jpeg)
 
-  
 
 ## macOS
 
@@ -113,14 +112,12 @@ for Obsidian.md](https://github.com/loikein/Dracula-for-Obsidian). I did
 not modify the dark theme that I forked from, only the light theme that
 I actually want to use.  
   
+![](/post-img/2020-05-21-digital-zettelkasten-2.png)
 
-[![](/post-img/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)](../images/2020-05-21-digital-zettelkasten-101-aka-my-second-great-markdown-editor-contest-%25E6%2588%25AA%25E5%25B1%258F2020-05-21%2B21.17.25.png)
 
-  
 PS: If you cannot compile PDF in Zettlr, in RStudio, or any LaTeX file
 really, try this command in the terminal: (Source: [r - undefined
-control sequence in Rmarkdown - Stack
-Overflow](https://stackoverflow.com/questions/60489469/xdef-fontencloadlist-fontencloadlist-undefined-control-sequence-in-rmark))  
+control sequence in Rmarkdown - Stack Overflow](https://stackoverflow.com/questions/60489469/xdef-fontencloadlist-fontencloadlist-undefined-control-sequence-in-rmark))  
 `$ fmtutil-sys --all`  
   
 

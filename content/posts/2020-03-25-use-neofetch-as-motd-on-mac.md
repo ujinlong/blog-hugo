@@ -1,6 +1,7 @@
 ---
 author: loikein
 published: "2020-03-25T19:33:00+01:00"
+lastmod: "2021-05-12T00:31:39+0200"
 slug: 2020-03-25-use-neofetch-as-motd-on-mac
 categories:
 - 笔记
@@ -9,6 +10,10 @@ tags:
 - Terminal
 title: macOS + zsh 上使用 Neofetch 作为欢迎语（MotD）
 ---
+2021-05-12 更新：最近换了 [Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)，其实基本差不多，就不另外写了吧。
+
+---
+
 前两天看了这篇文章：[给你的终端加点料 —— 自定义欢迎语](https://sspai.com/post/59297)，手痒想给自己的终端也搞一个。Neofetch 我是装了，但每次要看的时候都要输入命令未免麻烦，想着有没有什么设置方法能够打开终端时自动显示。查了大概二十个网页之后终于搞好了，记录一下。  
 参考： [fxthomas/dotfiles: My standard Linux/Windows configuration
 files](https://github.com/fxthomas/dotfiles)  
@@ -45,4 +50,4 @@ if [[ -e $HOME/motd.sh ]]; then source $HOME/motd.sh; fi
   
 保存，`$ source ~/.zshrc`，下一次打开终端或者打开新标签页就能看到结果了：  
 
-[![](/post-img/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)](../images/2020-03-25-mac-zsh-shang-shi-yong-neofetch-zuo-wei-huan-ying-yu-motd-%25E6%2588%25AA%25E5%25B1%258F2020-03-2519.26.16.png)
+{{< figure name="2020-03-25-neofetch.png" class="no-border" >}}

@@ -24,7 +24,7 @@ Hugo 的草稿管理，光看官方文档的话，感觉就是没有草稿管理
 
 以下是我的配置。省略了其他跟本文主题无关的文件，以及所有路径都是从整个站点的路径开始的。
 
-首先，整个站点的源文件是一个 git repo，在线地址是 [loikein/blog-hugo:](https://github.com/loikein/blog-hugo)。这是所有人都能看到的，里面不包含任何草稿文件。
+首先，整个站点的源文件是一个 git repo，在线地址是 [loikein/blog-hugo](https://github.com/loikein/blog-hugo)。这是所有人都能看到的，里面不包含任何草稿文件。
 
 `/.gitignore` 里相关的行如下：（`draft/` 主要用于防手残）
 

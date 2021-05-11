@@ -49,9 +49,8 @@ Terminal：`conda install -c conda-forge jupyter_contrib_nbextensions`
 of Contents (2)， 点 Enable 就行了。  
 上图：  
 
-[![](/post-img/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)](../images/2018-11-15-jupyter-zi-jiu-ri-ji-1-xia-zai-pei-zhi-r-pei-zhi-r-embed-in-python-za-qi-za-ba-Screenshot%2B2018-11-15%2Bat%2B21.35.19.png)
+![](/post-img/2018-11-15-jupyter-notebook-1.png)
 
-  
 
 ## 调整 R 输出图像尺寸
 
@@ -87,6 +86,6 @@ Dead kernel 反复且无法自动重启：
 
 电脑里要装了 [MacTeX](http://tug.org/mactex/mactex-download.html)。  
   
-<s>安装 [nbconvert](https://nbconvert.readthedocs.io/en/latest/index.html)</s> 通过
+~~安装 [nbconvert](https://nbconvert.readthedocs.io/en/latest/index.html)~~ 通过
 Anaconda 安装的版本默认自带。  
-Jupyter notebook：File &gt; Download as &gt; PDF via LaTeX
+Jupyter notebook：File \> Download as \> PDF via LaTeX

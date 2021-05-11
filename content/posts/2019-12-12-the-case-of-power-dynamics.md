@@ -10,7 +10,7 @@ tags:
 - Politics
 title: The case of power dynamics / hierarchy / harassment / whatever you call it
 ---
-[![](/post-img/2019-12-12-the-case-of-power-dynamics-hierarchy-harassment-whatever-you-call-it-%25E6%2588%25AA%25E5%25B1%258F2019-12-1222.23.26.png)](../images/2019-12-12-the-case-of-power-dynamics-hierarchy-harassment-whatever-you-call-it-%25E6%2588%25AA%25E5%25B1%258F2019-12-1222.23.26.png)
+![](/post-img/2019-12-12-the-case-of-power-dynamics-1.png)
 
 It is the n-th time I want to finish this post, and by this time, I will
 just type only in English to make it less emotional & more structural
@@ -86,4 +86,4 @@ Update 12/13:
 I asked the above-mentioned friend to read this post, and here's our
 conversation afterwards:  
 
-![](/post-img/ELs5nzWXkAAUa7G-orig.jpg)
+![](/post-img/2019-12-12-the-case-of-power-dynamics-2.jpg)

@@ -76,10 +76,10 @@ always better than blind acceptance.
 {{< row >}}
 {{< col >}}
 不管怎样，能让观众看过之后思考这么多东西，算是一部十分成功的电影了。打算补补
-Get Out。
+<cite>Get Out</cite>。
 {{< /col >}}
 {{< col >}}
 In any case, it is a very successful film to let the audience think
-about so many things afterwards. Planning to watch *Get Out* too.
+about so many things afterwards. Planning to watch <cite>Get Out</cite> too.
 {{< /col >}}
 {{< /row >}}

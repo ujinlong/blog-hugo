@@ -1,6 +1,7 @@
 ---
 author: loikein
 published: "2020-05-18T11:53:00+02:00"
+lastmod: "2020-05-24T22:29:00.577+02:00"
 slug: 2020-05-18-invitation-to-podcast
 categories:
 - 应用程序
@@ -10,30 +11,24 @@ tags:
 title: 播客世界的邀请函：听播客，发现新播客，用播客改善生活
 ---
 英文待译……  
-  
+
 
 ------------------------------------------------------------------------
 
   
 首先必须验明一下正身。妳可能想问了，我是什么人，我有什么资格写这篇文章？  
-我当然只是个普通的听众，但请看我的播客客户端（[Overcast](https://overcast.fm/)）截图。图里有什么具体节目不重要，重要的是红色框里的字，它说的是，Overcast
-的自动缩短空白时间功能，一共为我缩减了 116
-小时的空白时间。我一共听过的播客时长，怎么也得有空白时间的十倍以上吧？  
+我当然只是个普通的听众，但请看我的播客客户端（[Overcast](https://overcast.fm/)）截图。图里有什么具体节目不重要，重要的是红色框里的字，它说的是，Overcast 的自动缩短空白时间功能，一共为我缩减了 116 小时的空白时间。我一共听过的播客时长，怎么也得有空白时间的十倍以上吧？  
 
-[![](/post-img/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)](../images/2020-05-18-bo-ke-shi-jie-de-yao-qing-han-ting-bo-ke-fa-xian-xin-bo-ke-yong-bo-ke-gai-shan-sheng-huo-PNG%25E5%259B%25BE%25E5%2583%258F.png)
+![](/post-img/2020-05-18-invitation-to-podcast.png)
 
 这样应该能震住妳了（笑）那我们就正式开始吧。  
   
 
 ## 什么是播客
 
-虽然会点开这篇文章的人应该多少有所了解，播客（podcast）是一种音频娱乐媒体（也有少数视频形式的），而podcast
-是 iPod 和 broadcast（广播电台）的合成词。  
+虽然会点开这篇文章的人应该多少有所了解，播客（podcast）是一种音频娱乐媒体（也有少数视频形式的），而podcast 是 iPod 和 broadcast（广播电台）的合成词。  
 每个节目（一个「播客」）通常有固定的话题和主持人（hosts），以及会变动的嘉宾（guests），由许多集（episode）组成，每集时长从几分钟至几小时不等。  
-人们通常会使用音乐 app、YouTube、泛用型播客客户端，或者设备自带的播客
-app（例：iOS /
-macOS）收听播客。我的建议是，如果妳想彻底体会播客的乐趣，就绝对不要用音乐
-app 或者 YouTube 来收听，原因下述。  
+人们通常会使用音乐 app、YouTube、泛用型播客客户端，或者设备自带的播客 app（例：iOS / macOS）收听播客。我的建议是，如果妳想彻底体会播客的乐趣，就绝对不要用音乐 app 或者 YouTube 来收听，原因下述。  
   
 
 ## 听播客都听些啥
@@ -103,29 +98,27 @@ Notes](https://www.listennotes.com/zh-hans/) 有中文版了，可以试试看�
 
 ### 科技
 
-[Adapt](https://www.relay.fm/adapt)：🟣 两个大男孩讨论对 iPad
+- [Adapt](https://www.relay.fm/adapt)：🟣 两个大男孩讨论对 iPad
 的热爱，每期一个挑战任务
 
-[Anyway.FM 设计杂谈](https://anyway.fm/)：🟣
+- [Anyway.FM 设计杂谈](https://anyway.fm/)：🟣
 目前所有在更新的中文独立播客中最好的一个
 
-[AppStories](https://appstories.net/)：同一主播的其他播客有些内容重复，听了几集，算了
+- [AppStories](https://appstories.net/)：同一主播的其他播客有些内容重复，听了几集，算了
 
-[Connected](https://www.relay.fm/connected)（前身：[The
+- [Connected](https://www.relay.fm/connected)（前身：[The
 Prompt](https://www.relay.fm/prompt)）：🟣 老爹和俩儿子（不是）聊科技
 
-[Cortex](https://www.relay.fm/cortex)：🟣 上述儿子之一和机器人 CGP Grey
+- [Cortex](https://www.relay.fm/cortex)：🟣 上述儿子之一和机器人 CGP Grey
 的搞笑对谈
 
--   Grey 的声线是美式口音里我能接受的最低音，有时候甚至需要忍忍。
+    +   Grey 的声线是美式口音里我能接受的最低音，有时候甚至需要忍忍。
 
-[Simple Beep](http://simplebeep.com/)
+- [Simple Beep](http://simplebeep.com/)
 
-[Upgrade](https://www.relay.fm/upgrade)：科技与日常的方方面面
+- [Upgrade](https://www.relay.fm/upgrade)：科技与日常的方方面面
 
--   Snell 的声音刚好低过了我的下限 :(
-
-<!-- -->
+    +   Snell 的声音刚好低过了我的下限 :\(
 
   
 

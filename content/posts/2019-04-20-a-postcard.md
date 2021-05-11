@@ -20,7 +20,7 @@ this is it.
 {{< /col >}}
 {{< /row >}}
 
-[![](/post-img/2019-04-20-yi-zhang-ming-xin-pian-a-postcard-IMG_7870.jpg)](../images/2019-04-20-yi-zhang-ming-xin-pian-a-postcard-IMG_7870.jpg)
+![](/post-img/2019-04-20-a-postcard.jpg)
 
 {{< row >}}
 {{< col >}}

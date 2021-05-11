@@ -1,6 +1,7 @@
 ---
 author: loikein
 published: "2019-03-30T01:03:00+01:00"
+lastmod: "2021-05-12T00:51:03+0200"
 slug: 2019-03-30-idealism-and-realism
 categories:
 - 随笔
@@ -62,12 +63,12 @@ harsh on myself.
   
 {{< row >}}
 {{< col >}}
-我的理想主义启蒙应该是北岛的《回答》和居里夫人的《我的信念》。后者[提到过了](https://loikein.blogspot.com/2018/11/blog-post_26.html)，抄抄诗。
+我的理想主义启蒙应该是北岛的《回答》和居里夫人的《我的信念》。后者[提到过了](/posts/2018-11-26-being-chosen-vs-having-no-choices/)，抄抄诗。
 {{< /col >}}
 {{< col >}}
-The enlightenment to my idealism should be Bei Dao's *The Answer* and
-Marie Curie's *My Faith*. I [have already mentioned](https://loikein.blogspot.com/2018/11/blog-post_26.html) about
-the latter before, below is some pasted poem.
+The enlightenment to my idealism should be Bei Dao's <cite>The Answer</cite> and
+Marie Curie's <cite>My Faith</cite>. I [have already mentioned](/posts/2018-11-26-being-chosen-vs-having-no-choices/) about
+the latter before, below is some poem copypaste.
 {{< /col >}}
 {{< /row >}}
 

@@ -13,4 +13,6 @@ title: 睡不着博物馆 006：早稻田大学的自贩机
 睡不着博物馆第一次拥有了独立网站！  
 这是我自己作的第一个完整网站，由七个静态页面组成，全日语，没有翻译计划。  
 
-观赏：[自販機＠早稲田](https://playground.loikein.one/vending_machine_at_waseda/)
+观赏：
+
+{{< preview "https://playground.loikein.one/vending_machine_at_waseda/" >}}

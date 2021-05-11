@@ -20,9 +20,11 @@ title: 不勤耕耘的花园会变成杂草地
   
 
 > The only requirement is that you never stop.
+> 
+> ~ <cite>Peter Elbow, 1998</cite>
 
-  
-~ Peter Elbow, 1998  
+
+
   
 另外一些我觉得不错的电子花园或者类似的地方：（不定期更新）  
 

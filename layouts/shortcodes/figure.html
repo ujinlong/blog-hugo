@@ -1,37 +1,41 @@
 {{ $alt := .Get "alt" | default "image" }}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    <!-- Begin a tag -->
     {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{- end -}}
-    {{- if .Get "src" -}}
-    <img src="{{ .Get "src" }}"
-         alt="{{ $alt | markdownify| plainify }}"
-         {{- with .Get "h" }} height="{{ . }}"{{ end -}}
-         {{- with .Get "w" }} width="{{ . }}"{{ end -}}
-    /><!-- Closing img tag -->
-    {{- else -}}
-    <img src="/{{ .Get "folder" | default "post-img" }}/{{ .Get "name" }}"
-         alt="{{ $alt | markdownify| plainify }}"
-         {{- with .Get "h" }} height="{{ . }}"{{ end -}}
-         {{- with .Get "w" }} width="{{ . }}"{{ end -}}
-    /><!-- Closing img tag -->
+    <a href="{{ .Get "link" }}"
+       {{ with .Get "target" }} target="{{ . }}"{{ end }}
+       {{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end -}}
 
+    <!-- Begin img tag -->
+    {{- if .Get "src" -}}
+    <img src="{{ .Get "src" }}"
+    {{- else -}}
+    <img src="/{{ .Get "folder" | default "post-img" }}/{{ .Get "name" }}"
+    {{- end -}}
+         alt="{{ $alt | markdownify| plainify }}"
+         {{- with .Get "h" }} height="{{ . }}"{{ end -}}
+         {{- with .Get "w" }} width="{{ . }}"{{ end -}}
+    /><!-- Close img tag -->
+
     {{- if .Get "link" }}</a>{{ end -}}
+    <!-- Close a tag -->
+
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
-            {{ with (.Get "title") -}}
-                <p>{{ . }}</p>
+    <figcaption>
+        {{ with (.Get "title") -}}
+        <p>{{ . }}</p>
+        {{- end -}}
+
+        {{- if or (.Get "caption") (.Get "attr") -}}<p>
+            {{- .Get "caption" | markdownify -}}
+            {{- with .Get "attrlink" }}
+                <a href="{{ . }}">
             {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
-                {{- with .Get "attrlink" }}
-                    <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
-            {{- end }}
-        </figcaption>
+            {{- .Get "attr" | markdownify -}}
+            {{- if .Get "attrlink" }}</a>{{ end }}</p>
+        {{- end }}
+    </figcaption>
     {{- end }}
 </figure>

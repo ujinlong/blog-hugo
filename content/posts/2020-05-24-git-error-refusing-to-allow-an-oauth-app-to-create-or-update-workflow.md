@@ -20,8 +20,7 @@ title: '血书：git error: refusing to allow an OAuth App to create or update w
 
 ## 在 github.com：
 
--   右上角点击
-    `头像 > Settings > Developer settings > Personal access tokens`
+-   右上角点击 `头像 > Settings > Developer settings > Personal access tokens`
 -   点击 `Generate new token`， 勾上 `repo` 和 `workflow`，确认
 -   把出现的那串数字字母复制下来
 
