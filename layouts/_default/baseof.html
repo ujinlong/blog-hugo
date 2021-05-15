@@ -2,20 +2,22 @@
 <html lang="{{ .Site.LanguageCode }}">
 {{- partial "head.html" . -}}
 <body>
+
 <div id="app">
-{{- partial "sidebar.html" . -}}
+{{- partial "sidebar.html" . -}} <!-- desktop view -->
 {{- partial "extrabar.html" . -}}
-<!-- PC view -->
 
-{{- partial "mobile-header.html" . -}}
-<!-- mobile header -->
-<div id="content">
-        {{- block "main" . }}{{- end }}
+{{- partial "mobile-header.html" . -}} <!-- mobile header -->
+
+<main id="content">
+{{- block "main" . }}{{- end }}
+</main>
 </div>
 
-{{- partial "mobile-footer.html" . -}}
-<!-- mobile footer -->
-</div>
-{{- partial "journal.html" . -}}
+<footer>
+{{- partial "mobile-footer.html" . -}} <!-- mobile footer -->
+{{- partial "journal.html" . -}} <!-- desktop footer -->
+{{- if not .Site.IsServer -}}{{- partial "disqus.html" . -}}{{- end -}}
+</footer>
 </body>
 </html>

@@ -11,6 +11,8 @@ _build:
 ---
 [![GitHub Repo](https://img.shields.io/badge/Repo-GitHub-037BBA.svg)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys)
 
+我庄严承诺未来将会切换到比 Disqus 更注重隐私的评论系统。在那之前，妳可以点击`姓名` \> 勾选`我更想匿名评论`进入匿名模式。
+
 ## 关于我／About me
 
 {{< row >}}
