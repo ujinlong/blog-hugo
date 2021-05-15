@@ -59,7 +59,9 @@ draft/
 
 在运行 `hugo server --buildDrafts` 的时候，一篇草稿的题头在我眼里是这样的：
 
-![](/post-img/2021-05-11-hugo-draft-management.png)
+{{< figure
+    name="2021-05-11-hugo-draft-management.png"
+    alt="Example title part of a draft">}}
 
 这个蓝色的草稿标签正是完美的草稿一览页面入口。因此，只要在 `/layouts/_default/single.html` 里，将对应的代码改一下就行了。点击之后，就会跳转到跟「博文归档」一模一样的「草稿归档」，且这两个页面列出的文章是完全没有交集的。
 

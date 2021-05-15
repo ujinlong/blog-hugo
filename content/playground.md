@@ -30,7 +30,19 @@ Hello world [test](#)
 
 ### Ruby
 
-{{< ruby "你好世界" "hello world" >}}
+{{< ruby "你好世界" "hello world" >}}　
+
+```html
+{{</* ruby "你好世界" "hello world" */>}}
+```
+
+### kbd
+
+{{< kbd I hate typing >}}　
+
+```html
+{{</* kbd I hate typing */>}}
+```
 
 ### Video
 

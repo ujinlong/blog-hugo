@@ -7,7 +7,7 @@ categories:
 - 笔记
 tags:
 - macOS
-- Browser
+- 浏览器
 title: 血书：移除 anysearch
 ---
 重要的事说在前面：  
