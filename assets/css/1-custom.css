@@ -39,8 +39,6 @@ time {
   }
 }
 
-/* post title area */
-
 .post-title-main {
   margin-top: 3px;
   margin-bottom: 0;
@@ -52,7 +50,7 @@ time {
   line-height: 1.5;
   padding: 0;
   margin-top: 11px;
-  margin-bottom: 1rem;
+  margin-bottom: 27px;
 }
 
 .post-meta {
@@ -62,9 +60,9 @@ time {
   gap: 1.5rem;
 }
 
-.post-meta,
-.stream-container .post .post-head-wrapper-text-only .post-title .post-meta {
-  margin-top: 27px;
+.post-title-main + .post-meta,
+.post-title-main + .stream-container .post .post-head-wrapper-text-only .post-title .post-meta {
+  margin-top: 12px !important;
 }
 
 .post-meta .post-time {
@@ -80,7 +78,8 @@ time {
   color: #037BBA;
   border: 1px solid #037BBA;
   padding: 0 5px 0 5px ;
-  border-radius: 10px;
+  border-radius: 20px !important;
+  display: inline-block;
 }
 
 .draft-label *:hover {
@@ -106,7 +105,7 @@ time {
 /* post body */
 
 .stream-container .post .post-body-wrapper {
-  padding: 37px 35px 35px;
+  padding: 31px 35px 35px;
 }
 
 .post-body h2 {
