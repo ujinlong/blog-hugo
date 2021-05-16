@@ -4,7 +4,6 @@
 .LSOverride
 
 # files
-blog-*.xml
 5855d6e376141a96.mp4
 bb7b1cf09d2b80bc.mp4
 drafts.md
@@ -15,5 +14,6 @@ resources/
 thumbnails/
 exampleSite/
 draft/
+migration/
 /content/drafts/
 _gen/

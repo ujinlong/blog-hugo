@@ -1,4 +1,4 @@
-baseURL: "https://epic-mestorf-3202f7.netlify.app/"
+baseURL: "https://blog.loikein.one/"
 canonifyURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
