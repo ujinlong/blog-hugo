@@ -172,7 +172,7 @@ user_pref("devtools.debugger.prompt-connection", false);
 
 先直接看效果吧：
 
-{{< video name="2021-05-08-firefox-tab" w="70%" >}}
+{{< video name="2021-05-08-firefox-tab">}}
 
 这是我非常喜欢的一个改动，融合了 Aris-t2/CustomCSSforFx 里的几个（标着不能同时使用！的）文件。怎么说呢，一切都是为了有更多空间显示标题，以及能随时关掉任何背景标签页。  
 本来灵感是 Safari，结果改完之后回头一看，好家伙，Safari 的关闭按钮跟 favicon 是分别占位置的。那没事了。
@@ -190,7 +190,7 @@ user_pref("devtools.debugger.prompt-connection", false);
 /* Github: https://github.com/aris-t2/customcssforfx ************************************/
 
 /****************************************************************************************/
-/* tab close icon settings - [only use one at a time] *******************************************/
+/* tab close icon settings - [only use one at a time] ***********************************/
 /* tab_close_show_on_hover_only.css */
 
 #TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]):not(:hover) .tab-close-button {
