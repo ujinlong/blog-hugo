@@ -79,7 +79,6 @@ time {
   border: 1px solid #037BBA;
   padding: 0 5px 0 5px ;
   border-radius: 20px !important;
-  display: inline-block;
 }
 
 .draft-label *:hover {

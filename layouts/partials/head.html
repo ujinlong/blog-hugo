@@ -8,7 +8,7 @@
 
 <meta charset="UTF-8" />
 <meta name="X-UA-Compatible" content="IE=edge" />
-<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+{{ with .Site.Params.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}" />{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="format-detection" content="telephone=no" />
 <meta name="description" content="{{ $description }}" />
@@ -21,14 +21,14 @@
 {{ end -}}
 
 <!-- open-graph -->
-{{if .Site.Params.enableOpenGraph}}
+{{ if .Site.Params.enableOpenGraph }}
 {{ template "_internal/opengraph.html" . }}
 {{end}}
 
 <!-- twitter-cards -->
-{{if .Site.Params.enableTwitterCards}}
+{{ if .Site.Params.enableTwitterCards }}
 {{ template "_internal/twitter_cards.html" . }}
-{{end}}
+{{ end }}
 
 <!-- metadata -->
 {{ if .Site.GoogleAnalytics }}
