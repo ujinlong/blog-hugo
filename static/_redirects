@@ -1,7 +1,2 @@
 # 404 page
-/*                                          /404/                               404
-
-# jump rules
-http://epic-mestorf-3202f7.netlify.app/*    https://blog.loikein.one/:splat     301!
-https://epic-mestorf-3202f7.netlify.app/*   https://blog.loikein.one/:splat     301!
-http://blog.loikein.one/*                   https://blog.loikein.one/:splat     301!
+/*          /404/           404
