@@ -140,6 +140,17 @@ b, strong {
   font-size: var(--hr-height);
 }
 
+.post-body blockquote hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-body blockquote hr:after {
+  content: "\27BF";
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
 .mark, mark {
   background-color: rgb(255,212,0,7%);
 }
