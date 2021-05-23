@@ -2,6 +2,7 @@
 author: loikein
 title: "在 Hugo 中管理草稿的一点心得"
 published: "2021-05-11T14:53:44+02:00"
+lastmod: "2021-05-23T17:20:32+0200"
 categories:
     - 笔记
 tags:
@@ -72,3 +73,21 @@ draft/
 ```
 
 对这个结果很满意，撰文记录一下。至于归档页面要怎么搞才能这么行云流水，那就是另外一篇（已经躺在草稿箱里的）文章的事儿了……
+
+---
+
+2021-05-23 更新：
+
+对了，忘记加上，我平时在 Hugo 里新建草稿的命令如下：
+
+```bash
+hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
+```
+
+它能够保证新建出来的草稿标题标准化，而且绝不会重复。只要加到妳常用的文字变换工具里，给个容易记的名字，用起来就很方便了。例如我在 espanso 里有这样的设置：
+
+```yaml
+  - trigger: ":hugonew"
+    replace: |
+      hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
+```

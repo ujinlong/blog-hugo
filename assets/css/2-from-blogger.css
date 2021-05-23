@@ -19,6 +19,23 @@
   content: counter(counter_h2)"."counter(counter_h3)". ";
 }
 
+.toc .toc-content > ul > ul > li {
+  counter-increment: counter_toc_h2;
+  counter-reset: counter_toc_h3;
+}
+
+.toc .toc-content > ul > ul > li::before {
+  content: counter(counter_toc_h2)". ";
+}
+
+.toc .toc-content > ul > ul > ul > li {
+  counter-increment: counter_toc_h3;
+}
+
+.toc .toc-content > ul > ul > ul > li::before {
+  content: counter(counter_toc_h3)". ";
+}
+
 /* two-col */
 
 .row {

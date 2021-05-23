@@ -230,7 +230,7 @@ blockquote .row:last-of-type {
   color: inherit;
 }
 
-/* animated sticker & video */
+/* animated sticker & video & audio */
 
 .post-body .sticker {
   border-radius: 0;
@@ -248,6 +248,12 @@ blockquote .row:last-of-type {
 body.night .post-body .sticker,
 body.night .post-body .post-video {
   opacity: .8;
+}
+
+.post-body audio {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 /* image */
@@ -323,23 +329,6 @@ img,
   .toc .toc-content {
     padding: 20px;
   }
-}
-
-.toc .toc-content > ul > ul > li {
-  counter-increment: counter_toc_h2;
-  counter-reset: counter_toc_h3;
-}
-
-.toc .toc-content > ul > ul > li::before {
-  content: counter(counter_toc_h2)". ";
-}
-
-.toc .toc-content > ul > ul > ul > li {
-  counter-increment: counter_toc_h3;
-}
-
-.toc .toc-content > ul > ul > ul > li::before {
-  content: counter(counter_toc_h3)". ";
 }
 
 /* all list pages */
