@@ -3,8 +3,8 @@ author: loikein
 published: "2020-09-07T15:20:00.000+02:00"
 lastmod: "2020-11-15T17:15:06.812+01:00"
 slug: toolbox
-tags:
-- pages
+categories:
+- 独立页面
 title: 工具箱
 _build:
   list: never
@@ -83,16 +83,20 @@ _build:
 - [chroma.js palette helper](https://gka.github.io/palettes/) \- 定义 n 个颜色，然后获得 n 个过度色
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/) \- 固定色盘，网页预览
 - [Tailwind Ink](https://tailwind.ink/) \- Colour scheme 生成器
-- HSL 色彩空间
+
+- HSL
     - [HSL Color Picker - by Brandon Mathis](http://hslpicker.com/#00ffb7) \- HSL 色盘
     - [HSL Random Color Generator](http://www.mattgroeber.com/utilities/random-color-generator/) \- 随机 HSL 生成器
-- 孟塞尔颜色系统 & OSA-UCS 统一色标
+
+- 孟塞尔颜色系统 & OSA-UCS 统一色标 & LCH
     - [Munsell Color Palette](http://pteromys.melonisland.net/munsell/) \- 非常全面的孟塞尔色盘
     - [Virtual Munsell Color Wheel)](http://www.andrewwerth.com/color/) \- 更简洁实用的孟塞尔色盘
+    - [LCH Colour picker](https://css.land/lch/) \- RGB ⇄ LCH
     - ~~[Munsell for Designers](http://projects.kumpf.cc/projects/MunsellForDesigners/index.html) \- 用一个 Hex 生成颜色系统~~ Hue friends 非常不准
     - [Optical Society of America Uniform Color Scales (OSA-UCS)](http://handprint.com/HP/WCL/IMG/OSA/index.html) \- OSA-UCS 色标全图
     - [RGB Chart & Multi Tool](http://www.perbang.dk/rgb/) \- Hex → 孟塞尔
     - [Hex Color Codes, Paint Matching and Color Picker](https://encycolorpedia.com/) \- 各种 ⇄ 孟塞尔
+
 - CIELAB / CIELUV
     - [CIELAB and CIECAM02 color picker](https://rufflewind.com/_urandom/colorpicker/) \- 色盘
     - [Lch and Lab colour and gradient picker — David Johnstone](http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker) \- 色盘 & 渐变生成器

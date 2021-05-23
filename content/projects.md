@@ -3,8 +3,8 @@ author: loikein
 published: "2020-05-31T16:55:00.000+02:00"
 lastmod: "2020-05-31T16:55:25.462+02:00"
 slug: projects
-tags:
-- pages
+categories:
+- 独立页面
 title: 个人项目
 _build:
   list: never

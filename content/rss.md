@@ -2,8 +2,8 @@
 author: loikein
 published: "2021-05-10T21:02:37+0200"
 slug: rss
-tags:
-- pages
+categories:
+- 独立页面
 title: 订阅
 _build:
   list: never

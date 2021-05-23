@@ -6,8 +6,8 @@ slug: playground
 description: "有些例子还挺魔性的，为了心理健康建议别看本文。"
 featured_image: "./post-img/background-sky.jpg"
 enableMathJax: true
-tags:
-- pages
+categories:
+- 独立页面
 categories: []
 title: 实验田
 _build:
