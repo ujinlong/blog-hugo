@@ -146,6 +146,7 @@ b, strong {
 }
 
 .post-body blockquote hr:after {
+  display: inline-block;
   content: "\27BF";
   writing-mode: vertical-rl;
   transform: rotate(180deg);
