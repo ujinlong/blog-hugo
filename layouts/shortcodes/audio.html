@@ -3,6 +3,10 @@
 {{ $type := .Get "type" | default "mp3" }}
 
 <audio controls preload="{{ $preload }}">
-  <source src="{{ $src }}" type="audio/{{ $type }}">
+  <source src="{{ $src }}
+               {{- if or "start" "end" -}}
+                  #t={{ with .Get "start" }}{{ . }}{{ end }}{{ with .Get "end" }},{{ . }}{{ end }}
+               {{- end -}}" 
+          type="audio/{{ $type }}">
   <span>Your browser doesn't support HTML5 audio. Here is a <a href="{{ $src }}">link to the audio</a> instead.</span>
 </audio>
