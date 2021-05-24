@@ -1,6 +1,7 @@
 ---
 author: loikein
 published: "2020-10-27T00:32:00+01:00"
+lastmod: "2021-05-24T05:22:24+0200"
 slug: 2020-10-27-tried-to-work-with-ipados-14
 categories:
 - 应用程序
@@ -83,3 +84,8 @@ title: iPadOS 14 办公记录，以及一点关于 what's a real computer 的感
 就这，还敢说「什么是电脑」？
 
 路还远着呢。まだまだだね。
+
+---
+
+2021-05-24 更新：  
+Rambox 几乎可以确定已经死了，我的最新推荐是 [Ferdi](https://github.com/getferdi/ferdi)。
