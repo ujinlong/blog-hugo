@@ -6,6 +6,7 @@ categories:
 - 笔记
 tags:
 - 经济
+- Academic
 title: 'Parable of the Polygons: notes on Schelling (1971) & Clark (1991)'
 ---
 This is a note for my presentation ofSchelling (1971) andClark (1991)
