@@ -8,9 +8,9 @@ tags:
 - 自述
 title: 稍微正常一点的近况报告，以及对生命和人类关系的扭曲理解
 ---
-前文：[どこにも行けない人たち](../2020-12-12-i-am-not-going-anywhere/)
+前文：[どこにも行けない人たち](/posts/2020-12-12-i-am-not-going-anywhere/)
 
-后续：[量子之爱](../2021-04-13-quantum-love/)
+后续：[量子之爱](/posts/2021-04-13-quantum-love/)
 
 ***
 

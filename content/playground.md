@@ -4,7 +4,7 @@ author: loikein
 # lastmod: "2021-04-15 20:24:48.363 +0200"
 slug: playground
 description: "有些例子还挺魔性的，为了心理健康建议别看本文。"
-featured_image: "./post-img/background-sky.jpg"
+featured_image: "/post-img/background-sky.jpg"
 enableMathJax: true
 categories:
 - 独立页面
