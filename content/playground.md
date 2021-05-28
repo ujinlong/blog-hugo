@@ -44,6 +44,26 @@ Hello world [test](#)
 {{</* kbd I hate typing */>}}
 ```
 
+### Summary
+
+{{<fold  "我是谁？`我在哪？`">}}
+Hello world
+
+```
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~(){}[] . , : ; “ ‘ ’ `
+```
+{{</fold>}}
+
+````html
+{{</*fold  "我是谁？`我在哪？`"*/>}}
+Hello world
+
+```
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~(){}[] . , : ; “ ‘ ’ `
+```
+{{</*/fold*/>}}
+````
+
 ### Video
 
 {{< video name="scream" folder="sticker" mute="false" w="50%" >}}
