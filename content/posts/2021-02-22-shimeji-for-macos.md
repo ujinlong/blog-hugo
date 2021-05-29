@@ -26,7 +26,7 @@ English version: [Shimeji for Mac - wiki](https://wiki.loikein.one/computer/othe
 
 怎么说呢……虽然也就是一个 Chrome tab 的事儿（。）这没个好点的电脑还真不敢整天开着桌宠。另外这个占用量跟屏幕上的小人数量无关，无论有多少个在场都是差不多的。
 
-更新：毛象网友要求了效果图，我简单录了一个。视屏里是接下来会用到的来自 [-Mac- 2PUS and 2PUK -Mac- Shimeji by lalala00000007 on DeviantArt](https://www.deviantart.com/lalala00000007/art/Mac-2PUS-and-2PUK-Mac-Shimeji-360524267) 的阿尔。
+更新：毛象网友要求了效果图，我简单录了一个。视频里是接下来会用到的来自 [-Mac- 2PUS and 2PUK -Mac- Shimeji by lalala00000007 on DeviantArt](https://www.deviantart.com/lalala00000007/art/Mac-2PUS-and-2PUK-Mac-Shimeji-360524267) 的阿尔。
 
 {{< video name="2021-02-22-shimeji-for-macos" >}}
 
