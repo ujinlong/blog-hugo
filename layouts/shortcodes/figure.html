@@ -15,6 +15,7 @@
 {{- else -}}
 <img src="/{{ .Get "folder" | default "post-img" }}/{{ .Get "name" }}"
 {{- end -}}
+     loading="lazy"
      alt="{{ $alt | markdownify| plainify }}"
      style='max-width: {{ $width }}; {{- with .Get "h" }}max-height: {{ . }};{{ end -}}'
 /><!-- Close img tag -->
