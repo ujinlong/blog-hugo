@@ -65,6 +65,7 @@ tags:
 - [userchrome - firefox](https://www.reddit.com/r/firefox/wiki/userchrome)
 - [index/tutorials - FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/)
 - [What is userChrome.css? What can it do?](https://www.userchrome.org/what-is-userchrome-css.html)
+- [用下面这些方法，为自己高度定制一个 Firefox 浏览器 - 少数派](https://sspai.com/post/58605)
 
 ## 开启自定义外观的方法
 
