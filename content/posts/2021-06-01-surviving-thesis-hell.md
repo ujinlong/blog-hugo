@@ -109,4 +109,7 @@ Huge shout-out to Dr. Felix Mauersberger for all the advice and support.
     name="2021-06-01-surviving-thesis-hell-table.png"
     alt="Summary statistics table" >}}
 
-数据来源：<cite>Scherpenzeel, A.C. and M. Das, ““True” Longitudinal and Probability-Based Internet Panels: Evidence From the Netherlands,” in M. Das, P. Ester, and L. Kaczmirek, eds., Social and Behavioral Research and the Internet: Advances in Applied Methods and Research Strategies, Boca Raton: Taylor & Francis, 2010, pp. 77–104.</cite>
+数据来源：
+
+- <cite>Scherpenzeel, A.C. and M. Das, ““True” Longitudinal and Probability-Based Internet Panels: Evidence From the Netherlands,” in M. Das, P. Ester, and L. Kaczmirek, eds., Social and Behavioral Research and the Internet: Advances in Applied Methods and Research Strategies, Boca Raton: Taylor & Francis, 2010, pp. 77–104.</cite>
+- <cite>Gaudecker, Hans-Martin Von, Christian Zimpelmann, Moritz Mendel, Bettina Siﬂinger, Lena Janys, Jürgen Maurer, Egbert Jongen, Radost Holler, Renata Abikeyeva, Felipe Augusto Azuero Mutis, Annica Gehlen, and Eva Lucia Kleifgen, “CoViD-19 Impact Lab Questionnaire Documentation,” March 2021.</cite>

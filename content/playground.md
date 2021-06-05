@@ -85,7 +85,17 @@ Animated: not looping vs. looping
 
 ### Fediverse status
 
+No content warning (CW):
+
 {{< mstdn mastodon.social 106070125652504343 >}}
+
+Long CW + short main text:
+
+{{< mstdn "mastodon.social" "106354551109008813" >}}
+
+Short CW + long main text:
+
+{{< mstdn "mastodon.social" "106353678279784184" >}}
 
 ### Tweet refined (not yet)
 

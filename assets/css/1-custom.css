@@ -7,6 +7,7 @@
   --dark-gray: #777;
   --white: #FFF;
   --page-margin: 35px;
+  --theme-color-1: #037BBA;
 }
 
 @media screen and (max-width:1020px) {
@@ -80,8 +81,8 @@ time {
 }
 
 .draft-label {
-  color: #037BBA;
-  border: 1px solid #037BBA;
+  color: var(--theme-color-1);
+  border: 1px solid var(--theme-color-1);
   padding: 0 5px 0 5px ;
   border-radius: 20px !important;
 }
@@ -136,7 +137,7 @@ b, strong {
   margin-bottom: 2rem;
 }
 
-.post-body hr:after {
+.post-body hr::after {
   content: "//";
   /* content: "\12199"; */
   /* content: "⁂"; */
@@ -150,7 +151,7 @@ b, strong {
   margin-bottom: 1rem;
 }
 
-.post-body blockquote hr:after {
+.post-body blockquote hr::after {
   display: inline-block;
   content: "\27BF";
   writing-mode: vertical-rl;
@@ -233,8 +234,7 @@ blockquote ul:last-child {
   margin-bottom: 0;
 }
 
-.twitter-tweet p:last-of-type,
-.fediverse-status p:last-of-type {
+.twitter-tweet p:last-of-type {
   margin-bottom: 1rem;
 }
 
