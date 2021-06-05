@@ -1,7 +1,7 @@
 ---
 author: loikein
 published: "2020-09-07T15:20:00.000+02:00"
-lastmod: "2020-11-15T17:15:06.812+01:00"
+lastmod: "2021-06-05T04:02:10+0200"
 slug: toolbox
 categories:
 - 独立页面
@@ -23,21 +23,12 @@ _build:
 - [视频解析网](https://www.parsevideo.com/)
 - [ViDL for Mac](https://omz-software.com/vidl/) \- 下载 YouTube 的小软件，有转码、提取音频功能
 
-
-## 汉语辞典
-
-- [漢典](https://www.zdic.net/)
-- [古漢語詞源字典（網絡版）](http://edoc.uchicago.edu/edoc2013/zh_digitaledoc_index.php)
-- [历版辞海](http://chlb.cishu.com.cn/)
-
-
-## 知网工具
+### 知网下载站
 
 - [iData - 知识检索](https://www.cn-ki.net/) (需要 注册，每天可预览 / 下载 5 篇)
-- [科技文献 \- 上海研发公共服务平台](http://lib.sstir.cn/) (需要手机注册，注册后会给一 些积分，登录也会给积分)
+- ~~[科技文献 \- 上海研发公共服务平台](http://lib.sstir.cn/) (需要手机注册，注册后会给一 些积分，登录也会给积分)~~ 挂了？
 
-
-## 电子书
+### 电子书下载站
 
 - [Jiumo Search 鸠摩搜索](https://www.jiumodiary.com/)
 - [i-Book.in](https://book.tstrs.me/) \- 中文 PDF
@@ -48,12 +39,19 @@ _build:
 - [LibriVox | free public domain audiobooks](https://librivox.org/)
 
 
-## 博文美化
+## 汉语辞典
 
-- [GitHub Gist](https://gist.github.com/) \- 代码语法高亮 （~~纠结过程：[博文代码高亮及针对本博客的显示优化](https://loikein.blogspot.com/2018/09/blog-post.html)~~）
-- [Blogger 归档页面考](https://loikein.blogspot.com/2018/11/blogger.html)
-- [把链接做成卡片形式：一个纯 html 的尝试](https://loikein.blogspot.com/2018/11/html.html)
+- [漢典](https://www.zdic.net/)
+- [古漢語詞源字典（網絡版）](http://edoc.uchicago.edu/edoc2013/zh_digitaledoc_index.php)
+- [历版辞海](http://chlb.cishu.com.cn/)
 
+
+<!-- ## 博文美化
+
+- [GitHub Gist](https://gist.github.com/) \- 代码语法高亮 （~~纠结过程：[博文代码高亮及针对本博客的显示优化](/posts/2018-09-22-syntax-highlighting-in-blogger/)~~）
+- [Blogger 归档页面考](/posts/2018-11-20-on-archive-page-for-blogger/)
+- [把链接做成卡片形式：一个纯 html 的尝试](/posts/2018-11-28-card-links/)
+ -->
 
 ## 字体
 
@@ -84,50 +82,32 @@ _build:
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/) \- 固定色盘，网页预览
 - [Tailwind Ink](https://tailwind.ink/) \- Colour scheme 生成器
 
-- HSL
-    - [HSL Color Picker - by Brandon Mathis](http://hslpicker.com/#00ffb7) \- HSL 色盘
-    - [HSL Random Color Generator](http://www.mattgroeber.com/utilities/random-color-generator/) \- 随机 HSL 生成器
+### HSL
 
-- 孟塞尔颜色系统 & OSA-UCS 统一色标 & LCH
-    - [Munsell Color Palette](http://pteromys.melonisland.net/munsell/) \- 非常全面的孟塞尔色盘
-    - [Virtual Munsell Color Wheel)](http://www.andrewwerth.com/color/) \- 更简洁实用的孟塞尔色盘
-    - [LCH Colour picker](https://css.land/lch/) \- RGB ⇄ LCH
-    - ~~[Munsell for Designers](http://projects.kumpf.cc/projects/MunsellForDesigners/index.html) \- 用一个 Hex 生成颜色系统~~ Hue friends 非常不准
-    - [Optical Society of America Uniform Color Scales (OSA-UCS)](http://handprint.com/HP/WCL/IMG/OSA/index.html) \- OSA-UCS 色标全图
-    - [RGB Chart & Multi Tool](http://www.perbang.dk/rgb/) \- Hex → 孟塞尔
-    - [Hex Color Codes, Paint Matching and Color Picker](https://encycolorpedia.com/) \- 各种 ⇄ 孟塞尔
+- [HSL Color Picker - by Brandon Mathis](http://hslpicker.com/#00ffb7) \- HSL 色盘
+- [HSL Random Color Generator](http://www.mattgroeber.com/utilities/random-color-generator/) \- 随机 HSL 生成器
 
-- CIELAB / CIELUV
-    - [CIELAB and CIECAM02 color picker](https://rufflewind.com/_urandom/colorpicker/) \- 色盘
-    - [Lch and Lab colour and gradient picker — David Johnstone](http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker) \- 色盘 & 渐变生成器
-    - [HSLuv - Human-friendly HSL](https://www.hsluv.org/) \- CIELUV 色盘
-    - [Colorpicker for data | tristen](http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062) \- 渐变生成器
+### 孟塞尔 / OSA-UCS / LCH
 
+- [Munsell Color Palette](http://pteromys.melonisland.net/munsell/) \- 非常全面的孟塞尔色盘
+- [Virtual Munsell Color Wheel)](http://www.andrewwerth.com/color/) \- 更简洁实用的孟塞尔色盘
+- [LCH Colour picker](https://css.land/lch/) \- RGB ⇄ LCH
+- ~~[Munsell for Designers](http://projects.kumpf.cc/projects/MunsellForDesigners/index.html) \- 用一个 Hex 生成颜色系统~~ Hue friends 非常不准
+- [Optical Society of America Uniform Color Scales (OSA-UCS)](http://handprint.com/HP/WCL/IMG/OSA/index.html) \- OSA-UCS 色标全图
+- [RGB Chart & Multi Tool](http://www.perbang.dk/rgb/) \- Hex → 孟塞尔
+- [Hex Color Codes, Paint Matching and Color Picker](https://encycolorpedia.com/) \- 各种 ⇄ 孟塞尔
 
-## 图标
+### CIELAB / CIELUV
 
-- [favicon 制作](https://tool.lu/favicon/)
-- [Zondicons](http://www.zondicons.com/icons.html)
-- [CSS Icons](https://css.gg/app) \- 纯 CSS 制作的各种图标，[代码开源](https://github.com/astrit/css.gg)
-- [API for Web Icons | SVGBox.net](https://svgbox.net/) \- 纯 SVG 制作的各种图标／国旗／动画
-- [icono | Pure CSS icons](https://saeedalipoor.github.io/icono/) \- 另外一个， [代码在这里](https://github.com/saeedalipoor/icono)
-
-
-## 背景
-
-- [Cool Backgrounds](https://coolbackgrounds.io/) \- 渐变／三角背景生成器
-- [Patternizer](https://patternizer.com/xbbh) \- 条纹／格子背景生成器
-- [bansal-io/pattern.css](https://github.com/bansal-io/pattern.css) \- CSS 条纹／格子／点点背景
-- [Hero Patterns](https://www.heropatterns.com/) \- 花纹背景生成器
-
-
-## SVG
-- [Blobmaker](https://www.blobmaker.app/) \- 可爱泡泡生成器
-- [SvgPathEditor](https://yqnn.github.io/svg-path-editor/)
-- [Get Waves – Create SVG waves for your next design](https://getwaves.io/) \- 波浪生成器
+- [CIELAB and CIECAM02 color picker](https://rufflewind.com/_urandom/colorpicker/) \- 色盘
+- [Lch and Lab colour and gradient picker — David Johnstone](http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker) \- 色盘 & 渐变生成器
+- [HSLuv - Human-friendly HSL](https://www.hsluv.org/) \- CIELUV 色盘
+- [Colorpicker for data | tristen](http://tristen.ca/hcl-picker/#/hlc/6/1/15534C/E2E062) \- 渐变生成器
 
 
 ## CSS
+
+### CSS 效果生成器
 
 - [Interactive CSS Grid Generator | Layoutit Grid](https://grid.layoutit.com/) \- CSS Grid 生成器
 - [Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/) \- 偏怀旧效果的 CSS 生成器
@@ -135,25 +115,58 @@ _build:
 - [CSS text-stroke generator (text-shadow hack)](https://owumaro.github.io/text-stroke-generator/) \- 文字描边生成器
 - [Make a smooth shadow, friend.](https://brumm.af/shadows) \- 美丽阴影生成器 
 - [Box Shadows - Generate CSS Box Shadows](https://box-shadows.co/)\- 稍微简单一点的阴影生成器
-- [Fancy Border Radius Generator](https://9elements.github.io/fancy-border-radius/) \- 简单泡泡生成器
+
+### CSS 设计
+
 - [Web Design Experiments by Jen Simmons](https://labs.jensimmons.com/) \- CSS 的排版可能性
 - [Email Design Reference](https://templates.mailchimp.com/) \- 邮件排版工具
 - [The CSS Cascade](https://wattenberger.com/blog/css-cascade) \- 一些 CSS 挑战
 - [KakaCss - 快速生成 Css 样式](https://renzhezhilu.gitee.io/kakacss/)
 
 
-## 设计
+## 图案 / 背景
+
+### 图标
+
+- [favicon 制作](https://tool.lu/favicon/)
+- [Zondicons](http://www.zondicons.com/icons.html)
+- [CSS Icons](https://css.gg/app) \- 纯 CSS 制作的各种图标，[代码开源](https://github.com/astrit/css.gg)
+- [API for Web Icons | SVGBox.net](https://svgbox.net/) \- 纯 SVG 制作的各种图标／国旗／动画
+- [icono | Pure CSS icons](https://saeedalipoor.github.io/icono/) \- 另外一个， [代码在这里](https://github.com/saeedalipoor/icono)
+
+### 形状
+
+- [SvgPathEditor](https://yqnn.github.io/svg-path-editor/)
+- [Blobmaker](https://www.blobmaker.app/) \- SVG 泡泡
+- [Fancy Border Radius Generator](https://9elements.github.io/fancy-border-radius/) \- CSS 泡泡
+- [Get Waves – Create SVG waves for your next design](https://getwaves.io/) \- 波浪生成器
+
+### 背景
+
+<!-- - [Patternizer](https://patternizer.com/xbbh) \- 条纹／格子背景生成器 -->
+- [Cool Backgrounds](https://coolbackgrounds.io/) \- CSS/SVG/PNG 渐变 / 三角背景
+- [Pure CSS Stripes Generator - No Flash, No Image, ONLY CSS](https://stripesgenerator.com/edit-sample/1) \- CSS 条纹
+- [bansal-io/pattern.css](https://github.com/bansal-io/pattern.css) \- CSS 条纹／格子／点点背景
+- [Hero Patterns](https://www.heropatterns.com/) \- SVG 花纹背景
+
+### 人像 / 头像
 
 - [Open Peeps, Hand-Drawn Illustration Library](https://www.openpeeps.com/) \- 小人头像／半身／全身像生成器
 - [Stubborn - Free Illustrations Generator](https://stubborn.fun/) \- 有脸小人生成器
 - [Humaaans: Mix-&-Match illustration library](https://www.humaaans.com/?ref=producthunt) \- 无脸小人生成器
 - [Illustrations | unDraw](https://undraw.co/illustrations) \- 各种小人插画
+- [boringdesigners/boring-avatars](https://github.com/boringdesigners/boring-avatars) \- 非常美丽的随机头像
+
+
+## 其他设计相关
+
 - [Hall of Fame — Pages](https://www.pages.xyz/) \- 设计实例，按页面类型分类
 - [Land-book - the finest hand-picked website inspirations](https://land-book.com/) \- 设计实例，按网站类型分类
 - [SVG-Optimiser](https://petercollingridge.appspot.com/svg-optimiser)
 - [Featured Figma Plugins - tovi.fun](https://figma.tovi.fun/) \- Figma 插件推荐（中文）
 - [Meta Tags — Preview, Edit and Generate](https://metatags.io/) \- SEO 预览
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=zh-cn) \- 网站测速
+
 
 
 ## LaTeX 速查
@@ -170,7 +183,8 @@ _build:
 - [LaTeX Templates](http://www.latextemplates.com/) \- 一大堆很好看的 LaTeX 模板
 - [TikZ and PGF examples](http://www.texample.net/tikz/examples/) \- 一大堆 TikZ 画图模板
 
-## 命令行美化／工具
+
+## 命令行美化 / 工具
 
 - [romkatv/powerlevel10k: A Zsh theme](https://github.com/romkatv/powerlevel10k) \- zsh 主题，设置很多
 - [Gogh - Color Scheme](https://mayccoll.github.io/Gogh/) \- 挑个颜色
@@ -186,6 +200,7 @@ _build:
 - [Repl.it - Online Python Editor and IDE](https://repl.it/languages/python3) \- Python
 - [DataCamp Light](https://github.com/datacamp/datacamp-light) \- R
 
+
 ## 其他编程相关
 
 - [Unminify JS, CSS and HTML Code](https://unminify.com/) \- 扩展最小化代码
@@ -195,6 +210,7 @@ _build:
 - [GitHub Flavored Markdown language IDs](https://github.com/jmm/gfm-lang-ids/wiki/GitHub-Flavored-Markdown-(GFM)-language-IDs)
 - [I18n Translation Search Engine| Free i18n Tools for App&Web](https://i18ns.com/index.html) \- 本地化（全球化）速查
 - [Man Pages | ManKier](https://www.mankier.com/) \- `man` 速查
+
 
 ## 杂项
 
