@@ -74,13 +74,20 @@ _build:
 
 ## 配色
 
-- [Accessible Colors | WCAG 2.0 AA and AAA color contrast checker](https://accessible-colors.com/) \- 检查对比度，建议一个替换颜色
-- [Tanaguru Contrast-Finder](https://contrast-finder.tanaguru.com/) \- 检查对比度，建议一堆替换颜色
-- [Color.review](https://color.review/) \- 检查对比度，显示色盘，网页预览
+- [Html Colors](https://htmlcolors.com/) \- 互动色彩教材，色盘不怎么样
 - [Data Viz Color Palette Generator (for Charts & Dashboards)](https://learnui.design/tools/data-color-picker.html) \- 定义两个颜色，然后获得 1 - 6 个过度色
 - [chroma.js palette helper](https://gka.github.io/palettes/) \- 定义 n 个颜色，然后获得 n 个过度色
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/) \- 固定色盘，网页预览
 - [Tailwind Ink](https://tailwind.ink/) \- Colour scheme 生成器
+- [uiGradients - Beautiful colored gradients](https://uigradients.com/#ServQuick) \- 固定渐变色盘，按主色调区分
+- [Gradient Colors Collection Palette - CoolHue 2.0](https://webkul.github.io/coolhue/) \- 固定渐变色盘，有[代码](https://github.com/webkul/coolhue)和 [Figma 插件](https://webkul.github.io/coolhue/figma-plugin/)
+
+
+### A11y
+
+- [Accessible Colors | WCAG 2.0 AA and AAA color contrast checker](https://accessible-colors.com/) \- 检查对比度，建议一个替换颜色
+- [Tanaguru Contrast-Finder](https://contrast-finder.tanaguru.com/) \- 检查对比度，建议一堆替换颜色
+- [Color.review](https://color.review/) \- 检查对比度，显示色盘，网页预览
 
 ### HSL
 
@@ -109,12 +116,16 @@ _build:
 
 ### CSS 效果生成器
 
-- [Interactive CSS Grid Generator | Layoutit Grid](https://grid.layoutit.com/) \- CSS Grid 生成器
-- [Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/) \- 偏怀旧效果的 CSS 生成器
-- [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#55b9f3) \- 新渐变主义（自译）效果的按钮生成器
-- [CSS text-stroke generator (text-shadow hack)](https://owumaro.github.io/text-stroke-generator/) \- 文字描边生成器
-- [Make a smooth shadow, friend.](https://brumm.af/shadows) \- 美丽阴影生成器 
-- [Box Shadows - Generate CSS Box Shadows](https://box-shadows.co/)\- 稍微简单一点的阴影生成器
+- [Interactive CSS Grid Generator | Layoutit Grid](https://grid.layoutit.com/)
+- [Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/) \- 偏怀旧效果的 CSS
+- [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#55b9f3) \- 新拟物主义按钮
+- [CSS text-stroke generator (text-shadow hack)](https://owumaro.github.io/text-stroke-generator/) \- 文字描边
+- [Box Shadows - Generate CSS Box Shadows](https://box-shadows.co/)\- 几个阴影模板
+- [Make a smooth shadow, friend.](https://brumm.af/shadows) \- 非常复杂的阴影
+- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) \- 简单渐变
+- [Pure CSS Stripes Generator - No Flash, No Image, ONLY CSS](https://stripesgenerator.com/edit-sample/1) \- 条纹渐变
+- [CSS Color Gradient Generator: beautiful gradients for free](https://mybrandnewlogo.com/color-gradient-generator) \- 非常复杂的圆形渐变
+
 
 ### CSS 设计
 
@@ -130,9 +141,11 @@ _build:
 
 - [favicon 制作](https://tool.lu/favicon/)
 - [Zondicons](http://www.zondicons.com/icons.html)
-- [CSS Icons](https://css.gg/app) \- 纯 CSS 制作的各种图标，[代码开源](https://github.com/astrit/css.gg)
-- [API for Web Icons | SVGBox.net](https://svgbox.net/) \- 纯 SVG 制作的各种图标／国旗／动画
-- [icono | Pure CSS icons](https://saeedalipoor.github.io/icono/) \- 另外一个， [代码在这里](https://github.com/saeedalipoor/icono)
+- [Tabler Icons - 800+ Highly customizable free SVG icons](https://tablericons.com/) \- 纯 SVG 图标
+- [API for Web Icons | SVGBox.net](https://svgbox.net/) \- 纯 SVG 的图标／国旗／动画
+- [CSS Icons](https://css.gg/app) \- 纯 CSS 制作的各种图标，[代码](https://github.com/astrit/css.gg)
+- [icono | Pure CSS icons](https://saeedalipoor.github.io/icono/) \- 另外一个， [代码](https://github.com/saeedalipoor/icono)
+
 
 ### 形状
 
@@ -144,8 +157,8 @@ _build:
 ### 背景
 
 <!-- - [Patternizer](https://patternizer.com/xbbh) \- 条纹／格子背景生成器 -->
-- [Cool Backgrounds](https://coolbackgrounds.io/) \- CSS/SVG/PNG 渐变 / 三角背景
-- [Pure CSS Stripes Generator - No Flash, No Image, ONLY CSS](https://stripesgenerator.com/edit-sample/1) \- CSS 条纹
+<!-- - [Cool Backgrounds](https://coolbackgrounds.io/) \- CSS/SVG/PNG 渐变 / 三角背景 -->
+- [Trianglify.io · Low Poly Pattern Generator](https://trianglify.io/) \- 随机三角形背景
 - [bansal-io/pattern.css](https://github.com/bansal-io/pattern.css) \- CSS 条纹／格子／点点背景
 - [Hero Patterns](https://www.heropatterns.com/) \- SVG 花纹背景
 
