@@ -1,0 +1,5 @@
+<footer>
+{{- partial "mobile-footer.html" . -}} <!-- mobile footer -->
+{{- partial "journal.html" . -}} <!-- desktop footer -->
+{{- if not .Site.IsServer -}}{{- partial "disqus.html" . -}}{{- end -}}
+</footer>

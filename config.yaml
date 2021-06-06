@@ -62,9 +62,9 @@ menu:
     # - url: /tags/
     #   name: 标签／Tags
     #   weight: 3
-    - url: /categories/
-      name: 分类／Categories
-      weight: 4
+    # - url: /categories/
+    #   name: 分类／Categories
+    #   weight: 4
     - url: /toolbox/
       name: 工具箱／Toolbox
       weight: 5
