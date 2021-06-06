@@ -71,10 +71,10 @@ tags:
 
 {{< row >}}
 {{< col >}}
-感谢 Dr. Felix Mauersberger 给予我的大力支持和一大堆建议。
+感谢 [Dr. Felix Mauersberger](https://www.felixmauersberger.com/) 给予我的大力支持和一大堆建议。
 {{< /col >}}
 {{< col >}}
-Huge shout-out to Dr. Felix Mauersberger for all the advice and support.
+Huge shout-out to [Dr. Felix Mauersberger](https://www.felixmauersberger.com/) for all the advice and support.
 {{< /col >}}
 {{< /row >}}
 
