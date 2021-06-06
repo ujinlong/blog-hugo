@@ -59,8 +59,9 @@
 .fediverse-status-cw__input:focus { outline: none; }
 
 .fediverse-status-cw__input:focus + .fediverse-status-cw__label {
-    outline: 1px dotted;
-    outline-offset: -1px;
+    outline: medium auto currentColor;
+    outline: medium auto invert;
+    outline: 5px auto -webkit-focus-ring-color;
 }
 
 .fediverse-status-cw__input {
