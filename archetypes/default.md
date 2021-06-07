@@ -1,7 +1,8 @@
 ---
-author: loikein
 title: "{{ replace .Name "-" " " | title }}"
-published: "{{ .Date }}"
+date: "{{ .Date }}"
+# published: ""
+# lastmod: ""
 categories: []
 tags: []
 draft: true
