@@ -3,8 +3,9 @@
 :root {
   --hr-height: 1.5rem;
   --archive-indent: 3.5rem;
-  --black: #010c14;
+  --black: #111;
   --dark-gray: #777;
+  --light-gray: #ccc;
   --white: #FFF;
   --page-margin: 35px;
   --theme-color-1: #037BBA;
@@ -21,8 +22,16 @@
 }
 
 body.night {
-  --gray: #ccc;
   --black: #e6e6e6;
+  --dark-gray: #999;
+  --gray: #aaa;
+  --light-gray: #555;
+}
+
+:focus {
+  outline: medium auto currentColor;
+  outline: medium auto invert;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 ::selection {
@@ -33,6 +42,17 @@ body.night {
 time {
   font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
   letter-spacing: -1px;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: var(--light-gray);
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 /* post title */
@@ -72,13 +92,18 @@ time {
   margin-top: 13px !important;
 }
 
-.post-meta .post-time {
-  display: inline-block;
+.post-meta .post-time,
+.post-meta .material-icons,
+.post-meta a {
+  opacity: .6;
 }
 
-.post-meta .post-time,
-.post-meta .material-icons {
-  opacity: .6;
+.post-meta a {
+  color: inherit;
+}
+
+.post-meta .post-time {
+  display: inline-block;
 }
 
 .draft-label {
@@ -86,6 +111,10 @@ time {
   border: 1px solid var(--theme-color-1);
   padding: 0 5px 0 5px ;
   border-radius: 20px !important;
+}
+
+.draft-label a {
+  text-decoration: none;
 }
 
 .draft-label *:hover {
@@ -189,6 +218,20 @@ body.night .post-body ruby,
 body.night .post-body ruby *,
 body.night .post-body summary {
   color: #e6e6e6;
+}
+
+body.night .post-body .table th,
+body.night .post-body .table td {
+  border-top-color: var(--light-gray);
+  border-bottom-color: var(--light-gray);
+}
+
+body.night .post-body .table-striped tbody tr:nth-of-type(2n+1) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.night .post-body .table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255,.075);
 }
 
 /* pre highlight fence */
@@ -335,6 +378,10 @@ img,
 
 /* toc */
 
+.toc a {
+  text-decoration: none;
+}
+
 .toc .toc-content {
     padding-left: var(--page-margin);
   }
@@ -358,6 +405,12 @@ img,
   margin-bottom: 3px;
   font-size: 1rem;
   margin-left: 1.5rem;
+}
+
+/* pagination */
+
+.pagination a {
+  text-decoration: none;
 }
 
 /* taxonomy */
