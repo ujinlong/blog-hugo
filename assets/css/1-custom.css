@@ -262,7 +262,7 @@ blockquote {
 }
 
 blockquote,
-blockquote *:not(a) {
+blockquote *:not(a):not(code) {
   color: var(--black);
 }
 
