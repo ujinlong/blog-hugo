@@ -9,6 +9,7 @@
   --white: #FFF;
   --page-margin: 35px;
   --theme-color-1: #037BBA;
+  text-underline-position: under;
 }
 
 @media screen and (max-width:1020px) {
@@ -47,7 +48,6 @@ time {
 a {
   text-decoration: underline;
   text-decoration-color: var(--light-gray);
-  text-underline-position: under;
   text-decoration-thickness: 2px;
 }
 
@@ -151,9 +151,16 @@ a:hover {
   margin-top: calc(10px + 1em);
 }
 
-b, strong {
+.post-body b,
+.post-body strong {
   text-decoration: underline;
-  color: #111;
+  color: #333;
+}
+
+.post-body del,
+body.night .post-body del,
+body.night .post-body p del {
+  color: var(--dark-gray);
 }
 
 .post-body hr {
