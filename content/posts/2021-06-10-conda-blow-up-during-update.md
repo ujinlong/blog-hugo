@@ -856,7 +856,9 @@ What a handy function, maybe someone has experienced precisely what I did and in
 
 {{</fold>}}
 
-So in theory, I will then just have to do `$ conda install --revision 37` to revert to the previous working version of conda. Good to know.
+So in theory, I will then just have to do `$ conda install --revision=37` to revert to the previous working version of conda. Good to know.
+
+Doc: [Restoring an environment - Managing environments — conda 4.10.1.post26+e14d58909 documentation](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#restoring-an-environment)
 
 ## Closing thoughts
 
