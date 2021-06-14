@@ -55,6 +55,38 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+a:visited {
+  text-decoration-color: inherit;
+}
+
+@media screen and (max-width:1020px) {
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--light-gray);
+    text-decoration-thickness: 2px;
+  }
+
+  a:hover {
+    text-decoration: underline !important;
+    text-decoration-color: inherit;
+    text-decoration-thickness: 2px !important;
+  }
+
+  a:visited {
+    text-decoration-color: inherit;
+  }
+}
+
+/* page */
+
+/* mobile */
+.single-column-header-container a,
+.single-column-header-container a:visited,
+.single-column-nav-container .navbar-brand a,
+.single-column-nav-container .navbar-brand a:visited{
+  text-decoration: none !important;
+}
+
 /* post title */
 
 .stream-container .post .post-head-wrapper-text-only {
