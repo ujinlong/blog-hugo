@@ -3,7 +3,7 @@ author: loikein
 title: 折腾火狐浏览器（外观篇）
 published: "2021-05-15T21:49:56+0200"
 categories:
-- 应用程序
+- 折腾
 tags:
 - 浏览器
 - Firefox

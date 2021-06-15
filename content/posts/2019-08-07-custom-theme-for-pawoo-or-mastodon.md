@@ -4,10 +4,10 @@ published: "2019-08-07T15:56:00+02:00"
 lastmod: "2020-05-25T10:34:25.905+02:00"
 slug: 2019-08-07-custom-theme-for-pawoo-or-mastodon
 categories:
-- 笔记
+    - 折腾
 tags:
-- 网页制作
-- Mastodon
+    - 网页制作
+    - Mastodon
 title: Pawoo（Mastodon）浅色主题
 ---
 更新：  

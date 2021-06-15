@@ -4,7 +4,7 @@ published: "2020-01-05T15:30:00+01:00"
 lastmod: "2020-03-25T19:34:06.435+01:00"
 slug: 2020-01-05-mac-restore-list
 categories:
-- 应用程序
+- 笔记
 tags:
 - macOS
 title: Mac 重装清单

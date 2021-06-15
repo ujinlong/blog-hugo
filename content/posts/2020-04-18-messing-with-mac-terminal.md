@@ -4,10 +4,10 @@ published: "2020-04-18T16:19:00+02:00"
 lastmod: "2021-05-12T00:25:05+0200"
 slug: 2020-04-18-messing-with-mac-terminal
 categories:
-- 应用程序
+    - 折腾
 tags:
-- macOS
-- Terminal
+    - macOS
+    - Terminal
 title: 折腾 Mac：「我想要一个跟 RStudio 一样的 terminal」
 ---
 2021-05-12 更新：后来我换了 Alacritty \+ tmux 来替代 iTerm，用 Antigen 来替代 OMZ，但是因为懒还没写总结。（靠

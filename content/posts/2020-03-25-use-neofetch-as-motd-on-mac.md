@@ -4,10 +4,10 @@ published: "2020-03-25T19:33:00+01:00"
 lastmod: "2021-05-12T00:31:39+0200"
 slug: 2020-03-25-use-neofetch-as-motd-on-mac
 categories:
-- 笔记
+    - 折腾
 tags:
-- macOS
-- Terminal
+    - macOS
+    - Terminal
 title: macOS + zsh 上使用 Neofetch 作为欢迎语（MotD）
 ---
 2021-05-12 更新：最近换了 [Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)，其实基本差不多，就不另外写了吧。

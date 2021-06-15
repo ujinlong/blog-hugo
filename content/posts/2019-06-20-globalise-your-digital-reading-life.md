@@ -4,7 +4,7 @@ published: "2019-06-20T17:31:00+02:00"
 lastmod: "2021-04-15 17:42:14.488 +0200"
 slug: 2019-06-20-globalise-your-digital-reading-life
 categories:
-- 应用程序
+- 购物
 tags:
 - Applications
 - 读书

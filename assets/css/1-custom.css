@@ -9,6 +9,7 @@
   --white: #FFF;
   --page-margin: 35px;
   --theme-color-1: #037BBA;
+  --mark: rgb(255,212,0,10%);
   text-underline-position: under;
 }
 
@@ -185,8 +186,13 @@ a:visited {
 
 .post-body b,
 .post-body strong {
+/*   font-weight: normal;
   text-decoration: underline;
-  color: #333;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--dark-gray); */
+/*   text-decoration: underline wavy 1.3px var(--light-gray);
+  text-underline-position: auto; */
+  background-color: var(--mark);
 }
 
 .post-body del,
@@ -227,11 +233,12 @@ body.night .post-body p del {
   transform: rotate(180deg);
 }
 
-.mark, mark {
-  background-color: rgb(255,212,0,7%);
+.post-body .mark,
+.post-body mark {
+  background-color: var(--mark);
 }
 
-code {
+.post-body code {
   padding-top: .2rem;
   padding-bottom: .2rem;
 }
@@ -444,6 +451,10 @@ img,
   margin-bottom: 3px;
   font-size: 1rem;
   margin-left: 1.5rem;
+}
+
+.post-item-wrapper:not(.post-item-wrapper-no-hover):hover .post-item-title {
+  text-decoration-thickness: 2px !important;
 }
 
 /* pagination */

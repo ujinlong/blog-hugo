@@ -4,7 +4,7 @@ published: "2019-07-13T10:48:00+02:00"
 lastmod: "2021-04-25 19:32:52.610 +0200"
 slug: 2019-07-13-sync-mastodon-and-sns-with-ifttt
 categories:
-- 应用程序
+- 笔记
 tags:
 - Mastodon
 - IFTTT

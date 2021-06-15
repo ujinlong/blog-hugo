@@ -4,12 +4,12 @@ published: "2020-03-09T18:51:00+01:00"
 lastmod: "2021-04-25 23:03:08.981 +0200"
 slug: 2020-03-09-sync-mastodon-and-sns-again
 categories:
-- 应用程序
+    - 笔记
 tags:
-- Mastodon
-- RSS
-- IFTTT
-- Zapier
+    - Mastodon
+    - RSS
+    - IFTTT
+    - Zapier
 title: 再谈同步社交网站至 Mastodon（微博，RSS，原生图片）
 ---
 2020-03-10 更新：发现链接贴错了，已经更正……  

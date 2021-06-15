@@ -4,7 +4,7 @@ published: "2020-05-18T11:53:00+02:00"
 lastmod: "2020-05-24T22:29:00.577+02:00"
 slug: 2020-05-18-invitation-to-podcast
 categories:
-- 应用程序
+- 折腾
 tags:
 - 播客
 - iOS

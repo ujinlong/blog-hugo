@@ -4,7 +4,7 @@ published: "2020-05-21T21:28:00+02:00"
 lastmod: "2020-06-07T10:00:30.293+02:00"
 slug: 2020-05-21-digital-zettelkasten-101
 categories:
-- 应用程序
+- 折腾
 tags:
 - iOS
 - macOS

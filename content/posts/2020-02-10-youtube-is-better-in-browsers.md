@@ -4,7 +4,6 @@ published: "2020-02-10T18:36:00+01:00"
 slug: 2020-02-10-youtube-is-better-in-browsers
 categories:
 - 随笔
-- 应用程序
 title: YouTube 的网页版更好用
 ---
 [这篇文章](https://blog.yitianshijie.net/2018/01/24/detoxing-facebook-and-wechat/)的读后感，主要是微信 rant。  

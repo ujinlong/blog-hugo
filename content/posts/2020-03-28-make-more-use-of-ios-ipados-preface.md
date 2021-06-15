@@ -3,7 +3,7 @@ author: loikein
 published: "2020-03-28T15:24:00+01:00"
 slug: 2020-03-28-make-more-use-of-ios-ipados-preface
 categories:
-- 应用程序
+- 折腾
 tags:
 - iOS
 title: 让妳的 iOS／iPadOS 更好用：前言，目录
