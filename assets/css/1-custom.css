@@ -58,7 +58,6 @@ a:hover {
 
 a:visited {
   color: var(--dark-gray);
-  text-decoration-color: var(--light-gray) !important;
 }
 
 @media screen and (max-width:1020px) {
