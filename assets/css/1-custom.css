@@ -57,7 +57,8 @@ a:hover {
 }
 
 a:visited {
-  text-decoration-color: inherit;
+  color: var(--dark-gray);
+  text-decoration-color: var(--light-gray) !important;
 }
 
 @media screen and (max-width:1020px) {
@@ -83,8 +84,8 @@ a:visited {
 /* mobile */
 .single-column-header-container a,
 .single-column-header-container a:visited,
-.single-column-nav-container .navbar-brand a,
-.single-column-nav-container .navbar-brand a:visited{
+a.navbar-brand, 
+a.navbar-brand:visited {
   text-decoration: none !important;
 }
 
