@@ -53,6 +53,8 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
   text-decoration-thickness: 2px;
 }
 
@@ -61,31 +63,16 @@ a:visited {
 }
 
 @media screen and (max-width:1020px) {
-  a {
-    text-decoration: underline;
-    text-decoration-color: var(--light-gray);
-    text-decoration-thickness: 2px;
-  }
-
   a:hover {
     text-decoration: underline !important;
-    text-decoration-color: inherit;
-    text-decoration-thickness: 2px !important;
   }
 
-  a:visited {
-    text-decoration-color: inherit;
+  .single-column-header-container a,
+  .single-column-header-container a:visited,
+  a.navbar-brand, 
+  a.navbar-brand:visited {
+    text-decoration: none !important;
   }
-}
-
-/* page */
-
-/* mobile */
-.single-column-header-container a,
-.single-column-header-container a:visited,
-a.navbar-brand, 
-a.navbar-brand:visited {
-  text-decoration: none !important;
 }
 
 /* post title */
