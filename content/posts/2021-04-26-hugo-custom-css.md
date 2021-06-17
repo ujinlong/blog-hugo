@@ -69,7 +69,7 @@ static/
 首先点醒我的是这个 issue：
 [Minification example not working · Issue #6646 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/6646)。其中提到，Hugo 的 CSS 和 JS 文档（resources，哈）应该放在 `assets/` 而不是 `static/` 下面。
 
-{{< sticker name="question.jpg" h=120 animated="false" >}}
+{{< sticker name="question.png" h=120 animated="false" >}}
 
 <!-- 
 ```html
