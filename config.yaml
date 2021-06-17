@@ -50,6 +50,7 @@ params:
 taxonomies:
   tag: tags
   category: categories
+  series: series
 
 menu:
   main:

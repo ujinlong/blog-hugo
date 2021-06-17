@@ -3,6 +3,8 @@ author: loikein
 published: "2021-04-13T19:48:00+02:00"
 lastmod: "2021-06-07T03:35:21+0200"
 slug: 2021-04-13-quantum-love
+series: 
+    - "My twisted view on human relations"
 categories:
 - 随笔
 tags:
@@ -10,11 +12,7 @@ tags:
 title: 量子之爱
 description: "对人类关系的扭曲理解之二。求求了您能一口气写完吗。"
 ---
-前文 1：[どこにも行けない人たち](/posts/2020-12-12-i-am-not-going-anywhere/)
-
-前文 2：[稍微正常一点的近况报告，以及对生命和人类关系的扭曲理解](/posts/2020-12-28-how-things-have-been-but-less-pessimistic/)
-
-已经是第三篇了呢，怎么还一篇比一篇长。人生连续剧？
+怎么还一篇比一篇长。人生连续剧？
 
 ***
 

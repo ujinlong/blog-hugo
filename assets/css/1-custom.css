@@ -43,7 +43,6 @@ body.night {
 
 time {
   font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
-  letter-spacing: -1px;
 }
 
 a {
@@ -243,7 +242,8 @@ body.night .post-body p del {
 }
 
 .post-body > ul > li,
-.post-body > ol > li {
+.post-body > ol > li,
+.post-series * {
   margin-bottom: 0.5rem;
 }
 
@@ -275,6 +275,11 @@ body.night .post-body .table-hover tbody tr:hover {
   margin-left: calc(-1 * var(--page-margin));
   margin-right: calc(-1 * var(--page-margin));
 } */
+
+code * {
+  /* fix bold colour */
+  color: inherit;
+}
 
 /* blockquote */
 
@@ -483,7 +488,6 @@ body.night h2.archive--year {
   width: var(--archive-indent);
   padding-left: calc(var(--archive-indent) + 1rem);
   font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
-  letter-spacing: -1px;
 }
 
 .post-item-summary {
