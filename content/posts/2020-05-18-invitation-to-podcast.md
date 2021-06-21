@@ -1,7 +1,7 @@
 ---
 author: loikein
 published: "2020-05-18T11:53:00+02:00"
-lastmod: "2020-05-24T22:29:00.577+02:00"
+lastmod: "2021-06-20T15:18:13+0200"
 slug: 2020-05-18-invitation-to-podcast
 categories:
 - 折腾
@@ -112,6 +112,7 @@ Prompt](https://www.relay.fm/prompt)）：🟣 老爹和俩儿子（不是）聊
 的搞笑对谈
 
     +   Grey 的声线是美式口音里我能接受的最低音，有时候甚至需要忍忍。
+    +   比较容易的起点：官方动画系列 [Cortex Animated - YouTube](https://www.youtube.com/playlist?list=PLQ71hYrPwym_fuFZo9WniY_diFm1dM08b)
 
 - [Simple Beep](http://simplebeep.com/)
 
