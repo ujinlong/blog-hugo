@@ -4,7 +4,7 @@ published: "2019-12-26T16:09:00+01:00"
 lastmod: "2020-01-03T13:24:57.793+01:00"
 slug: 2019-12-26-how-to-remove-anysearch
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 - 浏览器

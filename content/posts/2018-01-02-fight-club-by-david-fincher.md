@@ -3,7 +3,7 @@ author: loikein
 published: "2018-01-02T10:08:00+01:00"
 slug: 2018-01-02-fight-club-by-david-fincher
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 杉下先生说过：大卫・芬奇《搏击俱乐部》

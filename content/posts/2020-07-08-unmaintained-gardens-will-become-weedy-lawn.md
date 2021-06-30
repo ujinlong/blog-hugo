@@ -3,7 +3,7 @@ author: loikein
 published: "2020-07-08T19:13:00+02:00"
 slug: 2020-07-08-unmaintained-gardens-will-become-weedy-lawn
 categories:
-- 笔记
+- 用户笔记
 tags:
 - Zettelkasten
 title: 不勤耕耘的花园会变成杂草地

@@ -4,7 +4,7 @@ published: "2021-04-26 22:25:05.631 +0200"
 lastmod: "2021-05-10T20:15:13+0200"
 slug: 2021-04-26-hugo-custom-css-the-right-way
 categories:
-- 笔记
+- 编程笔记
 tags:
 - Hugo
 title: 如何在 Hugo 中添加自定义 CSS

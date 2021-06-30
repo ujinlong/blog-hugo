@@ -3,7 +3,7 @@ author: loikein
 published: "2020-05-02T05:26:00+02:00"
 slug: 2020-05-02-lord-of-the-mysteries-by-cuttlefish-that-loves-diving
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 值得守护之物：爱潜水的乌贼《诡秘之主》

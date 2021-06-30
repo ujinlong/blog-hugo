@@ -4,7 +4,7 @@ published: "2018-09-22T17:03:00+02:00"
 lastmod: "2021-04-24 22:53:27.317 +0200"
 slug: 2018-09-22-syntax-highlighting-in-blogger
 categories:
-- 笔记
+- 用户笔记
 tags:
 - Blogger
 title: 博文代码高亮及针对 Blogger 的显示优化

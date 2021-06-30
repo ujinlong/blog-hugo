@@ -4,7 +4,7 @@ published: "2018-09-20T13:34:00+02:00"
 lastmod: "2021-04-24 21:34:05.155 +0200"
 slug: 2018-09-20-new-instagram-widget
 categories:
-- 笔记
+- 用户笔记
 tags:
 - Blogger
 title: 更新了 Instagram widget

@@ -4,7 +4,7 @@ published: "2020-05-24T15:52:00+02:00"
 lastmod: "2021-04-14 19:33:55.040 +0200"
 slug: 2020-05-24-git-error-refusing-to-allow-an-oauth-app-to-create-or-update-workflow
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 - Git

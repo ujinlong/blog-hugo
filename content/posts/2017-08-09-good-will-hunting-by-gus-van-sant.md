@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-09T14:35:00+02:00"
 slug: 2017-08-09-good-will-hunting-by-gus-van-sant
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: '"Don''t shrink a shrink"：格斯·范·桑特《心灵捕手》'

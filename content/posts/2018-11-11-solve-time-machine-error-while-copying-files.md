@@ -3,7 +3,7 @@ author: loikein
 published: "2018-11-11T09:27:00+01:00"
 slug: 2018-11-11-solve-time-machine-error-while-copying-files
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 title: 血书：Time Machine 拷贝文件时出错的解决法

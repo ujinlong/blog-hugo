@@ -4,7 +4,7 @@ published: "2020-04-15T19:52:00+02:00"
 lastmod: "2020-04-15T22:35:53.566+02:00"
 slug: 2020-04-15-custom-domain-pitfalls-blogger-github
 categories:
-- 笔记
+- 编程笔记
 tags:
 - Blogger
 - 网页制作

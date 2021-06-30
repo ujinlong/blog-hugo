@@ -3,7 +3,7 @@ author: loikein
 published: "2018-03-08T12:13:00+01:00"
 slug: 2018-03-08-the-shape-of-water-by-guillermo-del-toro
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 你是一支让我想起舞的歌：吉尔莫・德尔・托罗《水形物语》

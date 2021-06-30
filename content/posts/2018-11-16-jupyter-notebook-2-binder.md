@@ -3,7 +3,7 @@ author: loikein
 published: "2018-11-16T23:33:00+01:00"
 slug: 2018-11-16-jupyter-notebook-2-binder
 categories:
-- 笔记
+- 用户笔记
 tags:
 - R
 title: Jupyter 自救日记（2）云端运行 Jupyter Notebook / Lab (R kernel) / RStudio： Binder & GitHub

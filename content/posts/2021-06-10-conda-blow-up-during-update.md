@@ -5,7 +5,7 @@ description: "The whole package."
 published: "2021-06-10T21:42:58+0200"
 # lastmod: ""
 categories:
-    - 笔记
+    - 用户笔记
 tags:
     - Python
 ---

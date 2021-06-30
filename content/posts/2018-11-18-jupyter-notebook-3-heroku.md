@@ -3,7 +3,7 @@ author: loikein
 published: "2018-11-18T17:00:00+01:00"
 slug: 2018-11-18-jupyter-notebook-3-heroku
 categories:
-- 笔记
+- 用户笔记
 tags:
 - R
 - Python

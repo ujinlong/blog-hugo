@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-06T18:05:00+02:00"
 slug: 2017-08-06-the-stranger-by-albert-camus
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 「我没有权利对人表示友情」：加缪《局外人》

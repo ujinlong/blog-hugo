@@ -4,7 +4,7 @@ title: "在 Hugo 中管理草稿的一点心得"
 published: "2021-05-11T14:53:44+02:00"
 lastmod: "2021-05-23T17:20:32+0200"
 categories:
-    - 笔记
+    - 编程笔记
 tags:
     - Hugo
 ---

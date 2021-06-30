@@ -4,7 +4,7 @@ published: "2020-03-02T18:52:00+01:00"
 lastmod: "2020-05-29T17:01:28.900+02:00"
 slug: 2020-03-02-matplotlib-and-seaborn-tricks
 categories:
-- 笔记
+- 编程笔记
 tags:
 - Python
 title: Matplotlib & seaborn tricks

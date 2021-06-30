@@ -4,7 +4,7 @@ published: "2020-02-15T19:47:00+01:00"
 lastmod: "2020-02-19T13:14:55.495+01:00"
 slug: 2020-02-15-bookdown-and-rmarkdown-vs-me
 categories:
-- 笔记
+- 用户笔记
 tags:
 - Rmarkdown
 title: Bookdown/Rmarkdown vs. me

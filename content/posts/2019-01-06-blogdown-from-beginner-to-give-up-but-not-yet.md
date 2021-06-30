@@ -3,7 +3,7 @@ author: loikein
 published: "2019-01-06T12:19:00+01:00"
 slug: 2019-01-06-blogdown-from-beginner-to-give-up-but-not-yet
 categories:
-- 笔记
+- 用户笔记
 tags:
 - 网页制作
 - Rmarkdown

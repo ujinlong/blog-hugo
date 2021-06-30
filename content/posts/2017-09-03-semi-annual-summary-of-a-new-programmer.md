@@ -3,7 +3,7 @@ author: loikein
 published: "2017-09-03T14:30:00+02:00"
 slug: 2017-09-03-semi-annual-summary-of-a-new-programmer
 categories:
-- 笔记
+- 编程笔记
 title: 大龄新米程序媛的半年总结
 ---
 首发于[LOFTER](http://tukida.lofter.com/post/1d0e1ab8_11112807)  

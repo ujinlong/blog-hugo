@@ -5,7 +5,7 @@ lastmod: "2020-05-25T10:31:51.227+02:00"
 lastmod: "2021-04-25 15:57:03.748 +0200"
 slug: 2018-12-19-on-custom-css-for-blogger
 categories:
-- 笔记
+- 编程笔记
 tags:
 - 网页制作
 - Blogger

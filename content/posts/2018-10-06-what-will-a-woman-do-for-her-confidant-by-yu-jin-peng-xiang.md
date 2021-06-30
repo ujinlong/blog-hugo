@@ -3,7 +3,7 @@ author: loikein
 published: "2018-10-06T16:42:00+02:00"
 slug: 2018-10-06-what-will-a-woman-do-for-her-confidant-by-yu-jin-peng-xiang
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 人生的幸与不幸：御井烹香《女为悦己者》

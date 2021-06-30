@@ -3,7 +3,7 @@ author: loikein
 published: "2018-10-01T16:49:00+02:00"
 slug: 2018-10-01-new-tab-notepad
 categories:
-- 笔记
+- 编程笔记
 tags:
 - 网页制作
 title: 浏览器中的新标签页笔记本

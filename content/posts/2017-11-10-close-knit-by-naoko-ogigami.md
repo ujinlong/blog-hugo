@@ -3,7 +3,7 @@ author: loikein
 published: "2017-11-10T16:19:00+01:00"
 slug: 2017-11-10-close-knit-by-naoko-ogigami
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 当我谈论爱时我在谈论什么：荻上直子《人生密密缝》

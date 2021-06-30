@@ -3,7 +3,7 @@ title: "在 Hugo 里显示系列文章"
 date: "2021-05-28T16:42:58+02:00"
 lastmod: "2021-06-17T17:27:15+0200"
 categories: 
-    - 笔记
+    - 编程笔记
 tags:
     - Hugo
 ---

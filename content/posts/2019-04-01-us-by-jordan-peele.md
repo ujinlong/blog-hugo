@@ -3,7 +3,7 @@ author: loikein
 published: "2019-04-01T11:00:00+02:00"
 slug: 2019-04-01-us-by-jordan-peele
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 - Review

@@ -4,7 +4,7 @@ published: "2018-11-28T08:40:00+01:00"
 lastmod: "2021-05-08T17:41:37+0200"
 slug: 2018-11-28-card-links
 categories:
-- 笔记
+- 编程笔记
 tags:
 - 网页制作
 - Blogger

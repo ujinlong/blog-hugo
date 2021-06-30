@@ -3,7 +3,7 @@ author: loikein
 published: "2018-01-02T10:07:00+01:00"
 slug: 2018-01-02-detective-yugami-by-hiroshi-nishitani
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 信念什么的，玩笑的话：西谷弘《刑警弓神》

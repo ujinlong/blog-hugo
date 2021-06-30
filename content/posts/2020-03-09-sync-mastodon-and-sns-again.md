@@ -4,7 +4,7 @@ published: "2020-03-09T18:51:00+01:00"
 lastmod: "2021-04-25 23:03:08.981 +0200"
 slug: 2020-03-09-sync-mastodon-and-sns-again
 categories:
-    - 笔记
+    - 编程笔记
 tags:
     - Mastodon
     - RSS

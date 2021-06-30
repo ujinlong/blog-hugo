@@ -3,7 +3,7 @@ author: loikein
 published: "2018-11-15T14:55:00+01:00"
 slug: 2018-11-15-jupyter-notebook-1-installation-config
 categories:
-- 笔记
+- 用户笔记
 tags:
 - R
 title: Jupyter 自救日记（1）下载，配置 R，配置 R embed in Python，杂七杂八

@@ -4,7 +4,7 @@ published: "2018-07-02T11:06:00+02:00"
 lastmod: "2021-04-24 21:25:03.155 +0200"
 slug: 2018-07-02-our-little-sister-by-hirokazu-koreeda
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 琐碎的悲伤和快乐：是枝裕和《海街日记》

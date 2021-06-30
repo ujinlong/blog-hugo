@@ -3,7 +3,7 @@ author: loikein
 published: "2018-09-18T18:03:00+02:00"
 slug: 2018-09-18-me-vs-tables-in-ulysses
 categories:
-- 笔记
+- 用户笔记
 tags:
 - iOS
 - macOS

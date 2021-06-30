@@ -4,7 +4,7 @@ published: "2021-02-22T12:59:00+01:00"
 lastmod: "2021-05-01 01:52:03.316 +0200"
 slug: 2021-02-22-shimeji-for-macos
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 title: Shimeji（桌宠） for macOS

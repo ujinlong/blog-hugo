@@ -4,7 +4,7 @@ published: "2018-11-20T22:38:00+01:00"
 lastmod: "2021-04-25 14:14:13.721 +0200"
 slug: 2018-11-20-on-archive-page-for-blogger
 categories:
-- 笔记
+- 编程笔记
 tags:
 - 网页制作
 - Blogger

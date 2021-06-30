@@ -3,7 +3,7 @@ author: loikein
 published: "2018-11-25T20:02:00+01:00"
 slug: 2018-11-25-jupyter-notebook-4-jupytext-conclusion
 categories:
-- 笔记
+- 用户笔记
 tags:
 - R
 - Rmarkdown

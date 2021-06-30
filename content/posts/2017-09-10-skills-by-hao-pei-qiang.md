@@ -3,7 +3,7 @@ author: loikein
 published: "2017-09-10T15:14:00+02:00"
 slug: 2017-09-10-skills-by-hao-pei-qiang
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 平淡日常里的一针鸡血：郝培强《技巧》

@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-07T14:48:00+02:00"
 slug: 2017-08-07-gloomy-sunday-by-rolf-schubel
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 我对叫 László 的人有偏爱：诺夫·舒贝尔《布达佩斯之恋》

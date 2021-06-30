@@ -4,7 +4,7 @@ published: "2019-03-12T01:11:00+01:00"
 lastmod: "2021-04-25 18:45:48.604 +0200"
 slug: 2019-03-12-green-book-by-peter-farrelly
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 以什么对抗什么，暨，个人认同与集体认同：彼得・法雷里《绿皮书》

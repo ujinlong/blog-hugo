@@ -3,7 +3,7 @@ author: loikein
 published: "2018-01-02T10:09:00+01:00"
 slug: 2018-01-02-loving-vincent-by-dorota-kobiela-and-hugh-welchman
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 「你想查清他的死亡，却不曾了解他的生活」：多洛塔・科别拉《至爱梵高》

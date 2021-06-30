@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-06T18:07:00+02:00"
 slug: 2017-08-06-of-love-and-other-demons-by-gabriel-garcia-marquez
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 仿佛过于突如其来：加西亚·马尔克斯《爱情和其他魔鬼》

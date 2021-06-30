@@ -4,7 +4,7 @@ published: "2019-11-10T15:12:00+01:00"
 lastmod: "2020-03-08T19:36:49.144+01:00"
 slug: 2019-11-10-macbook-gets-warm-overnight-while-connected-to-power
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 title: 'MacBook gets very warm overnight while closed & connected

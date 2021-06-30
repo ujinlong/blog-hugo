@@ -3,7 +3,7 @@ author: loikein
 published: "2018-03-08T01:45:00+01:00"
 slug: 2018-03-08-a-fantastic-woman-by-sebastian-lelio
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 生活是逆风行走：塞巴斯蒂安・莱里奥《普通女人》

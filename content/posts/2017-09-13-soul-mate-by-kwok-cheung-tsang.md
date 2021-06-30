@@ -3,7 +3,7 @@ author: loikein
 published: "2017-09-13T12:29:00+02:00"
 slug: 2017-09-13-soul-mate-by-kwok-cheung-tsang
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 七月是你的谎言： 曾国祥《七月与安生》

@@ -3,7 +3,7 @@ author: loikein
 published: "2017-11-17T18:37:00+01:00"
 slug: 2017-11-17-quartet-by-yuji-sakamoto
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 成人童话：坂元裕二《四重奏》

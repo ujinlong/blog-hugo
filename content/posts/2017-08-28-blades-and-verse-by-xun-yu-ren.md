@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-28T17:25:00+02:00"
 slug: 2017-08-28-blades-and-verse-by-xun-yu-ren
 categories:
-- 感想文
+- 书影音
 tags:
 - 读书
 title: 与我有关，与我无关：荀予刃《刀锋与诗行》

@@ -4,7 +4,7 @@ published: "2020-10-27T00:32:00+01:00"
 lastmod: "2021-05-24T05:22:24+0200"
 slug: 2020-10-27-tried-to-work-with-ipados-14
 categories:
-    - 笔记
+    - 用户笔记
 tags:
     - iOS
 title: iPadOS 14 办公记录，以及一点关于 what's a real computer 的感想

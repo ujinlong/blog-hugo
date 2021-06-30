@@ -3,7 +3,7 @@ author: loikein
 published: "2017-08-07T07:39:00+02:00"
 slug: 2017-08-07-rhinoceros-in-love-by-liao-yimei-and-meng-jinghui
 categories:
-- 感想文
+- 书影音
 tags:
 - 电影
 title: 缺点：渺小：廖一梅 & 孟京辉《恋爱的犀牛》

@@ -3,9 +3,8 @@ author: loikein
 published: "2017-06-27T15:54:00+02:00"
 slug: 2017-06-27-notes-on-schelling-1971-clark-1991
 categories:
-- 笔记
+- 学术笔记
 tags:
-- 经济
 - Academic
 title: 'Parable of the Polygons: notes on Schelling (1971) & Clark (1991)'
 ---

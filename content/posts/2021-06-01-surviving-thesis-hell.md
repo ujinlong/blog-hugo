@@ -3,10 +3,7 @@ author: loikein
 title: "如何脱出（英文）论文地狱"
 published: "2021-06-02T16:42:29+0200"
 categories:
-    - 笔记
-tags:
-    - 学术
-    # - academic
+    - 学术笔记
 ---
 鉴于在可以预见的未来我至少还要写一到两篇大论文……
 

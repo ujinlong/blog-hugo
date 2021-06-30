@@ -3,7 +3,7 @@ author: loikein
 published: "2019-12-16T12:08:00+01:00"
 slug: 2019-12-16-solve-searching-problems-of-mac-finder
 categories:
-- 笔记
+- 用户笔记
 tags:
 - macOS
 title: 血书：Mac Finder 搜索不出东西的解决方法（Spotlight，Alfred，…的问题都可能相关）

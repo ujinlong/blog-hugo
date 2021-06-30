@@ -3,7 +3,7 @@ author: loikein
 published: "2020-01-09T11:30:00+01:00"
 slug: 2020-01-09-download-your-apple-data
 categories:
-- 笔记
+- 用户笔记
 title: 苹果个人数据下载（2020.01）
 ---
 蛮好玩的东西， 应该在欧洲以外也可以吧。  
