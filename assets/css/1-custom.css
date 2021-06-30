@@ -207,18 +207,6 @@ body.night .post-body p del {
   font-size: var(--hr-height);
 }
 
-.post-body blockquote hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.post-body blockquote hr::after {
-  display: inline-block;
-  content: "\27BF";
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-}
-
 .post-body .mark,
 .post-body mark {
   background-color: var(--mark);
@@ -283,7 +271,19 @@ code * {
 
 /* blockquote */
 
-blockquote {
+.post-body blockquote hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-body blockquote hr::after {
+  display: inline-block;
+  content: "\27BF";
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.post-body blockquote {
   padding: 1rem calc(var(--page-margin) + 3px + 3vw);
   /* border-left: 5px solid rgba(3,123,186,.3); */
   /* border-left: 5px solid rgba(65,180,241,.3); */
@@ -292,8 +292,8 @@ blockquote {
   margin-right: calc(-1 * var(--page-margin));
 }
 
-blockquote,
-blockquote *:not(a):not(code) {
+.post-body blockquote,
+.post-body blockquote *:not(a):not(code) {
   color: var(--black);
 }
 
@@ -305,19 +305,28 @@ body.night blockquote a * {
   color: inherit !important;
 }
 
-blockquote p {
+.post-body blockquote p {
   margin-bottom: 1rem;
 }
 
-blockquote p:last-child,
-blockquote .row:last-child,
-blockquote ol:last-child,
-blockquote ul:last-child {
+.post-body blockquote p:last-child,
+.post-body blockquote .row:last-child,
+.post-body blockquote ol:last-child,
+.post-body blockquote ul:last-child {
   margin-bottom: 0;
 }
 
 .twitter-tweet p:last-of-type {
   margin-bottom: 1rem;
+}
+
+.fediverse-status-cw__label {
+    background-image: linear-gradient(135deg,
+        rgb(255,212,0,10%) 25%,
+        rgb(246, 240, 207,10%) 25%, rgb(246, 240, 207,10%) 50%,
+        rgb(255,212,0,10%) 50%, rgb(255,212,0,10%) 75%,
+        rgb(246, 240, 207,10%) 75%, rgb(246, 240, 207,10%) 100%);
+    background-size: 40px 40px;
 }
 
 .fediverse-status footer {
