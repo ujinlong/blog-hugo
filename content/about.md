@@ -68,7 +68,9 @@ If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/)
 - [在东京卖二手物品的懒人指南](/posts/2018-09-29-dummy-s-guide-to-selling-second-hand-in-tokyo/)
 
 
-## 友链／Links
+## 友链／Friends
+
+欢迎在任何平台与我有过三次以上友好互动的朋友添加友链，用妳喜欢的方式联系我即可。
 
 - 瓜瓜的博客：[Let Melon Ripe - Eggi's blog](https://captaineggi.github.io/)
 - 浅羽的博客：[櫻川家：：浅羽](https://asaba.sakuragawa.moe/)
