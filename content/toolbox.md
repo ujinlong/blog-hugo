@@ -120,7 +120,8 @@ _build:
 - [Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/) \- 偏怀旧效果的 CSS
 - [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#55b9f3) \- 新拟物主义按钮
 - [CSS text-stroke generator (text-shadow hack)](https://owumaro.github.io/text-stroke-generator/) \- 文字描边
-- [Box Shadows - Generate CSS Box Shadows](https://box-shadows.co/)\- 几个阴影模板
+- [Box Shadows - Generate CSS Box Shadows](https://box-shadows.co/) \- 几个阴影模板
+- [91 Beautiful CSS box-shadow examples - CSS Scan](https://getcssscan.com/css-box-shadow-examples) \- 更多阴影模板
 - [Make a smooth shadow, friend.](https://brumm.af/shadows) \- 非常复杂的阴影
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) \- 简单渐变
 - [Pure CSS Stripes Generator - No Flash, No Image, ONLY CSS](https://stripesgenerator.com/edit-sample/1) \- 条纹渐变
