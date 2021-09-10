@@ -7,7 +7,7 @@ categories:
     - 折腾
 tags:
     - macOS
-    - Terminal
+    - Shell
 title: 折腾 Mac：「我想要一个跟 RStudio 一样的 terminal」
 ---
 2021-05-12 更新：后来我换了 Alacritty \+ tmux 来替代 iTerm，用 Antigen 来替代 OMZ，但是因为懒还没写总结。（靠

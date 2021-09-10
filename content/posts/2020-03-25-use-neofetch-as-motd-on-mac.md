@@ -7,7 +7,7 @@ categories:
     - 折腾
 tags:
     - macOS
-    - Terminal
+    - Shell
 title: macOS + zsh 上使用 Neofetch 作为欢迎语（MotD）
 ---
 2021-05-12 更新：最近换了 [Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)，其实基本差不多，就不另外写了吧。

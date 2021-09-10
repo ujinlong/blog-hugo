@@ -346,6 +346,31 @@ body.night blockquote a * {
   color: inherit;
 }
 
+/* fediverse media */
+
+.fediverse-status__media {
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+  grid-template-rows: repeat( auto-fit, 200px );
+  grid-gap: 5px;
+  justify-items: center;
+
+}
+
+.fediverse-status__media a {
+  /* aspect-ratio: 16/9; */
+  max-height: 200px;
+  /* max-height: 200px; */
+  max-width: 355px;
+}
+
+.fediverse-status__media a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover !important;
+}
+
 /* animated sticker & video & audio */
 
 .post-body .sticker {
