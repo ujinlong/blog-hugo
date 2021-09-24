@@ -9,7 +9,7 @@ title: 睡不着博物馆 010：尬歌精选
 description: "本文长期征集新条目。（靠）"
 ---
 
-{{< sticker name="shocked.png" h=200 animated="false" >}}
+{{< sticker name="shocked.png" h="200" animated="false" >}}
 
 ## KISS KISS KISS by 小野大輔
 
