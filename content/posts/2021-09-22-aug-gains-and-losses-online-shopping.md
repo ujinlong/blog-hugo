@@ -4,7 +4,7 @@ date: "2021-09-22T20:09:48+02:00"
 # published: ""
 # lastmod: ""
 categories: ["购物", "用户笔记"]
-description: "本期主要内容：iPad 笔夹，MOFT Z，智商税 * N，鼠标"
+description: "本期主要内容：iPad 笔夹，MOFT Z，智商税，电脑内胆包"
 ---
 好久没写了，一个是懒，一个是其实也没买什么，虽然但是，汇总起来记一笔吧。
 
