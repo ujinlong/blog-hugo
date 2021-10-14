@@ -126,6 +126,7 @@ _build:
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) \- 简单渐变
 - [Pure CSS Stripes Generator - No Flash, No Image, ONLY CSS](https://stripesgenerator.com/edit-sample/1) \- 条纹渐变
 - [CSS Color Gradient Generator: beautiful gradients for free](https://mybrandnewlogo.com/color-gradient-generator) \- 非常复杂的圆形渐变
+- [URL-encoder for SVG](https://yoksel.github.io/url-encoder/) \- SVG for CSS
 
 
 ### CSS 设计
