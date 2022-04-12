@@ -1,5 +1,6 @@
 baseURL: "https://blog.loikein.one/"
 canonifyURLs: true
+# relativeURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
 languageCode: zh-Hans

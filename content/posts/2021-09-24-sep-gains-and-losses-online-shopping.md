@@ -16,7 +16,7 @@ description: "从未体验过的压倒性的舒适，从袜子买大一号开始
 
 之前一直用 [Belkin 的类似的一款](https://www.belkin.com/us/travel-stand-for-apple-watch/p/p-f8j218/)，放在床头柜上挺方便的，但有个不大不小很烦人的点，就是如果不小心把竖起来的充电头按了下去，要再竖起来就得把整个盘子提起来。还有虽然我买的二手没这个问题，但是真的很贵。
 
-这款我感觉挺完美的，而且充电头塞进去的时候也没有 Belkin 那样的，怎么说呢，感觉开模没开好的感觉。推荐。
+这款我感觉挺完美的，有个弹簧，而且充电头塞进去的时候也没有像 Belkin 那样，怎么说呢，感觉开模没开好的感觉。推荐。
 
 ## TEENLOVEME Men's Toe Socks Invisible Trainer Socks
 
