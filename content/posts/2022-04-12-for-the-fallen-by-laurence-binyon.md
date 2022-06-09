@@ -49,7 +49,7 @@ They were staunch to the end against odds uncounted;
 They fell with their faces to the foe.
 {{< /col >}}
 {{< col >}}
-她们歌唱着走进了战场，在年纪尚青的时候，  
+她们歌唱着走进了战场，年纪尚青，  
 躯体笔直，眼神真挚，闪着坚定的光。  
 她们坚守，战胜无数艰辛；  
 她们倒下，面朝一切敌人。
@@ -112,7 +112,7 @@ To the end, to the end, they remain.
 如群星一般耀眼，当我们终归尘土，  
 依然齐步迈于高天之上；  
 如群星一般闪烁，在黯淡的时空中，  
-直到最后，直到时间的尽头，她们还在那里。
+直到最后，直到时间的尽头，她们仍然屹立。
 {{< /col >}}
 {{< /row >}}
 

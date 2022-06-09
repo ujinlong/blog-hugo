@@ -75,6 +75,7 @@ body.night .post-body .row .column {
 .video-container{
     position: relative;
     height: 0;
+    margin-bottom: 1rem;
 }
 
 .video-container--4x3{ padding-bottom: 75%; }

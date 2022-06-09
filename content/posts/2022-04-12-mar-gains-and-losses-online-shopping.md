@@ -83,7 +83,7 @@ description: "本期主要内容：苹果产品配件，宿舍新居用品，之
 
 {{< figure name="2022-04-12-shopping-10-12.jpg" alt="elago AW5 Case for AirPods Pro" h="200px" >}}
 
-经历过一次 AirPods 盒子摔到地上立马废了的事件之后，我养成了劝诫所有用 AirPods 的朋友必须配备保护壳的习惯。这个壳的盖子部分用久了（一两年）会变得有点松，抱怨的人多了，现在开始附赠双面胶了。
+经历过一次 AirPods 盒子摔到地上立马废了的事件之后，我养成了劝诫所有用 AirPods 的朋友必须配备保护壳的习惯。这个壳的盖子部分用久了（一两年）会变得有点松；可能是抱怨的人多了，现在开始附赠双面胶了。
 
 ## 十一月
 
@@ -91,7 +91,7 @@ description: "本期主要内容：苹果产品配件，宿舍新居用品，之
 
 {{< figure name="2022-04-12-shopping-11-1.jpg" alt="MoKo Apple Pencil Tips Cover" h="200px" >}}
 
-可以完全削除写字时哒哒的声音，不过对于写字时笔压强的摩擦力可能太大了点，像我这种写字几乎是飘着的，写出来的粗细又不好控制。现在已经换到了[第三方笔尖](/drafts/2022-04-13-apr-gains-and-losses-online-shopping/#delidigi-tips-for-apple-pencil-1st--2nd-generation-2-pack)（下一篇，还没写完）了。
+可以完全削除写字时哒哒的声音，不过对于写字时笔压强的摩擦力可能太大了点，像我这种写字几乎是飘着的，写出来的粗细又不好控制。用了一阵子[第三方笔尖](/drafts/2022-04-13-apr-gains-and-losses-online-shopping/#delidigi-tips-for-apple-pencil-1st--2nd-generation-2-pack)，但是还是有哒哒的声音，最后又换回来了。
 
 ### ESR Case for iPad Mini 6th Gen
 
