@@ -3,7 +3,7 @@ title: "2022 年 4 月 ~ 5 月网络购物得与失"
 date: "2022-04-13T21:12:03+01:00"
 # published: ""
 # lastmod: ""
-categories: ["购物"]
+categories: ["购物", "用户笔记"]
 tags: []
 description: "本期内容：更多苹果配件，理发剪"
 ---
