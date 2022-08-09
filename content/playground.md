@@ -28,6 +28,19 @@ Hello world [test](#)
 {{< /col >}}
 {{< /row >}}
 
+<blockquote>
+{{< row >}}
+{{< col >}}
+你好世界
+{{< /col >}}
+{{< col >}}
+Hello world
+
+Hello world [test](#)
+{{< /col >}}
+{{< /row >}}
+</blockquote>
+
 ### Ruby
 
 {{< ruby "你好世界" "hello world" >}}　
