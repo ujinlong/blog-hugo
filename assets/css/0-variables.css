@@ -1,0 +1,62 @@
+/* Customisations to Hugo Diary by loikein */
+
+:root {
+  --hr-height: 1.5rem;
+  --archive-indent: 3.5rem;
+  --black: #111;
+  --dark-gray: #777;
+  --light-gray: #ccc;
+  --white: #FFF;
+  --page-margin: 35px;
+  --theme-color-1: #037BBA;
+  --mark: rgb(255,212,0,10%);
+  text-underline-position: under;
+}
+
+@media screen and (max-width:1020px) {
+  :root{
+    --page-margin: 20px;
+  }
+}
+
+body.night {
+  --black: #e6e6e6;
+  --dark-gray: #999;
+  --gray: #aaa;
+  --light-gray: #555;
+}
+
+@font-face {
+  font-display: swap;
+}
+
+:focus {
+  outline: medium auto currentColor;
+  outline: medium auto invert;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+::selection {
+  /* color: #fcfcfc; */
+  background: rgba(65, 180, 241, 0.3);
+}
+
+time {
+  font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
+}
+
+ul, ol {
+  list-style-position: outside;
+}
+
+/* @counter-style plaincode {
+  system: cyclic;
+  symbols: - + *;
+  suffix: " ";
+  fallback: disc;
+} */
+
+ul {
+  /* list-style-type: plaincode; */
+  list-style: circle;
+}

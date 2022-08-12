@@ -6,7 +6,9 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid var(--light-gray);
+/*   margin-left: calc(-1 * var(--page-margin));
+  margin-right: calc(-1 * var(--page-margin)); */
 }
 
 .link-card--body {
@@ -14,6 +16,7 @@
   align-items: flex-start;
   padding: 1rem;
   gap: 1rem;
+  /* padding: 1rem calc(var(--page-margin) + 3px + 3vw); */
 }
 
 .link-card--title {
@@ -33,6 +36,9 @@
 
 .link-card--footer {
   background-color: rgba(0,0,0,.05);
+  padding: 0.5rem;
+  padding-right: 1rem;
+  /* padding: 0.5rem calc(var(--page-margin) + 3px + 3vw); */
 }
 
 body.night .link-card--footer {
@@ -40,7 +46,7 @@ body.night .link-card--footer {
 }
 
 .link-card--attribution {
-  margin: 0.5rem;
-  margin-right: 1rem;
+  margin: 0;
+  /* margin-right: 1rem; */
   text-align: right;
 }

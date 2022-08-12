@@ -14,7 +14,7 @@ tags:
 
 {{<fold "Would you like conda to send this report to the core maintainers? Upload did not complete. Thank you for helping to improve conda.">}}
 
-```text
+```plaintext
   environment variables:
                  CIO_TEST=<not set>
           CONDA_BACKUP_AR=/opt/miniconda3/envs/econsa/bin/x86_64-apple-darwin13.4.0-ar

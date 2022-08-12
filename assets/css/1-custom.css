@@ -1,49 +1,4 @@
-/* Customisations to Hugo Diary by loikein */
-
-:root {
-  --hr-height: 1.5rem;
-  --archive-indent: 3.5rem;
-  --black: #111;
-  --dark-gray: #777;
-  --light-gray: #ccc;
-  --white: #FFF;
-  --page-margin: 35px;
-  --theme-color-1: #037BBA;
-  --mark: rgb(255,212,0,10%);
-  text-underline-position: under;
-}
-
-@media screen and (max-width:1020px) {
-  :root{
-    --page-margin: 20px;
-  }
-}
-
-@font-face {
-  font-display: swap;
-}
-
-body.night {
-  --black: #e6e6e6;
-  --dark-gray: #999;
-  --gray: #aaa;
-  --light-gray: #555;
-}
-
-:focus {
-  outline: medium auto currentColor;
-  outline: medium auto invert;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-::selection {
-  /* color: #fcfcfc; */
-  background: rgba(65, 180, 241, 0.3);
-}
-
-time {
-  font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
-}
+/* **************** general links **************** */
 
 a {
   text-decoration: underline;
@@ -68,13 +23,13 @@ a:visited {
 
   .single-column-header-container a,
   .single-column-header-container a:visited,
-  a.navbar-brand, 
+  a.navbar-brand,
   a.navbar-brand:visited {
     text-decoration: none !important;
   }
 }
 
-/* post title */
+/* **************** post title **************** */
 
 .stream-container .post .post-head-wrapper-text-only {
   padding: 30px var(--page-margin) 0;
@@ -156,7 +111,7 @@ a:visited {
   }
 }
 
-/* post body */
+/* **************** post body **************** */
 
 .stream-container .post .post-body-wrapper {
   padding: 31px var(--page-margin) 35px;
@@ -255,21 +210,7 @@ body.night .post-body .table-hover tbody tr:hover {
   background-color: rgba(255, 255, 255,.075);
 }
 
-/* pre highlight fence */
-
-/* .highlight pre {
-  border-radius: 0;
-  padding: 0.8rem calc(var(--page-margin) + 3px + 3vw);
-  margin-left: calc(-1 * var(--page-margin));
-  margin-right: calc(-1 * var(--page-margin));
-} */
-
-code * {
-  /* fix bold colour */
-  color: inherit;
-}
-
-/* blockquote */
+/* **************** blockquote **************** */
 
 .post-body blockquote hr {
   margin-top: 1rem;
@@ -316,88 +257,27 @@ body.night blockquote a * {
   margin-bottom: 0;
 }
 
-.twitter-tweet p:last-of-type {
-  margin-bottom: 1rem;
+
+/* **************** toc **************** */
+
+.toc a {
+  text-decoration: none;
 }
 
-.fediverse-status-cw__label {
-    background-image: linear-gradient(135deg,
-        rgb(255,212,0,10%) 25%,
-        rgb(246, 240, 207,10%) 25%, rgb(246, 240, 207,10%) 50%,
-        rgb(255,212,0,10%) 50%, rgb(255,212,0,10%) 75%,
-        rgb(246, 240, 207,10%) 75%, rgb(246, 240, 207,10%) 100%);
-    background-size: 40px 40px;
+.toc .toc-content {
+    padding-left: var(--page-margin);
+  }
+
+.toc .toc-content > ul {
+  padding: 0;
 }
 
-.fediverse-status footer {
-  margin-top: 1rem;
+.toc .toc-content > ul > ul {
+  padding: 0;
 }
 
-/* temporary solution to a pseudo-footer */
-.twitter-tweet { font-style: italic; }
-.twitter-tweet p { font-style: normal; }
 
-.fediverse-status span.invisible {
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-.fediverse-status a * {
-  color: inherit;
-}
-
-/* fediverse media */
-
-.fediverse-status__media {
-  margin: 1em auto;
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-  grid-template-rows: repeat( auto-fit, 200px );
-  grid-gap: 5px;
-  justify-items: center;
-
-}
-
-.fediverse-status__media a {
-  /* aspect-ratio: 16/9; */
-  max-height: 200px;
-  /* max-height: 200px; */
-  max-width: 355px;
-}
-
-.fediverse-status__media a img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover !important;
-}
-
-/* animated sticker & video & audio */
-
-.post-body .sticker {
-  border-radius: 0;
-}
-
-.post-body .sticker,
-.post-body .post-video {
-  display: block;
-  margin: auto;
-  margin-bottom: 1rem;
-  object-fit: contain;
-  max-width: 100%;
-}
-
-body.night .post-body .sticker,
-body.night .post-body .post-video {
-  opacity: .8;
-}
-
-.post-body audio {
-  width: 100%;
-  margin: auto;
-  margin-bottom: 1rem;
-}
-
-/* image */
+/* **************** image **************** */
 
 img,
 .post-body img,
@@ -448,25 +328,35 @@ img,
   max-height: 100%;
 }
 
-/* toc */
 
-.toc a {
-  text-decoration: none;
+/* **************** animated sticker & video & audio **************** */
+
+.post-body .sticker {
+  border-radius: 0;
 }
 
-.toc .toc-content {
-    padding-left: var(--page-margin);
-  }
-
-.toc .toc-content > ul {
-  padding: 0;
+.post-body .sticker,
+.post-body .post-video {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  object-fit: contain;
+  max-width: 100%;
 }
 
-.toc .toc-content > ul > ul {
-  padding: 0;
+body.night .post-body .sticker,
+body.night .post-body .post-video {
+  opacity: .8;
 }
 
-/* all list pages */
+.post-body audio {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+
+/* **************** list pages **************** */
 
 .post-item-meta {
   opacity: .6;
@@ -483,13 +373,13 @@ img,
   text-decoration-thickness: 2px !important;
 }
 
-/* pagination */
+/* **************** pagination **************** */
 
 .pagination a {
   text-decoration: none;
 }
 
-/* taxonomy */
+/* **************** taxonomy **************** */
 
 .stream-container .post-list-container .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title,
 .stream-container .post-list-container > * .post-item-wrapper .post-item .post-item-info-wrapper .post-item-title {
@@ -504,7 +394,7 @@ img,
   font-weight: bolder;
 }
 
-/* archive */
+/* **************** archive list page **************** */
 
 .archive--year,
 body.night h2.archive--year {
@@ -528,7 +418,7 @@ body.night h2.archive--year {
   color: #676D71;
 }
 
-/* codepen */
+/* **************** codepen fix **************** */
 
 .cp_embed_wrapper {
   margin-bottom: 1rem;

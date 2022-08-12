@@ -28,14 +28,14 @@ Hugo 的草稿管理，光看官方文档的话，感觉就是没有草稿管理
 
 `/.gitignore` 里相关的行如下：（`draft/` 主要用于防手残）
 
-```text
+```plaintext
 draft/
 /content/drafts/
 ```
 
 第二，我的电脑上的本地文件中，`/content/` 的结构如下：
 
-```text
+```plaintext
 .
 └── content
     ├── archives
