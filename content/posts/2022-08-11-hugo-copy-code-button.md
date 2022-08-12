@@ -243,9 +243,9 @@ div.highlight:focus > .copy-code-button {
 
 ## 题外话：什么是可访问性？为什么网页开发需要考虑可访问性？
 
-可访问性不仅仅是为了方便别人，也能够方便自己。比如我这些改动做出来，得到了意料之外的正面副作用：鼠标点击某个代码块的任意位置之后，敲回车就能直接复制，不需要再去点按钮了。
+<!-- 比如我这些改动做出来，得到了意料之外的正面副作用：鼠标点击某个代码块的任意位置之后，敲回车就能直接复制，不需要再去点按钮了。 -->
 
-我曾经[花了很多时间学习这个事](https://github.com/loikein/literate-html/blob/master/HTML-accessibility.md)，下面复制一下主要参考链接。
+可访问性不仅仅是为了方便别人，也能够方便自己。我曾经[花了很多时间学习这个事](https://github.com/loikein/literate-html/blob/master/HTML-accessibility.md)，下面复制一下主要参考链接。
 
 - [Dive Into Accessibility](https://web.archive.org/web/20110927131211/http://diveintoaccessibility.org/) ([中文翻译](https://web.archive.org/web/20071002125036/http://dia.z6i.org/cn/)) （需要根据 HTML5 进行细节调整）
 - [Home | 18F Accessibility Guide](https://accessibility.18f.gov/)
