@@ -7,7 +7,7 @@ categories: ["编程笔记"]
 tags: ["Hugo", "网页制作"]
 # description: "可访问性需要用实际行动来维护。"
 ---
-想做这个东西很久了，但是因为我并没有认真学过 JavaScript，每次都因为拼凑不出想要的效果而做到一半就放弃。网上其实也有很多文章（见： [Issue #5619 · python-poetry/poetry](https://github.com/python-poetry/poetry/issues/5619)，但是反正我是没找到考虑了 accessibility 的版本。[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) 上倒是有支持键盘浏览（Enter / Spacebar）的复制代码按钮，但是代码实在是太抽象了，我看不懂……
+想做这个东西很久了，但是因为我并没有认真学过 JavaScript，每次都拼凑不出想要的效果而做到一半就放弃。网上其实也有很多文章（见： [Issue #5619 · python-poetry/poetry](https://github.com/python-poetry/poetry/issues/5619)，但是反正我是没找到考虑了 accessibility 的版本。[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) 上倒是有支持键盘浏览（Enter / Spacebar）的复制代码按钮，但是代码实在是太抽象了，我看不懂……
 
 然而俗话说得好，摸鱼是第一生产力。今天在紧张刺激地摸鱼，突然又想起这件事情，缝了两个小时之后居然真给我缝出来了。摸鱼真的是很可怕的一个……过程。
 
@@ -17,7 +17,7 @@ tags: ["Hugo", "网页制作"]
 hello world
 ```
 
-本文文件路径都基于整个 Hugo 的网站文件夹。
+本文中提到的文件路径都基于整个 Hugo 的网站文件夹。
 
 ## 复制代码功能
 
@@ -79,8 +79,8 @@ if (navigator && navigator.clipboard) {
 
 1. 删除 `svgCheck` 的 `fill` （填充颜色），改为由 CSS 指定
 1. 添加 `button.title = "Copy";` （鼠标划过时的说明文字）
-1. 修改添加 `button` 位置为 `pre` 的后面（下文有详细解释）
-1. 更新 `clipboard-polyfill` 版本至最新稳定版（未测试）
+1. 将添加按钮的位置改为放在 `pre` 后面（下文有详细解释）
+1. 更新 `clipboard-polyfill` 至最新稳定版（未测试）
 
 然后，在 `./themes/diary/layouts/partials/footer.html` 中添加如下代码：
 
@@ -106,7 +106,7 @@ if (navigator && navigator.clipboard) {
 </div>
 ```
 
-所以 layout 中的条件为仅在渲染后的网页中含有 `<code` 时附加 JavaScript。
+所以 layout 条件设为仅在渲染后的网页中含有 `<code` 时附加 JavaScript。
 
 然后是 JavaScript 代码。第一部分是两个按钮的 SVG，然后是 `addCopyButtons` 方程（包含了添加按钮和复制代码两项功能），最后调用方程。
 
@@ -117,7 +117,7 @@ if (navigator && navigator.clipboard) {
 + pre.parentNode.insertBefore(button, pre.nextSibling);
 ```
 
-添加以上代码后，渲染结果为如下格式的 HTML：
+完成上述添加修改后，渲染结果为如下格式的 HTML：
 
 ```html
 <div class="highlight">
@@ -130,7 +130,7 @@ if (navigator && navigator.clipboard) {
 </div>
 ```
 
-最后调用方程。如果浏览器支持[剪贴板 API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard) 就直接调用，否则加载 [clipboard-polyfill](https://github.com/lgarron/clipboard-polyfill)。备注：后者标记为已淘汰，但是在支持的浏览器上根本不会造成额外请求，留着应该也没太大问题；虽然我也没有想支持 IE，但是反正人家都已经写好了，不用白不用……
+最后调用方程。如果浏览器支持[剪贴板 API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard) 就直接调用，否则加载 [clipboard-polyfill](https://github.com/lgarron/clipboard-polyfill)。备注：后者标记为已淘汰，但是在支持的浏览器上根本不会造成额外请求，留着应该也没太大问题；虽然我也没有特意要支持 IE，但是反正人家都已经写好了，不用白不用……
 
 
 ## 支持键盘浏览
@@ -199,7 +199,7 @@ const addCopyButtons = (clipboard) => {
 }
 
 .copy-code-button {
-  color: var(--dark-gray);
+  color: var(--white);
   background-color: rgba(255,255,255,50%);
   border: none;
   border-radius: 6px;
@@ -229,13 +229,13 @@ div.highlight:focus > .copy-code-button {
 }
 ```
 
-由于我这个博客有黑暗模式，加上 `hover/focus` 本来要写四种不同的样式。给我写烦了，想了半天，想出了禁忌・双重透明度这个东西。然而这也是基于我还没搞清楚怎么在切换模式时自动切换代码高亮样式，结果目前正偷懒都用 Dracula，有非常方便的黑底色。如果自动切换做出来的话，就确实得分情况再重新写了。
+由于我这个博客有黑暗模式，加上 `hover/focus` 本来要写四种不同的样式。给我写烦了，想了半天，想出了禁忌・双重透明度这个东西。然而这也是基于我还没搞清楚怎么在切换模式时自动切换代码高亮样式，目前正偷懒都用 Dracula，有非常方便的黑底色。如果自动切换做出来的话，就确实得分情况重新写了。
 
-首先， `.highlight{ position: relative; }` 和 `.copy-code-button{ position: absolute; }` 是必须的，不然按钮就会漂移到正文栏外面。 `position` 这个东西近似黑魔法，我也没有特别想要深究的意愿。按钮具体位置其实也有点点黑魔法的感觉，但是还是比较好理解的，就是固定在代码框的右上角。
+首先， `.highlight{ position: relative; }` 和 `.copy-code-button{ position: absolute; }` 是必须的，不然按钮就会漂移到正文栏外面。 `position` 这个东西近似黑魔法，我也没有特别想要深究的意愿。按钮具体位置还是比较好理解的，就是固定在代码框的右上角。
 
-然后按钮图案颜色，由于按是半透明的，所有颜色都只需要写一种就可以了。原作者似乎是写的鼠标划过代码块才显示，我觉得有些不明显，就改成了始终显示。
+然后按钮图案颜色。原作者似乎是写的鼠标划过代码块才显示，我觉得有些不明显，就改成了始终显示。
 
-最后是与按钮／`<pre>`／`<div class="highlight">` 交互时取消透明度，指针变成手指。理论上 `active` 和 `focus` 是两种不同的情况，但是我并没有精力给所有按钮／链接再写第三套样式，而且写到一起总比不写 `active` 好，所以目前为止我一直都是这么写的。其中 `<pre>` 的部分就是前文修改了添加按钮位置的原因。如果有兴趣深究，可以移步阅读：
+最后是与按钮／`<pre>`／`<div class="highlight">` 交互时取消透明度，指针变成手指。理论上 `active` 和 `focus` 是两种不同的情况，但是我并没有精力给所有按钮／链接再写第三套样式，而且写到一起总比不写 `active` 好，所以目前为止我一直都是这么写的。其中关于 `<pre>` 的两行就是前文修改了添加按钮位置的原因。如果有兴趣深究，可以移步阅读：
 
 - [Adjacent sibling combinator - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) （[中文版](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Adjacent_sibling_combinator)）
 - [General sibling combinator - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)（[中文版](https://developer.mozilla.org/zh-CN/docs/Web/CSS/General_sibling_combinator)）
@@ -247,10 +247,10 @@ div.highlight:focus > .copy-code-button {
 
 可访问性不仅仅是为了方便别人，也能够方便自己。我曾经[花了很多时间学习这个事](https://github.com/loikein/literate-html/blob/master/HTML-accessibility.md)，下面复制一下主要参考链接。
 
-- [Dive Into Accessibility](https://web.archive.org/web/20110927131211/http://diveintoaccessibility.org/) ([中文翻译](https://web.archive.org/web/20071002125036/http://dia.z6i.org/cn/)) （需要根据 HTML5 进行细节调整）
+- [Dive Into Accessibility](https://web.archive.org/web/20110927131211/http://diveintoaccessibility.org/) （[中文翻译](https://web.archive.org/web/20071002125036/http://dia.z6i.org/cn/)）（需要根据 HTML5 进行细节调整）
 - [Home | 18F Accessibility Guide](https://accessibility.18f.gov/)
 - [Front-end development | Accessibility for Teams](https://accessibility.digital.gov/front-end/getting-started/)
-- [HTML: A good basis for accessibility - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) ([中文版](https://developer.mozilla.org/zh-CN/docs/learn/Accessibility/HTML:%E4%B8%BA%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7%E6%8F%90%E4%BE%9B%E4%B8%80%E4%B8%AA%E8%89%AF%E5%A5%BD%E7%9A%84%E5%9F%BA%E7%A1%80))
+- [HTML: A good basis for accessibility - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) （[中文版](https://developer.mozilla.org/zh-CN/docs/learn/Accessibility/HTML:%E4%B8%BA%E5%8F%AF%E8%AE%BF%E9%97%AE%E6%80%A7%E6%8F%90%E4%BE%9B%E4%B8%80%E4%B8%AA%E8%89%AF%E5%A5%BD%E7%9A%84%E5%9F%BA%E7%A1%80)）
 - [How to Meet WCAG (Quickref Reference)](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#meaningful-sequence)
 - [How I do an accessibility check -- A11ycasts #11 - YouTube](https://www.youtube.com/watch?v=cOmehxAU_4s&feature=youtu.be)
 - [Welcome to the Accessibility Developer Guide! - ADG](https://www.accessibility-developer-guide.com/)
