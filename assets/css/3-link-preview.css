@@ -19,15 +19,16 @@
   /* padding: 1rem calc(var(--page-margin) + 3px + 3vw); */
 }
 
-.link-card--title {
-  font-size: 1.1rem;
-  font-style: bold;
-}
-
 .link-card--favicon {
   min-width:62px;
   height: 62px;
   object-fit: contain;
+}
+
+.link-card--info .link-card--title {
+  font-size: 1.1rem;
+  font-style: bold;
+  margin-bottom: 0.5rem;
 }
 
 .link-card--info p {
