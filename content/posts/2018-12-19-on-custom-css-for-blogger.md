@@ -10,6 +10,8 @@ tags:
 - 网页制作
 - Blogger
 - CSS
+series: 
+  - "Having fun with CSS"
 title: 总结一下 Blogger 的自定义 CSS
 ---
 

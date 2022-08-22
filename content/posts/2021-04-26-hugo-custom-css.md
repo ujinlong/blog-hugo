@@ -7,6 +7,8 @@ categories:
 - 编程笔记
 tags:
 - Hugo
+series: 
+  - "Having fun with CSS"
 title: 如何在 Hugo 中添加自定义 CSS
 description: 又名：浪费生命的一百种方法
 ---

@@ -12,7 +12,8 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
-a:visited {
+a:visited,
+body.night a:visited {
   color: var(--dark-gray);
 }
 
@@ -188,6 +189,15 @@ body.night .post-body p del {
 .post-body > ol > li,
 .post-series * {
   margin-bottom: 0.5rem;
+}
+
+.post-body .footnote-ref {
+  padding: 0 4px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 body.night .post-body ruby,
