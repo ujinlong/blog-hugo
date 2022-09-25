@@ -3,7 +3,7 @@ canonifyURLs: true
 # relativeURLs: true
 DefaultContentLanguage: zh
 hasCJKLanguage: true
-languageCode: zh-Hans
+languageCode: zh-cn
 publishDir: public
 
 title: 此生未命名
