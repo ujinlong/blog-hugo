@@ -8,7 +8,7 @@ categories:
 tags:
 - 音乐
 - 日译中
-title: 中文翻译：愛を両手に by ACIDMAN
+title: "中文翻译：愛を両手に by ACIDMAN"
 ---
 [ACIDMAN 愛を両手に 歌詞](http://j-lyric.net/artist/a00b172/l03e1cd.html)  
 
