@@ -4,7 +4,7 @@ date: "2022-08-18T16:44:16+01:00"
 # published: ""
 # lastmod: ""
 categories: 
-    - "生活"
+    - "随笔"
     - "小说"
 tags: []
 description: "比糟糕的育儿更糟糕的，是……"

@@ -11,7 +11,7 @@ _build:
 ---
 [![GitHub last commit](https://img.shields.io/github/last-commit/loikein/blog-hugo?color=037BBA&label=last%20updated&style=flat-square)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys)
 
-我庄严承诺未来将会切换到比 Disqus 更注重隐私的评论系统。在那之前，妳可以点击`姓名` \> 勾选`我更想匿名评论`进入匿名模式。
+我庄严承诺未来将会切换到比 Disqus 更注重隐私的评论系统。在那之前，您可以在评论时点击`姓名` \> 勾选`我更想匿名评论`进入匿名模式。
 
 ## 关于我／About me
 
@@ -22,8 +22,8 @@ _build:
 剪过自己以及其他三个以上的人的头发。
 {{< /col >}}
 {{< col >}}
-My preferred pronouns are: they / them / their.  
-An old school arty, sings, takes photos, codes.  
+My pronouns are: they / them / their.  
+An old school arty, sings, takes photos, and codes.  
 I have been more than three people's hair dresser, plus myself.
 {{< /col >}}
 {{< /row >}}
@@ -37,7 +37,7 @@ I have been more than three people's hair dresser, plus myself.
 {{< /col >}}
 {{< col >}}
 55% out of interest, 45% for earning degrees.  
-I chose my major out of interest, but it was essentially destiny.
+I have chosen my current major out of interest, but actually it is the major that has chosen me.
 {{< /col >}}
 {{< /row >}}
 
@@ -46,12 +46,12 @@ I chose my major out of interest, but it was essentially destiny.
 {{< row >}}
 {{< col >}}
 自 2017 年起堆放我所有胡侃的地方。  
-想看严肃内容请走：[loikein's notes](https://notes.loikein.one/post/)  
+想看学业内容请走：[loikein's notes](https://notes.loikein.one/post/)  
 想网络斯托卡我请走：[loikein one](https://www.loikein.one/)
 {{< /col >}}
 {{< col >}}
 Stack of my babblings since 2017.  
-If you want formal contents, consider: [loikein's notes](https://notes.loikein.one/post/)  
+If you want academic contents, consider: [loikein's notes](https://notes.loikein.one/post/)  
 If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/)
 {{< /col >}}
 {{< /row >}}

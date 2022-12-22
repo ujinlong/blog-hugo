@@ -21,7 +21,7 @@ description: "本期主要内容：网页高亮工具，新疆，贴纸"
 - [Weava Highlighter - Free Research Tool for PDFs & Webpages](https://www.weavatools.com/) (Chrome)
 - [ufb/Textmarker: Firefox extension](https://github.com/ufb/Textmarker) (Firefox)
 - [Hypothesis](https://web.hypothes.is/) (Chrome \& bookmarklet)
-- [Diigo - Better reading and research with annotation, highlighter, sticky notes, archiving, bookmarking & more.](https://www.diigo.com/) (Chrome, bookmarklet, iOS, \& Android)
+- [Diigo - Better reading and research with annotation, highlighter, sticky notes, archiving, bookmarking & more.](https://www.diigo.com/) (Chrome, bookmarklet, iOS, Android)
 
 
 ## 关注长期在新疆进行的种族灭绝

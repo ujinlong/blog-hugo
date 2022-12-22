@@ -3,7 +3,7 @@ title: "读博第一年总结"
 date: "2022-09-21T15:06:02+01:00"
 # published: ""
 # lastmod: ""
-categories: ["生活"]
+categories: ["学术笔记"]
 tags: []
 # description: ""
 ---
