@@ -406,9 +406,15 @@ body.night .post-body .post-video {
 
 /* **************** archive list page **************** */
 
+.archive-body {
+  margin-top: -11px;
+}
+
 .archive--year,
+h2.archive--year,
 body.night h2.archive--year {
   color: var(--gray);
+  margin-top: 0;
 }
 
 .archive--list-item {
