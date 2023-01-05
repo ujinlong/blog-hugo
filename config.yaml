@@ -1,13 +1,13 @@
 baseURL: "https://blog.loikein.one/"
 canonifyURLs: true
 # relativeURLs: true
-DefaultContentLanguage: zh
 hasCJKLanguage: true
+DefaultContentLanguage: zh
 languageCode: zh-cn
 publishDir: public
 
 title: 此生未命名
-copyright: CC BY-NC loikein 2022
+copyright: CC BY-NC loikein 2023
 theme: diary
 
 markup:
@@ -32,15 +32,17 @@ ignoreErrors:
   - "error-remote-getjson"
 
 params:
-  title: 此生未命名／Untitled Life
-  subtitle: 用爱和理性对抗荒谬
+  title: "此生未命名／Untitled Life"
+  subtitle: "用爱和理性对抗荒谬"
   enableGitalk: false
   enableOpenGraph: true
   enableTwitterCards: true
   disableAutoCollapse: true
-  description: 一个无趣的人的无趣的博客。
+  description: "一个无趣的人的无趣的博客。"
   customCSS: true
   customJS: true
+  favicon: "./favicon.ico"
+  touchicon: "./touch-icon.png"
   disqusShortname: loikein-blogspot
   # gitalk:
   #   owner: user
