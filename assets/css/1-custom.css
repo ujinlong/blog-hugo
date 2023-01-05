@@ -191,6 +191,11 @@ body.night .post-body p del {
   margin-bottom: 0.5rem;
 }
 
+body.night .post-body dt,
+body.night .post-body .post-series dt {
+  color: #e6e6e6;
+}
+
 .post-body .footnote-ref {
   padding: 0 4px;
   border: 1px solid var(--light-gray);
