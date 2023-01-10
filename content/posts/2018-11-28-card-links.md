@@ -6,9 +6,9 @@ slug: 2018-11-28-card-links
 categories:
 - 编程笔记
 tags:
-- 网页制作
 - Blogger
 - Hugo
+- HTML
 title: 把链接做成卡片形式：一个纯 HTML 的尝试
 ---
 2021-04-25 更新：

@@ -7,7 +7,7 @@ categories:
 - 编程笔记
 tags:
 - Blogger
-- 网页制作
+- 建站
 title: 自定义域名踩的坑（Blogger & GitHub Page）
 ---
 如果运气不错的话，在各位看到这篇博文的时候，地址栏里依然写的是我的自定义域名：loikein.one。  

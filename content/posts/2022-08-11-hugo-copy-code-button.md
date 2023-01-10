@@ -4,7 +4,7 @@ date: "2022-08-11T16:15:54+01:00"
 # published: ""
 # lastmod: ""
 categories: ["编程笔记"]
-tags: ["Hugo", "网页制作"]
+tags: ["Hugo", "JavaScript", "CSS"]
 # description: "可访问性需要用实际行动来维护。"
 ---
 想做这个东西很久了，但是因为我并没有认真学过 JavaScript，每次都拼凑不出想要的效果而做到一半就放弃。网上其实也有很多文章（见： [Issue #5619 · python-poetry/poetry](https://github.com/python-poetry/poetry/issues/5619)，但是反正我是没找到考虑了 accessibility 的版本。[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) 上倒是有支持键盘浏览（Enter / Spacebar）的复制代码按钮，但是代码实在是太抽象了，我看不懂……

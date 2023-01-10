@@ -6,8 +6,8 @@ slug: 2018-11-20-on-archive-page-for-blogger
 categories:
 - 编程笔记
 tags:
-- 网页制作
 - Blogger
+- JavaScript
 title: Blogger 归档页面考
 ---
 花了一点时间解决了。  

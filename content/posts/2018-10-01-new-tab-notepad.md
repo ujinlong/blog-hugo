@@ -5,7 +5,8 @@ slug: 2018-10-01-new-tab-notepad
 categories:
 - 编程笔记
 tags:
-- 网页制作
+- HTML
+- CSS
 title: 浏览器中的新标签页笔记本
 ---
 以前一直在用这个，今天被更新的 Opera 覆盖掉了，自己研究一个看看。  

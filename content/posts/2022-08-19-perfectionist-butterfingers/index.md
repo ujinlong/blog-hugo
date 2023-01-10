@@ -6,9 +6,8 @@ date: "2022-08-19T18:00:26+01:00"
 categories:
     - "编程笔记"
 tags:
-    - "网页制作"
     - "CSS"
-series: 
+series:
     - "Having fun with CSS"
 # description: ""
 css:
