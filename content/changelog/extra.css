@@ -1,0 +1,31 @@
+.post-body:not(.archive-body) h2{
+  counter-increment: none;
+}
+
+.post-body:not(.archive-body) h2::before {
+  content: none;
+}
+
+.post-body:not(.archive-body) h3 {
+  counter-increment: none;
+}
+
+.post-body:not(.archive-body) h3::before {
+  content: none;
+}
+
+.toc .toc-content > ul > ul > li {
+  counter-increment: none;
+}
+
+.toc .toc-content > ul > ul > li::before {
+  content: none;
+}
+
+.toc .toc-content > ul > ul > ul > li {
+  counter-increment: none;
+}
+
+.toc .toc-content > ul > ul > ul > li::before {
+  content: none;
+}

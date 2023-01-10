@@ -9,9 +9,10 @@ title: 关于
 _build:
   list: never
 ---
-[![GitHub last commit](https://img.shields.io/github/last-commit/loikein/blog-hugo?color=037BBA&label=last%20updated&style=flat-square)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys)
+[![GitHub last commit](https://img.shields.io/github/last-commit/loikein/blog-hugo?color=037BBA&label=last%20updated&style=flat-square)](https://github.com/loikein/blog-hugo) [![Netlify Status](https://api.netlify.com/api/v1/badges/5c630036-da22-42af-b033-b5b1aa98d015/deploy-status)](https://app.netlify.com/sites/epic-mestorf-3202f7/deploys) [更新履历](/changelog/)
 
 我庄严承诺未来将会切换到比 Disqus 更注重隐私的评论系统。在那之前，您可以在评论时点击`姓名` \> 勾选`我更想匿名评论`进入匿名模式。
+
 
 ## 关于我／About me
 
@@ -28,6 +29,7 @@ I have been more than three people's hair dresser, plus myself.
 {{< /col >}}
 {{< /row >}}
 
+
 ## 关于我做的事／What I do
 
 {{< row >}}
@@ -40,6 +42,7 @@ I have been more than three people's hair dresser, plus myself.
 I have chosen my current major out of interest, but actually it is the major that has chosen me.
 {{< /col >}}
 {{< /row >}}
+
 
 ## 关于本站／What this site does
 
@@ -56,16 +59,20 @@ If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/)
 {{< /col >}}
 {{< /row >}}
 
-## 大家喜欢的博文／Popular posts
 
+## 初次见面的朋友可以从这里看起／Recommended posts for first-time visitors
+
+本站现在已经没有任何分析工具了，无从得知大家喜欢哪些文章，所以以下推荐均出自我的独断专行。
+
+- [播客世界的邀请函：听播客，发现新播客，用播客改善生活](/posts/2020-05-18-invitation-to-podcast/)
+- [在东京卖二手物品的懒人指南](/posts/2018-09-29-dummy-s-guide-to-selling-second-hand-in-tokyo/)
 - [全球化电子阅读体验／Globalise your digital reading life](/posts/2019-06-20-globalise-your-digital-reading-life/)
-- [再谈同步社交网站至 Mastodon（微博，RSS，原生图片）](/posts/2020-03-09-sync-mastodon-and-sns-again/)
+
+<!-- - [再谈同步社交网站至 Mastodon（微博，RSS，原生图片）](/posts/2020-03-09-sync-mastodon-and-sns-again/)
 - [MacBook gets very warm overnight while closed & connected to power adapter](/posts/2019-11-10-macbook-gets-warm-overnight-while-connected-to-power/)
 - [血书：Mac Finder 搜索不出东西的解决方法（Spotlight，Alfred，… 的问题都可能相关）](/posts/2019-12-16-solve-searching-problems-of-mac-finder/)
 - [自定义域名踩的坑（Blogger & GitHub Page）](/posts/2020-04-15-pitfalls-with-custom-domain-for-blogger-and-github-pages/)
-- [播客世界的邀请函：听播客，发现新播客，用播客改善生活](/posts/2020-05-18-invitation-to-podcast/)
-- [胶囊咖啡总结](/posts/2019-10-25-a-study-of-capsule-coffee/)
-- [在东京卖二手物品的懒人指南](/posts/2018-09-29-dummy-s-guide-to-selling-second-hand-in-tokyo/)
+ -->
 
 
 ## 友链／Friends

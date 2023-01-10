@@ -11,6 +11,20 @@
   --theme-color-1: #037BBA;
   --mark: rgb(255,212,0,10%);
   text-underline-position: under;
+  /* dracula theme */
+  --chroma-bg:     #282a36; /* background */
+  --chroma-fg:     #F8F8F2; /* foreground */
+  --chroma-sl:     #44475a; /* selection */
+  --chroma-c:      #6272a4; /* comment */
+  --chroma-hl:     #ffffcc; /* highlight; not from dracula */
+  --chroma-lnt:    #7f7f7f; /* line numbers table; not from dracula */
+  --chroma-red:    #ff5555;
+  --chroma-orange: #ffb86c;
+  --chroma-yellow: #f1fa8c;
+  --chroma-green:  #50fa7b;
+  --chroma-purple: #bd93f9;
+  --chroma-cyan:   #8be9fd;
+  --chroma-pink:   #ff79c6;
 }
 
 @media screen and (max-width:1020px) {
