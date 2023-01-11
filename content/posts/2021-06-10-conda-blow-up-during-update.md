@@ -12,9 +12,9 @@ tags:
 
 ## First and foremost, my life is miserable.
 
-{{<fold "Would you like conda to send this report to the core maintainers? Upload did not complete. Thank you for helping to improve conda.">}}
+{{% fold "Would you like conda to send this report to the core maintainers? Upload did not complete. Thank you for helping to improve conda." %}}
 
-```plaintext
+{{< highlight text >}}
   environment variables:
                  CIO_TEST=<not set>
           CONDA_BACKUP_AR=/opt/miniconda3/envs/econsa/bin/x86_64-apple-darwin13.4.0-ar
@@ -164,9 +164,9 @@ Opt-in to always sending reports (and not see this message again)
 by running
 
     $ conda config --set report_errors true
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 ## It all began with…
 
@@ -177,10 +177,9 @@ by running
 > Any news on this issue?
 > 
 > Same problem here when trying to update from 4.8.4. I do automated regular upgrades on all the environments and packages on my computer, and thus did not even notice that it was not updating for a long while…
-> 
-> {{<fold "`$ conda update -n base conda`">}}
 
-```bash
+{{% fold "`$ conda update -n base conda`" %}}
+{{< highlight bash >}}
 $ conda update -n base conda --yes
 Collecting package metadata (current_repodata.json): done
 Solving environment: /
@@ -196,11 +195,11 @@ Please update conda by running
 
 
 # All requested packages already installed.
-```
+{{< /highlight >}}
 
 ???
 
-{{</fold>}}
+{{% /fold %}}
 
 ## The meat part
 
@@ -210,9 +209,9 @@ I saw this question and think, oh, the answers look about right.
 
 Off we go…
 
-{{<fold "`$ conda update python`">}}
+{{% fold "`$ conda update python`" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting package metadata (current_repodata.json): done
 Solving environment: |
 The environment is inconsistent, please check the package plan carefully
@@ -260,7 +259,7 @@ The following packages are causing the inconsistency:
   - conda-forge/osx-64::cryptography==3.0=py37h94e4008_0
 done
 
-## Package Plan ##
+## Package Plan
 
   environment location: /opt/miniconda3
 
@@ -401,13 +400,13 @@ Traceback (most recent call last):
     raise ImportError("No yaml library available.\n"
 ImportError: No yaml library available.
 To proceed, conda install ruamel_yaml
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
-{{<fold "`$ conda install ruamel_yaml`">}}
+{{% fold "`$ conda install ruamel_yaml`" %}}
 
-```bash
+{{< highlight bash >}}
 Traceback (most recent call last):
   File "/opt/miniconda3/lib/python3.9/site-packages/conda/common/serialize.py", line 19, in get_yaml
     import ruamel_yaml as yaml
@@ -483,9 +482,9 @@ Traceback (most recent call last):
     raise ImportError("No yaml library available.\n"
 ImportError: No yaml library available.
 To proceed, conda install ruamel_yaml
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 Turns out this ruamel thing is quite a drama on its own, but no, I will not go down this particular rabbit hole at this point: [ModuleNotFoundError: No module named 'ruamel' · Issue #106 · fair-workflows/nanopub](https://github.com/fair-workflows/nanopub/issues/106)
 
@@ -504,9 +503,9 @@ conda 4.10.1
 
 Shit, might as well give pip a try. (Reference: [ModuleNotFoundError: No module named 'ruamel' - AMSET - Materials Science Community Discourse](https://matsci.org/t/modulenotfounderror-no-module-named-ruamel/36183/4))
 
-{{<fold "`$ pip install ruamel.yaml`">}}
+{{% fold "`$ pip install ruamel.yaml`" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting ruamel.yaml
   Downloading ruamel.yaml-0.17.9-py3-none-any.whl (108 kB)
      |████████████████████████████████| 108 kB 5.1 MB/s
@@ -515,15 +514,15 @@ Collecting ruamel.yaml.clib>=0.1.2; platform_python_implementation == "CPython" 
      |████████████████████████████████| 156 kB 5.6 MB/s
 Installing collected packages: ruamel.yaml.clib, ruamel.yaml
 Successfully installed ruamel.yaml-0.17.9 ruamel.yaml.clib-0.2.2
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 And try again…
 
-{{<fold "`$ conda install ruamel_yaml`">}}
+{{% fold "`$ conda install ruamel_yaml`" %}}
 
-```bash
+{{< highlight bash >}}
 # >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
 
     Traceback (most recent call last):
@@ -540,15 +539,15 @@ And try again…
       File "/opt/miniconda3/lib/python3.9/site-packages/conda/base/context.py", line 734, in use_only_tar_bz2
         import conda_package_handling.api
     ModuleNotFoundError: No module named 'conda_package_handling'
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 …well, what about…
 
-{{<fold "$ conda install conda_package_handling">}}
+{{% fold "$ conda install conda_package_handling" %}}
 
-```bash
+{{< highlight bash >}}
 # >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
 
     Traceback (most recent call last):
@@ -565,15 +564,15 @@ And try again…
       File "/opt/miniconda3/lib/python3.9/site-packages/conda/base/context.py", line 734, in use_only_tar_bz2
         import conda_package_handling.api
     ModuleNotFoundError: No module named 'conda_package_handling'
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 or…
 
-{{<fold "`$ conda update -n base`">}}
+{{% fold "`$ conda update -n base`" %}}
 
-```bash
+{{< highlight bash >}}
 # >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
 
     Traceback (most recent call last):
@@ -590,9 +589,9 @@ or…
       File "/opt/miniconda3/lib/python3.9/site-packages/conda/base/context.py", line 734, in use_only_tar_bz2
         import conda_package_handling.api
     ModuleNotFoundError: No module named 'conda_package_handling'
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 Shit.
 
@@ -621,9 +620,9 @@ Tried the find, copy & paste for this `pycosat`, but nothing changes. At this po
 
 You thought that was the end? No, I still have one last `$ pip install pycosat --force-reinstall` up my sleeve.
 
-{{<fold "First try…">}}
+{{% fold "First try…" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting pycosat
   Downloading pycosat-0.6.3.zip (66 kB)
      |████████████████████████████████| 66 kB 4.2 MB/s
@@ -636,15 +635,15 @@ Collecting pycosat
     ModuleNotFoundError: No module named 'setuptools'
     ----------------------------------------
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 (…find-copy-paste…)
 
-{{<fold "Second try…">}}
+{{% fold "Second try…" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting pycosat
   Using cached pycosat-0.6.3.zip (66 kB)
     ERROR: Command errored out with exit status 1:
@@ -658,15 +657,15 @@ Collecting pycosat
     ModuleNotFoundError: No module named '_distutils_hack'
     ----------------------------------------
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 (…find-copy-paste…)
 
-{{<fold "Third try…">}}
+{{% fold "Third try…" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting pycosat
   Using cached pycosat-0.6.3.zip (66 kB)
     ERROR: Command errored out with exit status 1:
@@ -682,15 +681,15 @@ Collecting pycosat
     ModuleNotFoundError: No module named 'pkg_resources'
     ----------------------------------------
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 (…find-copy-paste…)
 
-{{<fold "Forth try…">}}
+{{% fold "Forth try…" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting pycosat
   Using cached pycosat-0.6.3.zip (66 kB)
 Building wheels for collected packages: pycosat
@@ -709,15 +708,15 @@ We recommend you use --use-feature=2020-resolver to test your packages with the 
 
 conda 4.10.1 requires ruamel_yaml_conda>=0.11.14, which is not installed.
 Successfully installed pycosat-0.6.3
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 Oh. My. Word. And indeed…
 
-{{<fold "`$ conda update conda`">}}
+{{% fold "`$ conda update conda`" %}}
 
-```bash
+{{< highlight bash >}}
 Collecting package metadata (repodata.json): done
 Solving environment: \
 The environment is inconsistent, please check the package plan carefully
@@ -726,7 +725,7 @@ The following packages are causing the inconsistency:
 ............
 done
 
-## Package Plan ##
+## Package Plan
 
   environment location: /opt/miniconda3
 
@@ -760,9 +759,9 @@ The following packages will be DOWNGRADED:
 
 
 Proceed ([y]/n)? y
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 Voilà!
 
@@ -778,9 +777,9 @@ Reference: [conda update后出现的问题及conda回滚，回到历史版本_�
 
 What a handy function, maybe someone has experienced precisely what I did and invented this.
 
-{{<fold "`$ conda list --revision`">}}
+{{% fold "`$ conda list --revision`" %}}
 
-```bash
+{{< highlight bash >}}
 2020-03-09 12:32:13  (rev 0)
     +asn1crypto-1.3.0
     +ca-certificates-2020.1.1
@@ -852,9 +851,9 @@ What a handy function, maybe someone has experienced precisely what I did and in
     +libgfortran5-9.3.0 (conda-forge/osx-64)
     +openjpeg-2.4.0 (conda-forge/osx-64)
     +tzdata-2021a (conda-forge/noarch)
-```
+{{< /highlight >}}
 
-{{</fold>}}
+{{% /fold %}}
 
 So in theory, I will then just have to do `$ conda install --revision=37` to revert to the previous working version of conda. Good to know.
 

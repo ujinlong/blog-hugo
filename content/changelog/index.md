@@ -18,6 +18,7 @@ css:
 
 | 表情 | 名称             | 含义        |
 |:---:|------------------|------------|
+| ⚡ | zap / high_voltage | 优化性能    |
 | 🔧 | wrench            | 更新配置文件 |
 | 📝 | memo / pencil     | 更新说明文档 |
 | 🚸 | children_crossing | 优化用户体验 |
@@ -33,12 +34,33 @@ css:
 | 🏷️ | label             | 更改类型    |
  -->
 
+## TODO
+
+- [ ] 制作 `<dl>` shortcode
+- [ ] 修复 Fediverse CW code（[实验田](/playground/#fediverse-status)）
+
+
+## 2023-01-11 ⚡💥
+
+更新 [shortcode/fold](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/fold.html) 以更好地支持嵌套 shortcode。此次更新造成了早先几乎所有使用该 shortcode 的博文无法正确渲染，已手动修复，如果有遗漏请通知我。  
+示例：[实验田#Summary & Nested shortcode](/playground/#summary--nested-shortcode)
+
+新的标准使用方式为：
+
+```html
+{{%/* fold  "summary" */%}}
+{{</* highlight language */>}}
+# code
+{{</* /highlight */>}}
+{{%/* /fold */%}}
+```
+
 ## 2023-01-10 ♻️🔧
 
 整理博文标签：完成了对「编程笔记」分类下所有博文的标签整理。
 
 修改代码高亮方式为 `WithClasses`。  
-博文：[Hugo 代码高亮从入门到精通](/drafts/2023-01-10-hugo-syntax-highlight-from-beginner-to-expert/)
+博文：[Hugo 代码高亮从入门到精通](/drafts/2023-01-10-deep-dive-into-hugo-syntax-highlight/)
 
 
 ## 2023-01-09 📝

@@ -57,24 +57,24 @@ Hello world [test](#)
 {{</* kbd I hate typing */>}}
 ```
 
-### Summary
+### Summary \& Nested shortcode
 
-{{<fold  "我是谁？`我在哪？`">}}
+{{% fold  "我是谁？`我在哪？`" %}}
 Hello world
 
-```
-0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~(){}[] . , : ; “ ‘ ’ `
-```
-{{</fold>}}
+{{< highlight text >}}
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
+{{< /highlight >}}
+{{% /fold %}}
 
 ````html
-{{</*fold  "我是谁？`我在哪？`"*/>}}
+{{%/* fold  "我是谁？`我在哪？`" */%}}
 Hello world
 
-```
-0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~(){}[] . , : ; “ ‘ ’ `
-```
-{{</*/fold*/>}}
+{{</* highlight text */>}}
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
+{{</* /highlight */>}}
+{{%/* /fold */%}}
 ````
 
 ### Video
@@ -170,10 +170,10 @@ alert("hello world");
 
 > Four score and seven years ago our fathers brought forth upon this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
 
-0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~\(\){}\[\] . , : ; “ ‘ ’ `
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ \(\) {} \[\] . , : ; “ ‘ ’ \`
 
 ```
-0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 #*^~(){}[] . , : ; “ ‘ ’ `
+0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
 ```
 
 ### Inline HTML
