@@ -3,7 +3,7 @@ canonifyURLs: true
 # relativeURLs: true
 hasCJKLanguage: true
 DefaultContentLanguage: zh
-languageCode: zh-cn
+languageCode: zh-Hans
 publishDir: public
 
 title: 此生未命名
@@ -19,7 +19,7 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: false
-    style: dracula
+    # style: dracula
     # https://xyproto.github.io/splash/docs/longer/all.html
     tabWidth: 4
   goldmark:

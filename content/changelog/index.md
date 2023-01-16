@@ -44,6 +44,39 @@ css:
 - [ ] 在归档页面增加显示博文分类及标签
 
 
+## 2023-01-16 🚸
+
+更新 [shortcode/col](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/col.html)，现在支持同时键入 `lang` 属性了。此次更新为非破坏性，不急着改以前的博文……（翻译：懒）
+
+已经改好的示例：[中文翻译：神様なんていらない僕らの by PolyphonicBranch](/posts/2022-10-27-kami-sama-nante-iranai-bokura-no-by-polyphonicbranch/)
+
+{{% fold  "使用方式示例" %}}
+{{< highlight html >}}
+{{</* row */>}}
+{{</* col lang="ja" */>}}
+(lang=ja)
+{{</* /col */>}}
+{{</* col */>}}
+(lang default=zh-Hans)
+{{</* /col */>}}
+{{</* /row */>}}
+{{< /highlight >}}
+
+或
+
+{{< highlight html >}}
+{{</* row */>}}
+{{</* col "ja" */>}}
+(lang=ja)
+{{</* /col */>}}
+{{</* col */>}}
+(lang default=zh-Hans)
+{{</* /col */>}}
+{{</* /row */>}}
+{{< /highlight >}}
+{{% /fold %}}
+
+
 ## 2023-01-11 ⚡💥
 
 更新 [shortcode/fold](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/fold.html) 以更好地支持嵌套 shortcode。此次更新造成了早先几乎所有使用该 shortcode 的博文无法正确渲染，已手动修复，如果有遗漏请通知我。  
