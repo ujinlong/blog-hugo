@@ -192,6 +192,12 @@ body.night .post-body p del {
   margin-bottom: 0.5rem;
 }
 
+/* experimental (CSS Selectors Level 4 WD) */
+.post-body li:has(>input[checked="checked"]),
+.post-body li:has(>input:checked) {
+  text-decoration: line-through;
+}
+
 body.night .post-body dt,
 body.night .post-body .post-series dt {
   color: #e6e6e6;

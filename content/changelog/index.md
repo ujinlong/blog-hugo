@@ -11,9 +11,8 @@ css:
   file: "extra-style.css"
 ---
 
-虽然但是，我居然从来没想过要写这个东西。大意了。
+仅包括网站（技术）层面的更新。
 
-仅包括网站（技术）层面的更新。  
 本页遵循 [gitmoji](https://gitmoji.dev/) 标准。已经使用过的表情如下：
 
 | 表情 | 名称             | 含义        |
@@ -40,8 +39,8 @@ css:
 
 - [ ] 制作 CW partial
 - [ ] 制作 `<dl>` shortcode
-- [ ] 修复 Fediverse CW code（[实验田](/playground/#fediverse-status)）
 - [ ] 在归档页面增加显示博文分类及标签
+- [x] 修复 Fediverse CW code（[实验田](/playground/#fediverse-status)）
 
 
 ## 2023-01-16 🚸
@@ -102,7 +101,7 @@ css:
 
 ## 2023-01-09 📝
 
-添加更新履历页面（本页）。
+添加更新履历页面（本页）。虽然但是，我居然从来没想过要写这个东西。大意了。
 
 
 ## 2022-08-11 🚸♿
