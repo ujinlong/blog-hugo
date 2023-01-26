@@ -1,5 +1,5 @@
 ---
-title: "时隔多年买了 Windows 电脑"
+title: "Windows （再）体验报告"
 date: "2023-01-07T15:43:39Z"
 # published: ""
 # lastmod: ""
