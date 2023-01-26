@@ -38,18 +38,24 @@ css:
 按照优先度：
 
 - [ ] 制作 CW partial
-- [ ] 制作 `<dl>` shortcode
 - [ ] 在归档页面增加显示博文分类及标签
-- [x] 修复 Fediverse CW code（[实验田](/playground/#fediverse-status)）
+- [x] 修复 Fediverse CW code
+- [x] 制作 `<dl>` shortcodes（发现 Goldmark 直接支持，不需要了）
+
+## 2023-01-26
+
+更新 `<dl>` 的 CSS；精简双栏排版的 CSS，现在不同屏幕尺寸之间统一使用 grid 了。
+
+灵感来源： [List encounters of the third kind](https://davidyat.es/2017/10/18/description-list/#postscript-2021-01-27)（Postscript (2021-01-27) 一节）
 
 
 ## 2023-01-16 🚸
 
-更新 [shortcode/col](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/col.html)，现在支持同时键入 `lang` 属性了。此次更新为非破坏性，不急着改以前的博文……（翻译：懒）
+更新 [shortcodes/col](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/col.html)，现在支持同时键入 `lang` 属性了。此次更新为非破坏性，不急着改以前的博文……（翻译：懒）
 
 已经改好的示例：[中文翻译：神様なんていらない僕らの by PolyphonicBranch](/posts/2022-10-27-kami-sama-nante-iranai-bokura-no-by-polyphonicbranch/)
 
-{{% fold  "使用方式示例" %}}
+{{< fold  "使用方式示例" >}}
 {{< highlight html >}}
 {{</* row */>}}
 {{</* col lang="ja" */>}}
@@ -73,22 +79,23 @@ css:
 {{</* /col */>}}
 {{</* /row */>}}
 {{< /highlight >}}
-{{% /fold %}}
+{{< /fold >}}
 
 
 ## 2023-01-11 ⚡💥
 
-更新 [shortcode/fold](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/fold.html) 以更好地支持嵌套 shortcode。此次更新造成了早先几乎所有使用该 shortcode 的博文无法正确渲染，已手动修复，如果有遗漏请通知我。  
-示例：[实验田#Summary & Nested shortcode](/playground/#summary--nested-shortcode)
+更新 [shortcodes/fold](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/fold.html) 以更好地支持嵌套 shortcodes。  
+发现了早先几乎所有使用该 shortcodes 折叠代码框的博文均无法正确渲染，已手动修复，如果有遗漏请通知我。  
+示例：[实验田#Summary & Nested shortcodes](/playground/#summary--nested-shortcodes)
 
 新的标准使用方式为：
 
 ```html
-{{%/* fold  "summary" */%}}
+{{</* fold  "summary" */>}}
 {{</* highlight language */>}}
 # code
 {{</* /highlight */>}}
-{{%/* /fold */%}}
+{{</* /fold */>}}
 ```
 
 ## 2023-01-10 ♻️🔧

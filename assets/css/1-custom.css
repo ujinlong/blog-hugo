@@ -198,6 +198,34 @@ body.night .post-body p del {
   text-decoration: line-through;
 }
 
+/* style for definition lists (dl) */
+
+.post-body dl:not(.post-series) {
+  display: grid;
+  gap: 0.5rem 1rem;
+}
+
+.post-body dt {
+  font-weight: bold;
+  grid-column: 1;
+}
+
+.post-body dd {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+@media (min-width: 600px) {
+  .post-body dl:not(.post-series) {
+    grid-template-columns: fit-content(50%) auto;
+  }
+
+  .post-body dd {
+    grid-column: 2;
+    margin-left: 0;
+  }
+}
+
 body.night .post-body dt,
 body.night .post-body .post-series dt {
   color: #e6e6e6;

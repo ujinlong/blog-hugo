@@ -39,15 +39,10 @@
 /* two-col */
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   width: 100%;
-  margin: 0 0 1rem 0;
   gap: 0.3rem;
-}
-
-.row .column {
-  width: 100%;
+  margin: 0 0 1rem 0;
 }
 
 .row .column:nth-of-type(2n) {
@@ -56,12 +51,11 @@
 
 @media (min-width: 600px) {
   .row {
-    display: grid;
-    grid: auto-flow / 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .row .column:nth-of-type(2n) {
-    margin-left: unset;
+    margin-left: 0;
   }
 }
 

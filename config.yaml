@@ -23,6 +23,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      definitionList: true
 
 ignoreFiles:
   - blog-*.xml$

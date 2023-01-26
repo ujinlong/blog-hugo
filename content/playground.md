@@ -8,7 +8,6 @@ featured_image: "/post-img/background-sky.jpg"
 enableMathJax: true
 categories:
 - 独立页面
-categories: []
 title: 实验田
 _build:
   list: never
@@ -57,24 +56,24 @@ Hello world [test](#)
 {{</* kbd I hate typing */>}}
 ```
 
-### Summary \& Nested shortcode
+### Summary \& Nested shortcodes
 
-{{% fold  "我是谁？`我在哪？`" %}}
+{{< fold  "我是谁？`我在哪？`" >}}
 Hello world
 
 {{< highlight text >}}
 0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
 {{< /highlight >}}
-{{% /fold %}}
+{{< /fold >}}
 
 ````html
-{{%/* fold  "我是谁？`我在哪？`" */%}}
+{{</* fold  "我是谁？`我在哪？`" */>}}
 Hello world
 
 {{</* highlight text */>}}
 0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
 {{</* /highlight */>}}
-{{%/* /fold */%}}
+{{</* /fold */>}}
 ````
 
 ### Video
@@ -150,6 +149,21 @@ Footnote[^1], footnote[^2]
 
 - [ ] Unfinished task list item
 - [x] Finished task list item
+
+### Lists
+
+- `ul`
+- `ul`
+
+1. `ol`
+1. `ol`
+
+`dl`
+:   `dl`
+:   `dl`
+
+- [x] Task list
+- [ ] Task list
 
 ### Code
 
