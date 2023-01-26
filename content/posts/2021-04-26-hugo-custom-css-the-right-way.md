@@ -9,6 +9,7 @@ tags:
 - Hugo
 series: 
   - "Having fun with CSS"
+  - "Deep dive into Hugo"
 title: 如何在 Hugo 中添加自定义 CSS
 description: 又名：浪费生命的一百种方法
 ---
@@ -69,9 +70,11 @@ static/
 我第一反应是，哦，Hugo 好像是有内置 CSS minifier 方程的，那我也像她那样加上 `| minify | fingerprint` 不就行了？对不起，无论怎么写都是 Hugo server error。
 
 首先点醒我的是这个 issue：
-[Minification example not working · Issue #6646 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/6646)。其中提到，Hugo 的 CSS 和 JS 文档（resources，哈）应该放在 `assets/` 而不是 `static/` 下面。
+[Minification example not working · Issue #6646 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/6646)。其中提到，Hugo 的 CSS 和 JS 文档（resources，哈[^1]）应该放在 `assets/` 而不是 `static/` 下面。
 
-{{< sticker name="question.png" h=120 animated="false" >}}
+……？
+
+<!-- {{< sticker name="question.png" h=120 animated="false" >}} -->
 
 <!-- 
 ```html
@@ -133,3 +136,5 @@ assets/
 ```
 
 以上。教练我一天之内都不想写代码了。
+
+[^1]: 这个笑话的好笑之处在于，Hugo 中可以放置所谓的「资源」的文件夹有 `assets` `static` `resources` `data` 等，而 `/resources/` 这个真的叫资源的资源文件夹我几乎没发现任何有意义的用法。
