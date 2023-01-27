@@ -25,34 +25,31 @@ code * {
 /* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
-/* LineHighlight */ .chroma .hl { background-color: var(--chroma-hl) }
+/* LineHighlight */ .chroma .hl { background-color: var(--chroma-sl) !important; }
 /* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: var(--chroma-lnt) }
 /* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: var(--chroma-lnt) }
 /* Line */ .chroma .line { display: flex; }
 
-/* Keyword, KeywordConstant, KeywordNamespace, KeywordPseudo, KeywordReserved,
+/* KeywordConstant, KeywordNamespace, KeywordPseudo, KeywordReserved,
 NameTag, Operator, OperatorWord,
 CommentPreproc, CommentPreprocFile */
-.chroma .k, .chroma .kc, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .nt, .chroma .o, .chroma .ow, .chroma .cp, .chroma .cpf { color: var(--chroma-pink) }
+.chroma .kc, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .nt, .chroma .o, .chroma .ow, .chroma .cp, .chroma .cpf { color: var(--chroma-pink) }
 
-/* KeywordDeclaration, NameBuiltin, NameLabel,
+/* Keyword, KeywordDeclaration, Name, NameBuiltin, NameLabel,
 NameVariable, NameVariableClass, NameVariableGlobal, NameVariableInstance */
-.chroma .kd, .chroma .nb,.chroma .nl,.chroma .nv,.chroma .vc,.chroma .vg,.chroma .vi{color: var(--chroma-cyan); font-style: italic}
+.chroma .k, .chroma .kd, .chroma .n, .chroma .nb,.chroma .nl,.chroma .nv,.chroma .vc,.chroma .vg,.chroma .vi{color: var(--chroma-cyan); font-style: italic}
 
 /* KeywordType */ .chroma .kt{color: var(--chroma-cyan)}
 
-/* Name */ .chroma .n {  }
+/* NameAttribute, NameClass, NameFunction, NameNamespace */
+.chroma .na,.chroma .nc,.chroma .nf, .chroma .nn {color: var(--chroma-green)}
 
-/* NameAttribute, NameClass, NameFunction */
-.chroma .na,.chroma .nc,.chroma .nf{color: var(--chroma-green)}
-
-/* NameBuiltinPseudo */ .chroma .bp {  }
+/* NameBuiltinPseudo */ .chroma .bp {color: var(--chroma-purple)}
 /* NameConstant */      .chroma .no {  }
 /* NameDecorator */     .chroma .nd {  }
 /* NameEntity */        .chroma .ni {  }
 /* NameException */     .chroma .ne {  }
 /* NameFunctionMagic */ .chroma .fm {  }
-/* NameNamespace */     .chroma .nn {  }
 /* NameOther */         .chroma .nx {  }
 /* NameProperty */      .chroma .py {  }
 /* NameVariableMagic */ .chroma .vm {  }

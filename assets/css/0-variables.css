@@ -16,7 +16,7 @@
   --chroma-fg:     #F8F8F2; /* foreground */
   --chroma-sl:     #44475a; /* selection */
   --chroma-c:      #6272a4; /* comment */
-  --chroma-hl:     #ffffcc; /* highlight; not from dracula */
+  /* --chroma-hl:     #ffffcc; */ /* highlight; not from dracula */
   --chroma-lnt:    #7f7f7f; /* line numbers table; not from dracula */
   --chroma-red:    #ff5555;
   --chroma-orange: #ffb86c;

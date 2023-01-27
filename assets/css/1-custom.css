@@ -178,8 +178,17 @@ body.night .post-body p del {
   margin-bottom: 1rem;
 }
 
-.post-body details[open] summary {
+/* .post-body details[open] summary {
   margin-bottom: 1rem;
+} */
+
+.post-body details .fold__details {
+  padding-top: 1rem;
+  background: rgba(3,123,186,7%);
+  padding-left: var(--page-margin);
+  padding-right: var(--page-margin);
+  margin-left: calc(-1 * var(--page-margin));
+  margin-right: calc(-1 * var(--page-margin));
 }
 
 .post-body li>p {
