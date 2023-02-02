@@ -109,11 +109,15 @@ Short CW + long main text:
 
 {{< mstdn "mastodon.social" "106353678279784184" >}}
 
-### Tweet refined (not yet)
+### Tweet refined
 
-Currently waiting for [gohugoio/hugo Issue #5617](https://github.com/gohugoio/hugo/issues/5617) to be implemented.
+~~Currently waiting for [gohugoio/hugo Issue #5617](https://github.com/gohugoio/hugo/issues/5617) to be implemented.~~
 
-{{< twitter 877500564405444608 >}}
+It will never happen.
+
+<!-- {{< twitter 877500564405444608 >}} -->
+
+{{< twitter 1621026986784337922 >}}
 
 ### Bilibili
 
@@ -135,9 +139,9 @@ Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c57
 
 *Italic*, _italic_, *斜体*
 
-<u>Underline</u>
+<u>Underline</u>, <underline>underline</underline>
 
-<del>Strike</del>, ~~strike~~
+<del>Strike</del>, <s>strike</s>, ~~strike~~, ~strike~, --strike--
 
 <mark>Highlight</mark>, ==highlight==
 
@@ -145,29 +149,31 @@ Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c57
 
 Footnote[^1], footnote[^2]
 
+[^1]: The linked footnote appears at the end of the document.
+
+[^2]: New lines
+
 ---
 
-- [ ] Unfinished task list item
-- [x] Finished task list item
 
 ### Lists
 
 - `ul`
-- `ul`
+- Unordered list
 
 1. `ol`
-1. `ol`
+1. Ordered list
 
 `dl`
-:   `dl`
-:   `dl`
+:   `dt`
+:   Description list
 
 - [x] Task list
 - [ ] Task list
 
 ### Code
 
-Inline `code` and <kbd>keystroke</kbd>
+Inline `code`, `` `escape` ``, and <kbd>keystroke</kbd>
 
 ```html
 <h1>hello world</h1>
@@ -202,13 +208,9 @@ ref: https://burk.io/2020/let-there-be-dark
 
 $\LaTeX{}$
 
-$$\LaTeX{}$$
+$$R_1 \begin{cases} >\mu_{2} \\ \leq \mu_{2} \end{cases}$$
 
 | Message to agent 1 | $M_1$          |
 | ------------------ | -------------- |
 | Agent 1's action   | $a_1$          |
 | New finding        | $R_1 \begin{cases} >\mu_{2} \\ \leq \mu_{2} \end{cases}$ |
-
-[^1]: The linked footnote appears at the end of the document.
-
-[^2]: New lines

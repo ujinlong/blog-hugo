@@ -15,6 +15,11 @@ description: "看这一篇就……算了。"
 
 按首字母排序。
 
+<time>2022-02-02</time> 编辑：
+
+1. 定制字体都需要使用 LuaTeX 或 XeTeX（而不是 pdfLaTeX）编译。
+1. Minted 需要在编译时使用 `--shell-escape` 选项。
+
 
 ## Auriga
 
