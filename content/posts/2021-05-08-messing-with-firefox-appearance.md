@@ -23,21 +23,21 @@ tags:
     link="https://github.com/ideaweb/firefox-safari-style"
     class="no-border"
     src="https://raw.githubusercontent.com/ideaweb/firefox-safari-style/master/img/preview-legacy.png"
-    caption="[ideaweb/firefox-safari-style](https://github.com/ideaweb/firefox-safari-style)"
+    title="[ideaweb/firefox-safari-style](https://github.com/ideaweb/firefox-safari-style)"
 >}}
 
 {{< figure
     link="https://github.com/kube/firefox-edge-theme"
     class="no-border"
     src="https://raw.githubusercontent.com/kube/firefox-edge-theme/master/screenshotLight.png"
-    caption="[kube/firefox-edge-theme](https://github.com/kube/firefox-edge-theme)"
+    title="[kube/firefox-edge-theme](https://github.com/kube/firefox-edge-theme)"
 >}}
 
 {{< figure
     link="https://github.com/muckSponge/MaterialFox"
     class="no-border"
     src="https://user-images.githubusercontent.com/5405629/45172944-21d91900-b24a-11e8-8bc5-03814121b0de.png"
-    caption="[muckSponge/MaterialFox](https://github.com/muckSponge/MaterialFox)"
+    title="[muckSponge/MaterialFox](https://github.com/muckSponge/MaterialFox)"
 >}}
 
 既然这种操作都可以，那么隐藏某个功能或按钮，或者改掉某个难看的图标，这种小事还不敢敢单单？

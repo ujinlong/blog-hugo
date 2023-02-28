@@ -39,8 +39,8 @@ tags: ["浏览器", "Shell"]
 
 首先，检查 Python 版本。我因为 Miniconda 的关系装了两个 pip，因此给了个别名：
 
-```sh
-$ python3 --version
+```bash
+python3 --version
 Python 3.9.7
 ```
 
@@ -51,9 +51,9 @@ Python 3.9.7
 
 如果 user 文件夹里什么都没的话，普通地安装：
 
-```sh
-$ brew install libmagic
-$ pip3 install promnesia bs4 lxml mistletoe logzero
+```bash
+brew install libmagic
+pip3 install promnesia bs4 lxml mistletoe logzero
 ```
 
 还有其他一些[可选的安装项](https://github.com/karlicoss/promnesia/blob/master/doc/SOURCES.org)，不过我暂时不需要，以后再说。
@@ -62,14 +62,14 @@ $ pip3 install promnesia bs4 lxml mistletoe logzero
 
 此时 Promnesia 已被安装至 `~/Library/Application Support/promnesia/`。鉴于这个文件夹之后还会放设置文档，时不时需要拿出来改一下，嫌麻烦的话可以随便在哪里放个 symlink：
 
-```sh
-$ ln -s "~/Library/Application Support/promnesia/" ~/Desktop/
+```bash
+ln -s "~/Library/Application Support/promnesia/" ~/Desktop/
 ```
 
 最后，[有个 bug 还没修](https://github.com/karlicoss/promnesia/pull/246)，暂时解决方案是：
 
-```sh
-$ pip3 install 'tzlocal==2.1' --force-reinstall
+```bash
+pip3 install 'tzlocal==2.1' --force-reinstall
 ```
 
 ---
@@ -87,10 +87,10 @@ $ pip3 install 'tzlocal==2.1' --force-reinstall
 
 这个命令本意是好的，能让本地服务器自动重启，但是问题就在于它太强力了导致这个服务器像杀不死的小强，[kill 一个 PID](https://superuser.com/a/1411294) 新长出来另一个 PID。我试了好多命令，最后给它关掉了，但也不知道具体是哪个起作用了。
 
-```sh
-$ sudo launchctl remove "com.github.karlicoss.promnesia"
-$ sudo launchctl stop "com.github.karlicoss.promnesia"
-$ sudo launchctl unload -w "~/Library/LaunchAgents/com.github.karlicoss.promnesia.plist"
+```bash
+sudo launchctl remove "com.github.karlicoss.promnesia"
+sudo launchctl stop "com.github.karlicoss.promnesia"
+sudo launchctl unload -w "~/Library/LaunchAgents/com.github.karlicoss.promnesia.plist"
 ```
 
 大概试了以上这些，完之后运行 `launchctl list | grep "promnesia"` 没有结果，就算成功。
@@ -161,8 +161,8 @@ SOURCES = [
 
 但如果妳在看本文的话，这么多坑都踩过来了，也不差这一个对不对（靠）
 
-```sh
-$ pip3 install setuptools mastodon-archive
+```bash
+pip3 install setuptools mastodon-archive
 ```
 
 ### `archive`
@@ -177,16 +177,16 @@ $ pip3 install setuptools mastodon-archive
 
 那当然是我全都要嘛。
 
-```sh
-$ mastodon-archive archive --with-mentions example@mastodon.social
+```bash
+mastodon-archive archive --with-mentions example@mastodon.social
 ```
 
 第一次运行的时候会需要登录，其实就是新增一个[已授权的应用](https://mastodon.social/oauth/authorized_applications)。注意，登录文件是直接保存在当前路径的[^1]，所以最好像我一样在某个熟悉的地方建一个文件夹，专门用来放这些存档。
 
 ### `media`
 
-```sh
-$ mastodon-archive media --collection favourites example@mastodon.social
+```bash
+mastodon-archive media --collection favourites example@mastodon.social
 ```
 
 不加 `--collection favourites` 的话，就不保存爱心嘟文的附件。
@@ -195,8 +195,8 @@ $ mastodon-archive media --collection favourites example@mastodon.social
 
 这一步会生成可用于 Promnesia 的纯文本文件。我加了 `--reverse` 是为了跟之后生成的 HTML 版保持一致，新的嘟文在最前面。不加也可。
 
-```sh
-$ mastodon-archive text --reverse example@mastodon.social > mastodon.txt
+```bash
+mastodon-archive text --reverse example@mastodon.social > mastodon.txt
 ```
 
 如果纯粹是为了给 Promnesia 用的话，到这里就可以结束了。效果如下图。虽然其实也没有很完美，但是有行数，真的想回溯上下文的话找个编辑器打开看一下就可以了。
@@ -207,14 +207,14 @@ $ mastodon-archive text --reverse example@mastodon.social > mastodon.txt
 
 生成原创／回复别人／转嘟页面：
 
-```sh
-$ mastodon-archive html example@mastodon.social
+```bash
+mastodon-archive html example@mastodon.social
 ```
 
 生成爱心页面：
 
-```sh
-$ mastodon-archive html --collection favourites example@mastodon.social
+```bash
+mastodon-archive html --collection favourites example@mastodon.social
 ```
 
 似乎无法生成别人回复我的页面。`--toots-per-page` 可以不用填，数量太大了它会自动分页。以及如果生成了 HTML 页面的话就不要动媒体文件夹了，不然会找不到图片的。
@@ -225,7 +225,7 @@ $ mastodon-archive html --collection favourites example@mastodon.social
 
 如果妳用的不是 Zsh 记得改掉第一行，然后还有就是第三行 `cd` 的地方也要改。我把 `media` 那行注释掉了是因为它好像不是增量更新，而是重新下载一遍，太耗时了，完全可以等有空手动操作的时候再来。
 
-```sh
+```bash
 #! /usr/bin/env zsh
 
 cd ~/documents/__backups/mastodon-pawoo/mastodon-archiver
@@ -245,12 +245,12 @@ mastodon-archive html --collection favourites example@mastodon.social
 
 以下内容需要妳消毒双手，戴上黑兜帽，非常小心地打开一个 Terminal，以及狂补一些 Vim 知识。
 
-```sh
-$ sudo su -
+```bash
+sudo su -
 # 打密码...
 # 打错了密码, 重打...
 
-$ crontab -u <用户名> -e
+crontab -u <用户名> -e
 ```
 
 `crontab` 是 cron table 的简写，每一行是一个任务，不可以错行。按 {{< kbd "i" >}} 进入输入模式，打类似下文的东西，记得改路径，以回车结尾：
@@ -258,15 +258,14 @@ $ crontab -u <用户名> -e
 ```crontab
 0 * * * *      promnesia index    >~/Library/Caches/promnesia-index.log     2>~/Library/Caches/promnesia-index.err
 0 0 1,16 * *      ~/documents/__backups/mastodon-pawoo/mastodon-archivermastodon-archiver.sh
-
 ```
 
 按 {{< kbd "esc" >}} 退出输入模式，按 {{< kbd ":w" >}} 保存，{{< kbd ":q" >}} 退出。
 
 如果提示 `crontab: installing new crontab` 就说明成功了。查看当前 cron 任务：
 
-```sh
-$ crontab -u <用户名> -l
+```bash
+crontab -u <用户名> -l
 ```
 
 看到两个都有，就可以打 `exit` 退出 su 模式了。但是不知道为什么我在这里有一定概率失败，所以先在其他地方写好要添加的任务，然后复制进去，比较不容易在失败的时候心肌梗塞。

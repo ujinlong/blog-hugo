@@ -20,7 +20,7 @@ ZSA 的键盘主要通过两个特征达到人体工学的效果，一是左右�
 
 画个粗糙的示意图，差不多就这个意思。
 
-{{< figure name="2022-07-13-keyboard-qwerty.png" alt="my typing method" caption="我的打字指法。图片来源：[File:Physical keyboard layouts comparison ANSI ISO KS ABNT JIS.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Physical_keyboard_layouts_comparison_ANSI_ISO_KS_ABNT_JIS.png)，遵循 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可使用。有更改。" >}}
+{{< figure name="2022-07-13-keyboard-qwerty.png" alt="my typing method" title="我的打字指法。图片来源：[File:Physical keyboard layouts comparison ANSI ISO KS ABNT JIS.png - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Physical_keyboard_layouts_comparison_ANSI_ISO_KS_ABNT_JIS.png)，遵循 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可使用。有更改。" >}}
 
 如果您是 ortholinear keyboard 的爱用者，或者是「正确」指法的受害者，那么请了解，我能看出这是一种基于「正确」指法进行的人体工学改造，它想尊重「正确」的指法。
 
@@ -44,9 +44,9 @@ ZSA 的键盘主要通过两个特征达到人体工学的效果，一是左右�
 
 需要注意的是，这个键盘的默认键位对初见非常可怕，不自己设置一下是真的会头痛。每个键可以设置点按、长按、双击、点按然后长按，还可以同时设置很多整个键盘层，来回切换，加倍复杂。这里放一下默认键位和我根据 [Toby's Moonlander macOS mastery](https://configure.zsa.io/moonlander/layouts/5yOoq/latest/0) 改编的模拟传统键位（右键新标签打开看大图）。
 
-{{< figure name="2022-07-13-keyboard-default.png" alt="my typing method" caption="默认键位：[Moonlander Default Layout](https://configure.zsa.io/moonlander/layouts/default/latest/0)" >}}
+{{< figure name="2022-07-13-keyboard-default.png" alt="my typing method" title="默认键位：[Moonlander Default Layout](https://configure.zsa.io/moonlander/layouts/default/latest/0)" >}}
 
-{{< figure name="2022-07-13-keyboard-my.png" alt="my typing method" caption="我的键位：[Moonlander macOS mastery \[fork\]](https://configure.zsa.io/moonlander/layouts/eBvll/latest/0)" >}}
+{{< figure name="2022-07-13-keyboard-my.png" alt="my typing method" title="我的键位：[Moonlander macOS mastery \[fork\]](https://configure.zsa.io/moonlander/layouts/eBvll/latest/0)" >}}
 
 键位以固件形式直接刷入键盘内置的芯片里，换电脑时不需要重新设置。Mac 直接在 Chromium 浏览器里打开 [Oryx: The ZSA Keyboard Configurator](https://configure.zsa.io/) 就可以开始设置了，Win 和 Linux 需要配合下载 [Wally \| zsa.io \| Store](https://www.zsa.io/wally/)。或者也可以只使用这个工具或 [QMK](https://github.com/qmk/qmk_firmware) 完全离线设置，但如果不通过浏览器，似乎就无法使用 [Live Training](https://configure.zsa.io/train) 了，这是主要卖点之一， 而且真的非常有必要。
 
