@@ -8,7 +8,7 @@ tags: ["Hugo", "LaTeX", "JavaScript"]
 description: "猴子打补丁。"
 enableMathJax: true
 ---
-我有另外一个依赖 Blogdown 的博客，但因为厌倦了对 R 的依赖于是策划了很久迁移回 vanilla Hugo。然而，每当我想在 Hugo 生成的网站中使用 LaTeX 的时候，就又想起 Blogdown 的好来。
+我有另外一个 Blogdown 写的博客，但因为厌倦了对 R 的依赖于是策划了很久迁移回 vanilla Hugo。然而，每当我想在 Hugo 生成的网站中使用 LaTeX 的时候，就又想起 Blogdown 的好来。
 
 请试想您想要写这个非常简单的分段方程：（图片来自 [KaTeX](https://katex.org/) 的在线预览）
 
@@ -65,7 +65,7 @@ Blogdown 整体的工作流程大概是，先把 `.rmd` 文件运算及渲染成
 
 用这套代码还有一个额外的好处，就是可以直接使用美元符号分隔数学公式，而不需要额外设置 KaTeX delimiter 了。
 
-当然，这也不是完全没有任何瑕疵的。比如，如果我是真的想用代码框展示 LaTeX 源码，而不是渲染后的公式，此时就会很尴尬了。为了允许这种情况，修改代码如下： [loikeinhugo-book/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js)
+当然，这也不是完全没有任何瑕疵的。比如，如果我是真的想用代码框展示 LaTeX 源码，而不是渲染后的公式，此时就会很尴尬了。为了允许这种情况，修改代码如下： [loikein/hugo-book/latex-fix.js](https://github.com/loikein/hugo-book/blob/master/assets/latex-fix.js)
 
 ``` javascript {hl_lines=[5]}
 (function() {
