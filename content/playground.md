@@ -50,16 +50,16 @@ Hello world [test](#)
 
 ### kbd
 
-{{< kbd I hate typing >}}　
+{{< kbd I hate `typing` >}}　
 
 ```html
-{{</* kbd I hate typing */>}}
+{{</* kbd I hate `typing` */>}}
 ```
 
 ### Summary \& Nested shortcodes
 
 {{< fold  "我是谁？`我在哪？`" >}}
-Hello world
+{{< md >}}Hello world{{< /md >}}
 
 {{< highlight text >}}
 0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
@@ -68,13 +68,27 @@ Hello world
 
 ````html
 {{</* fold  "我是谁？`我在哪？`" */>}}
-Hello world
+{{</* md */>}}Hello world{{</* /md */>}}
 
 {{</* highlight text */>}}
 0 Oo Ii Ll 1 | 2 Z 5 s 8 Bb 6 # * ^ ~ () {} [] . , : ; “ ‘ ’ `
 {{</* /highlight */>}}
 {{</* /fold */>}}
 ````
+
+### Figure
+
+Local picture:
+
+{{< figure folder="sticker" name="shocked.png" alt="I did not understand but I was shocked" h="200px" >}}
+
+Remote picture:
+
+{{< figure 
+src="https://raw.githubusercontent.com/dracula/sublime/master/images/html.png"
+alt="Dracula theme HTML demo for Sublime Text"
+link="https://github.com/dracula/sublime/blob/master/README.md"
+>}}
 
 ### Video
 
@@ -113,7 +127,7 @@ Short CW + long main text:
 
 ~~Currently waiting for [gohugoio/hugo Issue #5617](https://github.com/gohugoio/hugo/issues/5617) to be implemented.~~
 
-It will never happen.
+It will never happen due to changes in the Twitter API v2.
 
 <!-- {{< twitter 877500564405444608 >}} -->
 

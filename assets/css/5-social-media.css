@@ -1,4 +1,3 @@
-
 /* **************** fediverse & twitter **************** */
 
 .twitter-tweet p:last-of-type {
@@ -12,6 +11,10 @@
         rgb(255,212,0,10%) 50%, rgb(255,212,0,10%) 75%,
         rgb(246, 240, 207,10%) 75%, rgb(246, 240, 207,10%) 100%);
     background-size: 40px 40px;
+}
+
+.fediverse-status-cw div {
+  margin-top: 1rem;
 }
 
 .fediverse-status footer {
@@ -41,7 +44,6 @@
   grid-template-rows: repeat( auto-fit, 200px );
   grid-gap: 5px;
   justify-items: center;
-
 }
 
 .fediverse-status__media a {

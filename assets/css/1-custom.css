@@ -182,7 +182,7 @@ body.night .post-body p del {
   margin-bottom: 1rem;
 } */
 
-.post-body details summary,
+.post-body details summary:not(.fediverse-status-cw__label),
 .post-body details .fold__details {
   background: rgba(3,123,186,7%);
   padding-left: var(--page-margin);
