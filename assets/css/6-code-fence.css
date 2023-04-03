@@ -2,7 +2,13 @@
   position: relative; /* for copy button */
 }
 
+/* hide scrollbar */
+.highlight pre::-webkit-scrollbar {
+  display: none;
+}
 .highlight pre {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   /* border-radius: 0; */
 /*   padding: 0.8rem calc(var(--page-margin) + 3px + 3vw);
   margin-left: calc(-1 * var(--page-margin));
