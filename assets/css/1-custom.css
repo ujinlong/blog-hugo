@@ -193,6 +193,12 @@ body.night .post-body p del {
 
 .post-body details .fold__details {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.post-body details .fold__details *:last-child,
+.post-body details .fold__details *:last-child * {
+  margin-bottom: 0;
 }
 
 .post-body li>p {
@@ -239,8 +245,12 @@ body.night .post-body p del {
   }
 }
 
+body.night .post-body dl,
 body.night .post-body dt,
-body.night .post-body .post-series dt {
+body.night .post-body dd,
+body.night .post-body .post-series dl
+body.night .post-body .post-series dt
+body.night .post-body .post-series dd {
   color: #e6e6e6;
 }
 

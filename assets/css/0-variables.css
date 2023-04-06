@@ -11,6 +11,50 @@
   --theme-color-1: #037BBA;
   --mark: rgb(255,212,0,10%);
   text-underline-position: under;
+
+  /* dracula theme */
+  --chroma-bg:     #F3F8FB; /* background */
+  --chroma-fg:     #383a42; /* foreground */
+  --chroma-sl:     #CCE7F9; /* selection */
+  --chroma-c:      #a0a1a7; /* comment */
+  /* --chroma-hl:     #ffffcc; */ /* highlight; not from dracula */
+  --chroma-lnt:    #7f7f7f; /* line numbers table */
+  /* atom one light theme */
+  --chroma-red:                    #be5046;
+  --chroma-orange:                 #986801;
+  --chroma-yellow:                 #c18401;
+  --chroma-green:                  #50a14f;
+  --chroma-purple:                 #a626a4;
+  /* --chroma-cyan:                   #025a88; */
+  --chroma-cyan:                   #0184bb;
+  --chroma-pink:                   #CB455B;
+}
+
+/*   atom one light theme  */
+/*
+  --chroma-orange:                 #d19a66;
+  --chroma-cyan:                   #56B6C2;
+  --chroma-blue:                   #61afef;
+  --chroma-purple:                 #c678dd;
+  --chroma-green:                  #98C379;
+  --chroma-red:                    #DF6A73;
+  --chroma-gray:                   #abb2bf;
+  --chroma-illegal-red:            #e05252;
+  --chroma-rust-green:             #56b6c2;
+  --chroma-interpolation-red:      #be5046; */
+
+@media screen and (max-width:1020px) {
+  :root{
+    --page-margin: 20px;
+  }
+}
+
+body.night {
+  --black: #e6e6e6;
+  --dark-gray: #999;
+  --gray: #aaa;
+  --light-gray: #555;
+
   /* dracula theme */
   --chroma-bg:     #282a36; /* background */
   --chroma-fg:     #F8F8F2; /* foreground */
@@ -25,19 +69,7 @@
   --chroma-purple: #bd93f9;
   --chroma-cyan:   #8be9fd;
   --chroma-pink:   #ff79c6;
-}
 
-@media screen and (max-width:1020px) {
-  :root{
-    --page-margin: 20px;
-  }
-}
-
-body.night {
-  --black: #e6e6e6;
-  --dark-gray: #999;
-  --gray: #aaa;
-  --light-gray: #555;
 }
 
 @font-face {
