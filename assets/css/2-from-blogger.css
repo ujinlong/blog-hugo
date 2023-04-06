@@ -33,7 +33,7 @@
 }
 
 .toc .toc-content > ul > ul > ul > li::before {
-  content: counter(counter_toc_h3)". ";
+  content: counter(counter_toc_h2)"."counter(counter_toc_h3)". ";
 }
 
 /* two-col */
