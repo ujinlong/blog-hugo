@@ -42,27 +42,12 @@ description: "本期内容：更多苹果配件，理发剪"
 
 ## 五月
 
-### 8Bitdo SN30 Pro Bluetooth Game Pad
+### 8BitDo SN30 Pro Bluetooth Game Pad
 
 {{< figure name="2022-04-13-shopping-5-1.jpg" alt="8Bitdo SN30 Pro Bluetooth Game Pad" h="200px" >}}
 
-在手机上玩游戏的人是二等公民，在 iPad 上玩游戏的人是二等公民中的二等公民。以前用过 Xbox 手柄，但是实在是太大了，总感觉不跟手，DualShock 估计也是同样问题，懒得试了。市面上也确实有些稍微小一点的 MFi 手柄，但我也并不真的想要一个只能连接 iOS 设备的外设，万一以后买 Windows 了岂不是又整个过程重来一次？
+<time>2023-04-23</time> 编辑：
 
-从去年开始关注这个手柄，零星有评论说能连 iOS，但官网的帮助文档和说明书都没写（官方支持：Switch，Windows，安卓，macOS）；直到我看到了这个视频，才终于下决心买来试一下：
-
-{{< youtube id="P5gYInHiRMk" title="iPad Pro 11 Accessory Review: RunSnail 8Bitdo Sn30 Pro... - YouTube" >}}
-
-结果就是用视频里提到的切换控制方法确实能连接上，而且一旦连好了以后就是正常开机自动连接，或者从正常的蓝牙选项里连接。根据配对时的开机方法存在不同手柄模式，在这里记录一下：（这里的按键名是手柄上写着的按键，不是对应模拟键位的按键；仅反映 iPad mini 6 使用状况）
-
-| 配对开机键            | 模拟模式   | 蓝牙设备名         | 运作情况         |
-|---------------------|-----------|------------------|-----------------|
-| {{< kbd X start >}} | Xbox      | 8Bitdo SN 30 Pro | 所有按键均正常运作 |
-| {{< kbd Y start >}} | Switch    | Pro Controller    | 无法连接 |
-| {{< kbd B start >}} | Xbox?     | 8Bitdo SN 30 Pro | 无法连接 | 
-| {{< kbd A start >}} | DualShock | DUALSHOCK 4 Wireless Controller | 没有触摸屏键，其它按键均正常运作 | 
-
-直接按 {{< kbd start >}} 开机时记忆上次启动的模式。重启时清空连发键设置。iOS 小组件显示电量。
-
-总的来说，只要不介意按键印刷跟实际按键不一样（实际体验下来，从搓玻璃过渡到手柄，用个两周就形成肌肉记忆了），光冲着这个可以连接多系统的特点就值得推荐。（而且是 Type-C 充电口（以及跟我的 [AirPods 壳](/posts/2022-04-12-mar-gains-and-losses-online-shopping/#elago-aw5-case-for-airpods-pro)长得一模一样（。
+一年过去了，写了篇总结文：[8BitDo SN30 Pro 使用报告](/posts/2023-04-12-8bitdo-sn30-pro-controller/)（施工中）
 
 没了啊。
