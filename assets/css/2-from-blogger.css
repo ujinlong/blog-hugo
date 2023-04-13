@@ -39,6 +39,7 @@
 /* two-col */
 
 .row {
+  /* mobile */
   display: grid;
   width: 100%;
   gap: 0.3rem;
@@ -49,10 +50,20 @@
   margin-left: 1rem;
 }
 
+.row .column>p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 600px) {
+  /* desktop */
+  /* https://stackoverflow.com/a/62086985 */
   .row {
-    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    /* above 2 lines are equivalent as below 1 line */
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     gap: 1rem;
+    margin: 0 0 1rem 0;
   }
   .row .column:nth-of-type(2n) {
     margin-left: 0;

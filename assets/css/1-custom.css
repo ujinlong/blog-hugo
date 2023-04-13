@@ -126,6 +126,12 @@ body.night a:visited {
   margin-top: calc(10px + 1em);
 }
 
+.post-body h4 {
+  margin-top: calc(5px + 1em);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
 .post-body b,
 .post-body strong {
 /*   font-weight: normal;
@@ -298,12 +304,19 @@ body.night .post-body .table-hover tbody tr:hover {
 }
 
 .post-body blockquote {
-  padding: 1rem calc(var(--page-margin) + 3px + 3vw);
+  padding-top: 1rem;
+  padding-left: calc(var(--page-margin) + 3px + 3vw);
+  padding-right: calc(var(--page-margin) + 3px + 3vw);
+  padding-bottom: 0;
   /* border-left: 5px solid rgba(3,123,186,.3); */
   /* border-left: 5px solid rgba(65,180,241,.3); */
   border-left: none;
   margin-left: calc(-1 * var(--page-margin));
   margin-right: calc(-1 * var(--page-margin));
+}
+
+.post-body blockquote.twitter-tweet {
+  padding-bottom: 1rem;
 }
 
 .post-body blockquote,
@@ -319,16 +332,22 @@ body.night blockquote a * {
   color: inherit !important;
 }
 
-.post-body blockquote p {
+.post-body blockquote p,
+.post-body footer {
   margin-bottom: 1rem;
 }
 
-.post-body blockquote p:last-child,
-.post-body blockquote .row:last-child,
-.post-body blockquote ol:last-child,
-.post-body blockquote ul:last-child {
-  margin-bottom: 0;
+.post-body footer {
+  display: inline-block;
 }
+
+/* .post-body blockquote>p:last-child,
+.post-body blockquote>.row:last-child,
+.post-body blockquote>.row:last-child p:last-child,
+.post-body blockquote>ol:last-child,
+.post-body blockquote>ul:last-child {
+  margin-bottom: 0;
+} */
 
 
 /* **************** toc **************** */

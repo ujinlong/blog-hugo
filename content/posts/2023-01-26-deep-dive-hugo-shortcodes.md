@@ -18,7 +18,9 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 - [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
 
 
-## 参数定义
+## 参数
+
+### 常规参数
 
 我最喜欢看的 Hugo 自带 shortcodes 代码之一是 [figure.html](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html)，对照着它修改自己的 [figure.html](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/figure.html) 是我学习自定义 Hugo 的起点。
 
@@ -51,6 +53,139 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 以及，可以通过写 ``` `` ``` 来[输入包含换行的参数](https://gohugo.io/content-management/shortcodes/#shortcodes-with-raw-string-parameters)或者一些难以转义的参数（比如 `\`）。
 
 
+### 使用列表作为单个参数
+
+在更新我的[分栏 shortcode](/playground/#two-column-layout) 时遇到了这个问题。
+
+[这个讨论串](https://discourse.gohugo.io/t/multiple-markdown-text-sections/4238/9)里有一个（在写博文时）非常简洁的分栏 shortcode，我最近有需求，因此仔细研究了一下。
+
+原文中的代码是这样的：
+
+```go
+{{ $cols := split .RawContent "||" }}
+
+{{ range $cols }}
+   <div class="content-column">
+   {{ . | markdownify }}
+   </div>
+{{ end }}
+```
+
+但是我写分栏几乎都是用来多语言对照的，所以还需要指定每栏的[语言代码](https://www.w3schools.com/tags/ref_language_codes.asp)。那么问题来了，我原本的分栏代码是 [外层（行）](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/row.html)和[内层（列）](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/shortcodes/col.html)分开写，指定语言的时候在列那一级里设置一个普通的参数就可以了。然而在这个新的代码中，列是一个用来循环的列表，长度是不确定的，所以指定语言代码的参数也必须是能够跟它一起循环的列表，不然就没法一一对应了。
+
+那么问题来了，怎么写呢？
+
+经过了一整天的尝试，我得出了以下两个解决方案。准确地说，是我很快地就得到了第一个方案，然后经过了一整天的尝试，终于得到了第二个（我更喜欢的）方案。
+
+#### 方案一
+
+这个方案就是简单粗暴地把所有参数都看作语言代码参数，不允许其它参数的存在，这样产生的参数就会自然地形成一个列表。当然，如果多写了一两个，由于循环时参照的是列的索引，也不会有任何问题。
+
+Shortcode 代码：
+
+```go {hl_lines=[2,5,6]}
+{{ $cols := split .Inner "||" }}
+{{ $lang := .Params }}
+
+<div class="row">
+{{ range $indCol,$col := $cols }}
+   <div class="column" {{ with $lang }} lang="{{ index $lang $indCol }}"{{ end }}>
+   {{ . | $.Page.RenderString (dict "display" "block") }}
+   </div>
+{{ end }}
+</div>
+```
+
+使用：
+
+```html
+{{</* colx zh-Hans en ja */>}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{</* /colx */>}}
+```
+
+结果：
+
+{{< colx zh-Hans en ja >}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{< /colx >}}
+
+#### 方案二
+
+这个方案的原理是用户输入一串由某种分隔符组合在一起的文本，再在定义参数时分开使之成为列表。这么看来似乎是非常明显的解决方案，但我一开始并没有意识到，如果直接在使用 shortcode 时用户输入一个列表，Hugo 是认不出来的。下详。
+
+Shortcode 代码：
+
+```go {hl_lines=[2,3]}
+{{ $cols := split .Inner "||" }}
+{{ $lang := .Get "lang" | default ( .Get 0 ) }}
+{{ $lang := split $lang "," }}
+
+<div class="row">
+{{ range $indCol,$col := $cols }}
+   <div class="column" {{ with $lang }} lang="{{ index $lang $indCol }}"{{ end }}>
+   {{ . | $.Page.RenderString (dict "display" "block") }}
+   </div>
+{{ end }}
+</div>
+```
+
+使用：（都不能有空格）
+
+```html
+{{</* cols "zh-Hans,en,ja" */>}} <!-- 或者 -->
+{{</* cols lang="zh-Hans,en,ja" */>}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{</* /cols */>}}
+```
+
+结果：
+
+{{< cols "zh-Hans,en,ja" >}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{< /cols >}}
+
+#### 用户输入列表的问题
+
+首先，不能输入含有空格的没有被引号括起来的东西，比如 `[zh en]`，因为，第一，不能输入没有被引号括起来的 `[`，第二，参数默认以空格分隔，即使能输入，这也会变成好几个（数量不确定的）参数。（其实似乎也可以用 `$cols` 的长度去……但是这实在太麻烦了。）
+
+其次，一切用引号括起来的参数都会被认为是纯文本，因此如果输入 `"[zh en]"`，那么它在 shortcode 里看起来跟正常的列表长得一模一样，直到您去 `{{ index "[zh en]" 0 }}`，得到 `91`。`91` 是什么呢？没错，`[` 的 [ASCII 代码](https://en.wikipedia.org/wiki/ASCII)。也就是说，您得到了一个长度为 7 的纯文本，它的第一项是 91，第二项是 122（！）。  
+在 shortcode 代码中，可以通过写 Golang 方程的方式确认这一点，但在写博文的时候是没用的：`{{ printf "%T" "[zh en]" }}`，得到 `string`。谁能想到呢？
+
+如果输入 `lang="zh en"`，然后 `{{ $lang := .Get "lang" }} {{ $lang := slice $lang }}`，就会得到一个看起来长得没错的列表：`[zh en]`，但它的长度为 1，第一项是 `zh en`。
+
+总结就是，任何情况下，都不能直接输入列表作为单独一个参数。
+
+作为参考，在 shortcode 里一个正常的列表长这样：（注释是渲染出来的网页内容）
+
+```go
+{{ slice "zh" "en" }}
+// [zh en]
+
+{{ index ( slice "zh" "en" ) 0 }}
+// zh
+
+{{ printf "%T" ( slice "zh" "en" ) }}
+// []string <-- 列表
+```
+
+
 ## 编写
 
 <!-- ok -->
@@ -62,7 +197,7 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 简而言之，在左边添加 `-` 就是删除 `.Inner` 以左的空白字符，以此类推。（但似乎不会影响括号内的空白字符，比如 [`{{- if ... -}}` 后的换行](https://github.com/loikein/hugo-book/commit/dc180e04588a3aa2ec5574a04f36613aecc7212d)。）在 Partial 里也是一样的。
 
 
-## 调用
+## 两种调用方式
 
 <!-- ok -->
 

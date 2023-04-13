@@ -20,25 +20,55 @@ _build:
 {{< col >}}
 你好世界
 {{< /col >}}
-{{< col >}}
+{{< col "en" >}}
 Hello world
 
-Hello world [test](#)
+Hello world [test](#)[^3]
+{{< /col >}}
+{{< col "ja" >}}
+こんにちは
 {{< /col >}}
 {{< /row >}}
 
-<blockquote>
-{{< row >}}
-{{< col >}}
+[^3]: test
+
+```html
+{{</* row */>}}
+{{</* col */>}}
 你好世界
-{{< /col >}}
-{{< col >}}
+{{</* /col */>}}
+{{</* col "en" */>}}
+Hello world
+{{</* /col */>}}
+{{</* col "ja" */>}}
+こんにちは
+{{</* /col */>}}
+{{</* /row */>}}
+```
+
+### New! two-column layout
+
+{{< cols "zh-Hans,en,ja" >}}
+你好世界
+||
 Hello world
 
-Hello world [test](#)
-{{< /col >}}
-{{< /row >}}
-</blockquote>
+Hello world [test](#)[^5]
+||
+こんにちは
+{{< /cols >}}
+
+[^5]: test
+
+```html
+{{</* cols "zh-Hans,en,ja" */>}}
+你好世界
+||
+Hello world
+||
+こんにちは
+{{</* /cols */>}}
+```
 
 ### Ruby
 

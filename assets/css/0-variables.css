@@ -13,9 +13,9 @@
   text-underline-position: under;
 
   /* dracula theme */
-  --chroma-bg:     #F3F8FB; /* background */
+  --chroma-bg:     #F2F2F2; /* background */
   --chroma-fg:     #383a42; /* foreground */
-  --chroma-sl:     #CCE7F9; /* selection */
+  --chroma-sl:     #E0E0E0; /* selection */
   --chroma-c:      #a0a1a7; /* comment */
   /* --chroma-hl:     #ffffcc; */ /* highlight; not from dracula */
   --chroma-lnt:    #7f7f7f; /* line numbers table */
