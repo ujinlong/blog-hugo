@@ -313,6 +313,9 @@ body.night .post-body .table-hover tbody tr:hover {
   border-left: none;
   margin-left: calc(-1 * var(--page-margin));
   margin-right: calc(-1 * var(--page-margin));
+  /* to keep margin of last child */
+  /* https://stackoverflow.com/a/1939980 */
+  overflow: auto;
 }
 
 .post-body blockquote.twitter-tweet {
@@ -340,15 +343,6 @@ body.night blockquote a * {
 .post-body footer {
   display: inline-block;
 }
-
-/* .post-body blockquote>p:last-child,
-.post-body blockquote>.row:last-child,
-.post-body blockquote>.row:last-child p:last-child,
-.post-body blockquote>ol:last-child,
-.post-body blockquote>ul:last-child {
-  margin-bottom: 0;
-} */
-
 
 /* **************** toc **************** */
 
