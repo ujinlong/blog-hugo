@@ -46,7 +46,8 @@ css:
 
 ## 2023-04-06 💄
 
-代码框在浅色模式和深色模式下有不同的颜色了。浅色主题：Atom One light（稍有更改），深色主题：Dracula。
+代码框在浅色模式和深色模式下有不同的颜色了。浅色主题：Atom One light（稍有更改），深色主题：Dracula。  
+博文：[深入探究 Hugo 代码高亮](/posts/2023-01-10-deep-dive-into-hugo-syntax-highlight/)
 
 
 ## 2023-04-03 ✨
@@ -117,7 +118,7 @@ css:
 整理博文标签：完成了对「编程笔记」分类下所有博文的标签整理。
 
 修改代码高亮方式为 `WithClasses`。  
-博文（未发布）：[深入探究 Hugo 代码高亮](/drafts/2023-01-10-deep-dive-into-hugo-syntax-highlight/)
+博文：[深入探究 Hugo 代码高亮](/posts/2023-01-10-deep-dive-into-hugo-syntax-highlight/)
 
 
 ## 2023-01-09 📝
