@@ -49,11 +49,11 @@ Pygments 有[在线 Demo](https://pygments.org/demo/)，与 Chroma 渲染出来�
 
 以下是修改流程， 以本文使用的配色 Dracula 为例：
 
-1. 在不启动 huso serve 的情况下，修改 `config.yaml`
+1. 在不启动 hugo server 的情况下，修改 `config.yaml`
 2. 运行 `hugo gen chromastyles --style=dracula > dracula.css`
 3. 以生成的 CSS 文件为蓝本，修改精简，在不影响阅读的前提下最小化，然后统合到自己的 CSS 里
 4. 删除 `dracula.css`
-5. 运行 `hugo serve --buildDrafts --disableFastRender`，观察效果
+5. 运行 `hugo server --buildDrafts --disableFastRender`，观察效果
 
 {{< fold  "统合后的 CSS 使用实例" >}}
 {{< md >}}定义颜色变量：{{< /md >}}

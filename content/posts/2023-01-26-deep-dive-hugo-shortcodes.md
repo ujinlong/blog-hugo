@@ -16,6 +16,8 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 
 - [Shortcodes | Hugo](https://gohugo.io/content-management/shortcodes/)
 - [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
+- [Shortcode Variables | Hugo](https://gohugo.io/variables/shortcodes/)
+- （虽然主题不是 shortcodes 但有用：）[Template Debugging | Hugo](https://gohugo.io/templates/template-debugging/)
 
 
 ## 参数
