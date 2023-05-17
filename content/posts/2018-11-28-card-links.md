@@ -86,7 +86,7 @@ Link](https://chrome.google.com/webstore/detail/create-link/gcmghdmnkfdbncmnmlkk
 
 只要把以下代码粘贴进对应的浏览器拓展的选项页面，再设置一个容易记的名字，在任何网页上右键就可以一键复制粘贴到 Blogger 的 HTML 编辑器。  
 
-Create Link 版本：（[GitHub Gist](https://gist.github.com/loikein/8c62bceb235bbb104f51333a2153c27f#file-blogger-link-box-html)）
+Create Link 版本：
 
 ```html
 <style>%newline%
@@ -98,7 +98,7 @@ Create Link 版本：（[GitHub Gist](https://gist.github.com/loikein/8c62bceb23
 <a href="%url%" target="_blank">%newline%
 <table align=center class="link-box"><tr>%newline%
     <td width=160px>%newline%
-        <img style="float:left;" src="https://api.thumbnail.ws/api/abced59c1824672a69ab5d7dfd3043b9323ac8d36cd9/thumbnail/get?width=160&url=%url%" alt="" width="160" height="90" />%newline%
+        <img style="float:left;" src="https://api.thumbnail.ws/api/<api_key>/thumbnail/get?width=160&url=%url%" alt="" width="160" height="90" />%newline%
     </td>%newline%
     <td width=320px>%newline%
         %title%%newline%
@@ -106,7 +106,7 @@ Create Link 版本：（[GitHub Gist](https://gist.github.com/loikein/8c62bceb23
 </tr></table></a><br />
 ```
 
-Link Text and Location Copier 版本：（[GitHub Gist](https://gist.github.com/loikein/8c62bceb235bbb104f51333a2153c27f#file-blogger-link-box2-html)）
+Link Text and Location Copier 版本：
 
 ```html
 <style>%N
@@ -118,7 +118,7 @@ Link Text and Location Copier 版本：（[GitHub Gist](https://gist.github.com/
 <a href="%U" target="_blank">%N
   <table align=center class="link-box"><tr>%N
   <td width=160px>%N
-    <img style="float:left;" src="https://api.thumbnail.ws/api/abced59c1824672a69ab5d7dfd3043b9323ac8d36cd9/thumbnail/get?width=160&url=%linkurl%" alt="" width="160" height="90" />%N
+    <img style="float:left;" src="https://api.thumbnail.ws/api/<api_key>/thumbnail/get?width=160&url=%linkurl%" alt="" width="160" height="90" />%N
   </td>%N
   <td width=320px>%N
   %T%N
