@@ -20,7 +20,7 @@ _build:
 {{< col >}}
 人称：你／他／她，但我都不喜欢。中文人称太少了。  
 大龄文青，喜欢唱歌、摄影和编程。  
-剪过自己以及其他三个以上的人的头发。
+剪过自己以及另外三个以上的人的头发。
 {{< /col >}}
 {{< col >}}
 My pronouns are: they / them / their.  
@@ -49,21 +49,24 @@ I have chosen my current major out of interest, but actually it is the major tha
 {{< row >}}
 {{< col >}}
 自 2017 年起堆放我所有胡侃的地方。  
-想看学业内容请走：[loikein's notes](https://notes.loikein.one/post/)  
-想网络斯托卡我请走：[loikein one](https://www.loikein.one/)
+目前暂时无暇打理别的网站。
+<!-- 想看学业内容请走：[loikein's notes](https://notes.loikein.one/post/)  
+想网络斯托卡我请走：[loikein one](https://www.loikein.one/) -->
 {{< /col >}}
 {{< col >}}
 Stack of my babblings since 2017.  
-If you want academic contents, consider: [loikein's notes](https://notes.loikein.one/post/)  
-If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/)
+All my other sites are halted temporarily.
+<!-- If you want academic contents, consider: [loikein's notes](https://notes.loikein.one/post/)  
+If you want to cyber-stalk me, consider: [loikein one](https://www.loikein.one/) -->
 {{< /col >}}
 {{< /row >}}
 
 
 ## 初次见面的朋友可以从这里看起／Recommended posts for first-time visitors
 
-本站现在已经没有任何分析工具了，无从得知大家喜欢哪些文章，所以以下推荐均出自我的独断专行。
+本站现在没有任何分析工具，无从得知大家喜欢哪些文章，所以以下推荐均出自我的独断专行。
 
+- [深入探究 Hugo 系列](/series/deep-dive-into-hugo/)
 - [播客世界的邀请函：听播客，发现新播客，用播客改善生活](/posts/2020-05-18-invitation-to-podcast/)
 - [在东京卖二手物品的懒人指南](/posts/2018-09-29-dummy-s-guide-to-selling-second-hand-in-tokyo/)
 - [全球化电子阅读体验／Globalise your digital reading life](/posts/2019-06-20-globalise-your-digital-reading-life/)

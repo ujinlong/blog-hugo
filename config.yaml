@@ -5,7 +5,7 @@ DefaultContentLanguage: zh
 languageCode: zh-Hans
 publishDir: public
 
-title: 此生未命名
+title: "浣心"
 copyright: CC BY-NC loikein 2023
 theme: diary
 
@@ -31,7 +31,7 @@ ignoreErrors:
   - "error-remote-getjson"
 
 params:
-  title: "此生未命名／Untitled Life"
+  title: "浣心／Heart of Sleeve"
   subtitle: "用爱和理性对抗荒谬"
   enableGitalk: false
   enableOpenGraph: true
