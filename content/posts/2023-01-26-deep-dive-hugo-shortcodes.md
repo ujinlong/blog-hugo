@@ -129,7 +129,7 @@ Shortcode 代码：
 ```go {hl_lines=[2,3]}
 {{ $cols := split .Inner "||" }}
 {{ $lang := .Get "lang" | default ( .Get 0 ) }}
-{{ $lang := split $lang "," }}
+{{ $lang  = split $lang "," }}
 
 <div class="row">
 {{ range $indCol,$col := $cols }}
@@ -143,8 +143,7 @@ Shortcode 代码：
 使用：（都不能有空格）
 
 ```html
-{{</* cols "zh-Hans,en,ja" */>}} <!-- 或者 -->
-{{</* cols lang="zh-Hans,en,ja" */>}}
+{{</* cols lang="zh-Hans,en,ja" */>}} {{/* lang= 可省略 */}}
 你好世界
 ||
 Hello world

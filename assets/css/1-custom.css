@@ -203,7 +203,7 @@ body.night .post-body p del {
 }
 
 .post-body details .fold__details *:last-child,
-.post-body details .fold__details *:last-child * {
+.post-body details .fold__details *:last-child:last-child {
   margin-bottom: 0;
 }
 
@@ -211,8 +211,8 @@ body.night .post-body p del {
   margin-bottom: 0;
 }
 
-.post-body > ul > li,
-.post-body > ol > li,
+.post-body ul>li,
+.post-body ol>li,
 .post-series * {
   margin-bottom: 0.5rem;
 }
@@ -237,7 +237,7 @@ body.night .post-body p del {
 
 .post-body dd {
   margin-bottom: 0;
-  margin-left: 1rem;
+  margin-left: 40px;
 }
 
 @media (min-width: 600px) {
