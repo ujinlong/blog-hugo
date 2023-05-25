@@ -61,9 +61,9 @@ alt="Auriga Beamer theme demo image"
 
 预览：
 
-{{< figure src="https://github.com/elauksap/focustheme/raw/master/focus-demo/demo-titlepage.jpg" alt="Focus Beamer theme demo image - title page" h="220px" >}}
+{{< figure src="https://github.com/elauksap/focustheme/raw/main/focus-demo/demo-titlepage.jpg" alt="Focus Beamer theme demo image - title page" h="220px" >}}
 
-{{< figure src="https://github.com/elauksap/focustheme/raw/master/focus-demo/demo-typeset.jpg" alt="Focus Beamer theme demo image - main page" h="220px" >}}
+{{< figure src="https://github.com/elauksap/focustheme/raw/main/focus-demo/demo-typeset.jpg" alt="Focus Beamer theme demo image - main page" h="220px" >}}
 
 字体：[Fira Sans](https://github.com/bBoxType/FiraSans)
 
