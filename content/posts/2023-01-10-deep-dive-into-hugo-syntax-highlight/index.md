@@ -184,6 +184,9 @@ func GetTitleFunc(style string) func(s string) string {
 `.chroma .n` （CSS：`var()` 中的变量名）
 : 改为 cyan italic
 
+`.chroma .nx` （TOML：变量名）
+: 冲突太多了没法改，这语法真的不行……
+
 
 ## 高亮结果对比
 

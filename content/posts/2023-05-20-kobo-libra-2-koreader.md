@@ -63,9 +63,16 @@ tags: []
 
 **4\.** 把 `OCP-KOReader-v2023.04` 文件夹中的 `.adds` 文件夹和两个 `.png` 文件直接整个复制到 Kobo 的根目录，然后把 `OCP-KOReader-v2023.04/.kobo/KoboRoot.tgz` 复制到 Kobo 的 `.kobo` 文件夹中。
 
-**5\.** 弹出 U 盘，拔掉电线，等待 Kobo 重启（期间会白屏，以及点点点，不要惊慌，这是正常的），大概需要五分钟左右。
+**5\.** 用文本编辑器打开 `.kobo/Kobo/Kobo eReader.conf` 文件，在最末尾添加：
 
-**6\.** 重启后依然是普通的 Kobo 图书一览界面，Kobo 的一切功能依然可用，但是右下角多了一个汉堡菜单（`☰`，NickelMenu），点一下，弹出菜单中点 KOReader，就进到 KOReader 界面了。完成。
+```toml
+[FeatureSettings]
+ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
+```
+
+**6\.** 弹出 U 盘，拔掉电线，等待 Kobo 重启（期间会白屏，以及点点点，不要惊慌，这是正常的），大概需要五分钟左右。
+
+**7\.** 重启后依然是普通的 Kobo 图书一览界面，Kobo 的一切功能依然可用，但是右下角多了一个汉堡菜单（`☰`，NickelMenu），点一下，弹出菜单中点 KOReader，就进到 KOReader 界面了。完成。
 
 
 ## 一些 KOReader 使用技巧

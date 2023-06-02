@@ -59,7 +59,7 @@ NameVariable, NameVariableClass, NameVariableGlobal, NameVariableInstance */
 /* NameOther */         .chroma .nx {  }
 /* NameProperty */      .chroma .py {  }
 /* NameVariableMagic */ .chroma .vm {  }
-/* Literal */           .chroma .l {  }
+/* Literal */           .chroma .l  {  }
 /* LiteralDate */       .chroma .ld {  }
 
 /* LiteralString, LiteralStringAffix, LiteralStringBacktick, LiteralStringChar,
