@@ -79,6 +79,8 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 **[User guide](http://koreader.rocks/koreader-user-guide.pdf) 看文档！看文档！看文档！**
 
+用户制作的手册：[KOReader compendium](https://dmpop.github.io/koreader-compendium/)
+
 设置屏幕四角点击功能
 : top menu > 齿轮 > 手势管理 > 点击角落
 : 默认：左上：切换页面翻转；右上：书签；左下：开关背光；右下：无
