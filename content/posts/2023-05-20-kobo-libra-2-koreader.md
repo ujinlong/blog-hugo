@@ -91,6 +91,7 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 截屏
 : 从屏幕左上角滑动到右下角，或者从屏幕右上角滑动到左下角
+: 保存路径：`.adds/koreader/screenshots`
 
 设置锁屏画面
 : top menu > 齿轮 > 屏幕设置 > 屏幕保护
@@ -100,6 +101,11 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 反转翻页按钮
 : top menu > 齿轮 > 点击与手势 > 翻页 > 反转翻页按钮。这个是全盘设置，包括文件管理器和设置中的翻页都会随之更改。
+
+
+## 已知问题
+
+- 有时候 KOReader 会卡死，过大概半分钟后自动重启（退回到 Kobo 原生首页，需要再点击一次 NickelMenu 进入）。此时会丢失过去大概十分钟内的所有阅读进度以及设置（除了屏幕截图）。这个发生完全没有规律，防不胜防，所以我目前就是完全不管它。
 
 
 ## 自定义 KOReader
@@ -158,13 +164,32 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 中日韩字体方面，我下载了一个 [NotoSerifCJKsc-Regular](https://github.com/notofonts/noto-cjk/blob/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf) 和 [NotoSerifCJKjp-Regular](https://github.com/notofonts/noto-cjk/blob/main/Serif/OTF/Japanese/NotoSerifCJKjp-Regular.otf)，直接放在自带的 `noto` 文件夹里了。由于实在太大，就没有下载别的字重。（看了实际效果之后觉得应该直接下 Medium 或者 Bold 的……算了。）
 
+最后，我下载了一个 [Noto Emoji Regular](https://fonts.google.com/noto/specimen/Noto+Emoji) 设置为默认后备字体（不需要单独设置字号和行间距），以应对偶尔文本中会出现的表情符号。
+
 技巧：
 
 1. 修改书本字体的方式是 top menu > 左起第二个图标（写了字的纸） > 字体。
 1. 如果觉得设置满意，可以点击 top menu > 左起第二个图标 > 文档设置 > 保存文档设置为默认。不能分语言保存默认，只能设一种。
-1. Fanwood Text 设置：行间距 130%，字号 24。
+1. Fanwood Text / ET Book 设置：行间距 130%，字号 24。
 2. Noto Serif SC 设置：行间距 140%，字号 19，字重 +1。
 
+### 配置文件
+
+如果需要看多种语言的文档，那么显然一个默认主字体和一个默认后备字体是不够用的。在 top menu > 扳手 > 配置文件（默认在第二页）里面，可以保存不同场景下的文档设置，包括字体，行距，字重，等等等等。照不同语言各设置一个即可。
+
+设置好之后，短按编辑，长按直接应用。
+
+
+## 导出
+
+### 导出笔记（高亮）
+
+top menu > 扳手 > 导出所有笔记，默认文件夹是 `.adds/koreader/clipboard`，非常难找。
+
+
+### 导出单词本
+
+？？？
 
 <!-- 
 ### 反转翻页按钮
