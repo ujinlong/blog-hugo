@@ -5,8 +5,6 @@ lastmod: "2021-04-25 19:00:39.566 +0200"
 slug: 2019-04-09-a-small-mess
 categories:
 - 随笔
-tags:
-- Essay
 title: 一件小事／A small mess
 ---
 这事儿有后续的，但是我没发出来。再说吧。

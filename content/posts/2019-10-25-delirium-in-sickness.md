@@ -1,12 +1,11 @@
 ---
 author: loikein
 published: "2019-10-25T20:25:00+02:00"
-slug: 2019-10-25-delirium-in-sickness-warning-may-provoke-depression
+slug: 2019-10-25-delirium-in-sickness
 categories:
 - 随笔
-tags:
-- 自述
-title: 病中呓语（致郁警告）
+title: 病中呓语
+description: "内容警告：较为生动的关于抑郁症的回忆"
 ---
 我和我家那位关系一直不好，准确地说，是我一直单方面地不喜欢她。  
 从我有记忆开始。举例：小学三年级还是四年级的某天，我回到家咬牙切齿地在某个不用的本子上写了「仇人列表」四个大字，然后左起第一行写了她的全名。后来我忘记这件事发生过了，后来在高中某次回家的时候（从书柜里我的秘密角落）翻出来看了一眼，又尴尬又想跟那时候的自己抱头痛哭。  

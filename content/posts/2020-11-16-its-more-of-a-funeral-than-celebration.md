@@ -5,8 +5,7 @@ slug: 2020-11-16-its-more-of-a-funeral-than-celebration
 categories:
 - 随笔 
 tags:
-- Essay
-- Politics
+- 政治
 title: It's more of a funeral than celebration
 ---
 Ok, so Biden won. Nicely done US people, or should I say, US electors?

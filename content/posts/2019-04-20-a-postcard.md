@@ -4,8 +4,6 @@ published: "2019-04-20T16:19:00+02:00"
 slug: 2019-04-20-a-postcard
 categories:
 - 随笔
-tags:
-- Essay
 title: 一张明信片／A postcard
 ---
 {{< row >}}

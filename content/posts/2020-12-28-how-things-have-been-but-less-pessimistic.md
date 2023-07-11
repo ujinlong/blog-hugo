@@ -6,8 +6,6 @@ series:
     - "My twisted view on human relations"
 categories:
 - 随笔
-tags:
-- 自述
 title: 稍微正常一点的近况报告，以及对生命和人类关系的扭曲理解
 ---
 对不起让各位担心了。我虽然没有完全好起来，但是比上次打开这个博客后台的时候已经好了很多很多。

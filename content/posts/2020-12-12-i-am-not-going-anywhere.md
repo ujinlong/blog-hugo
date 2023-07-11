@@ -7,8 +7,6 @@ series:
     - "My twisted view on human relations"
 categories:
 - 随笔
-tags:
-- 自述
 title: どこにも行けない人たち
 ---
 昨日、自殺寸前だった。静かに、あったかいクッションに囲まれて、どのビルの高さが足りるかと考えてた。

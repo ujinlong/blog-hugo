@@ -4,8 +4,6 @@ published: "2018-11-26T23:23:00+01:00"
 slug: 2018-11-26-being-chosen-vs-having-no-choices
 categories:
 - 随笔
-tags:
-- 自述
 title: 被选中的与没有选择的
 ---
 首先引用一段我自己的微博。  

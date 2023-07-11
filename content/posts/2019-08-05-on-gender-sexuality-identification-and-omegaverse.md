@@ -6,9 +6,7 @@ slug: 2019-08-05-on-gender-sexuality-identification-and-omegaverse
 categories:
 - 随笔
 tags:
-- Essay
 - 政治
-- Politics
 title: 关于性别认同和取向的探索，以及对 ABO 的想法／On gender & sexuality identification, and Omegaverse
 ---
 {{< row >}}

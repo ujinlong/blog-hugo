@@ -6,6 +6,7 @@ categories:
 - 随笔
 tags:
 - 政治
+- 女性主义
 title: 桑德伯格与斯洛特之争，与神奇女侠的腋毛
 ---
 本文首发 LOFTER。  

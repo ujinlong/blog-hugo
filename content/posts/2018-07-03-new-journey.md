@@ -4,8 +4,6 @@ published: "2018-07-03T12:13:00+02:00"
 slug: 2018-07-03-new-journey
 categories:
 - 随笔
-tags:
-- Essay
 title: 新的起点／New Journey
 ---
 {{< row >}}

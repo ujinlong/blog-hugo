@@ -4,8 +4,6 @@ published: "2019-01-23T01:56:00+01:00"
 slug: 2019-01-23-il-logical-and-ir-rational-and-love
 categories:
 - 随笔
-tags:
-- 自述
 title: 逻辑与理性（或：非逻辑与非理性）与爱
 ---
 搜了一下带有随笔这个标签的博文，大部分都是未发布的草稿，还有一两篇是发过之后觉得过于私密，又撤回了。  

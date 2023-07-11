@@ -4,9 +4,6 @@ published: "2020-02-03T21:50:00+01:00"
 slug: 2020-02-03-apple-vs-digital-generations-vs-me
 categories:
 - 随笔
-tags:
-- Essay
-- Introspection
 title: Apple vs. digital generations vs. me
 ---
 On [Connected \#124](https://www.relay.fm/connected/124):

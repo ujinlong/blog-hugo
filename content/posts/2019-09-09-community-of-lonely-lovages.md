@@ -4,8 +4,6 @@ published: "2019-09-09T18:36:00+02:00"
 slug: 2019-09-09-community-of-lonely-lovages
 categories:
 - 随笔
-tags:
-- 自述
 title: 独活草群落
 ---
 前几天跟李总吃晚饭实录：  

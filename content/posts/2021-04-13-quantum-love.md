@@ -7,8 +7,6 @@ series:
     - "My twisted view on human relations"
 categories:
 - 随笔
-tags:
-- 自述
 title: 量子之爱
 description: "对人类关系的扭曲理解之二。求求了您能一口气写完吗。"
 ---

@@ -5,10 +5,6 @@ lastmod: "2021-04-25 19:04:35.566 +0200"
 slug: 2019-05-08-life-on-the-road
 categories:
 - 随笔
-tags:
-- 自述
-- Essay
-- Introspection
 title: 生，活／Life on the road
 ---
 {{< row >}}

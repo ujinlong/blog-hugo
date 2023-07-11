@@ -5,8 +5,7 @@ slug: 2020-05-10-virtual-learning-is-the-future-but
 categories:
 - 随笔
 tags:
-- Essay
-- Futurology
+- 未来学
 title: Virtual learning is the future, but maybe not in the form that you are experiencing
 ---
 Disclaimer: the future (normative, not descriptive)  

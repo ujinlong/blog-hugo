@@ -6,8 +6,7 @@ slug: 2019-12-12-the-case-of-power-dynamics
 categories:
 - 随笔
 tags:
-- Essay
-- Politics
+- 政治
 title: The case of power dynamics / hierarchy / harassment / whatever you call it
 ---
 ![](/post-img/2019-12-12-the-case-of-power-dynamics-1.png)

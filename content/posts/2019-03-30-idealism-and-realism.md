@@ -5,10 +5,6 @@ lastmod: "2021-05-12T00:51:03+0200"
 slug: 2019-03-30-idealism-and-realism
 categories:
 - 随笔
-tags:
-- 自述
-- Essay
-- Introspection
 title: 理想主义与现实主义／Idealism and realism
 ---
 {{< row >}}

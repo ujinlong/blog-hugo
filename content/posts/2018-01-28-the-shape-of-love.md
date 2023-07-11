@@ -4,8 +4,6 @@ published: "2018-01-28T09:21:00+01:00"
 slug: 2018-01-28-the-shape-of-love
 categories:
 - 随笔
-tags:
-- 自述
 title: 爱的形状
 ---
 虽然并没有关注黄执中老师，但是关注的忘记哪位赞了一下，于是某天这段话出现在了我的 timeline 里：  

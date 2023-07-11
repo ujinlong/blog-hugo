@@ -4,10 +4,6 @@ published: "2019-12-24T14:46:00+01:00"
 slug: 2019-12-24-find-that-brush
 categories:
 - 随笔
-tags:
-- Essay
-- 自述
-- Introspection
 title: 找到那把刷子／Find that brush
 ---
 {{< row >}}

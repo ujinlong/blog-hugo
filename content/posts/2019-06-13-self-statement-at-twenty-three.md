@@ -4,8 +4,6 @@ published: "2019-06-13T23:42:00+02:00"
 slug: 2019-06-13-self-statement-at-twenty-three
 categories:
 - 随笔
-tags:
-- 自述
 title: 廿三自述
 ---
 从生日前开始写，现在生日早过了。  
