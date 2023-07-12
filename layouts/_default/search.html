@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" x-ms-format-detection="none">
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+{{- partial "head.html" . -}}
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<body>
+
+<section class="a11y-links">
+<a class="a11y-links__link" tabindex="0" href="#content">{{- i18n "skip_to_main" -}}</a>
+</section>
+
+<div id="app">
+{{- partial "sidebar.html" . -}} <!-- desktop view -->
+{{- partial "extrabar.html" . -}} <!-- toc & pagination -->
+
+{{- partial "mobile-header.html" . -}} <!-- mobile header -->
+
+<main id="content">
+<div ref="streamContainer" class="stream-container">
+<div class="post-list-container post-list-container-shadow">
+<div class="post">
+<div class="post-head-wrapper-text-only">
+    <div class="post-title">
+        <h1 class="post-title-main">{{- i18n "search" -}}</h1>
+    </div>
+    <div id="search"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search" });
+        });
+    </script>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+{{- partial "footer.html" . -}}
+</body>
+</html>

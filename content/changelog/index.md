@@ -43,6 +43,11 @@ css:
 - [x] 修复 Fediverse CW code
 - [x] 制作 `<dl>` shortcodes（发现 Goldmark 直接支持，不需要了）
 
+## 2023-07-12 ✨
+
+实验性功能：使用 [CloudCannon/pagefind](https://github.com/cloudcannon/pagefind) 进行更为快速的本地全文搜索。目前沿用了[官方文档](https://pagefind.app/docs/ui/)中的设置。
+
+
 ## 2023-05-17 🔧
 
 修改博客题目：此生未命名／Untitled Life → 浣心／Heart of Sleeve

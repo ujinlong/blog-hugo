@@ -63,7 +63,7 @@ menu:
       name: 归档／Archive
       weight: 2
     - name: 搜索／Search
-      url: "https://www.ecosia.org/search?q=site%3Ablog.loikein.one"
+      url: /search/
       weight: 3
     # - url: /tags/
     #   name: 标签／Tags

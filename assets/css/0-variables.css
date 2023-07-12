@@ -12,6 +12,19 @@
   --mark: rgb(255,212,0,10%);
   text-underline-position: under;
 
+  /* pagefind var */
+  --pagefind-ui-scale: 0.8;
+  --pagefind-ui-primary: #034ad8;
+  --pagefind-ui-text: #393939;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #eeeeee;
+  --pagefind-ui-tag: #eeeeee;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: sans-serif;
+
   /* dracula theme */
   --chroma-bg:     #F2F2F2; /* background */
   --chroma-fg:     #383a42; /* foreground */
@@ -54,6 +67,13 @@ body.night {
   --dark-gray: #999;
   --gray: #aaa;
   --light-gray: #555;
+
+  /* pagefind var */
+  --pagefind-ui-primary: #eeeeee;
+  --pagefind-ui-text: #eeeeee;
+  --pagefind-ui-background: #152028;
+  --pagefind-ui-border: #152028;
+  --pagefind-ui-tag: #152028;
 
   /* dracula theme */
   --chroma-bg:     #282a36; /* background */
