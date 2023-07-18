@@ -29,6 +29,9 @@ ignoreFiles:
   - "blog-*.xml$"
 ignoreErrors: 
   - "error-remote-getjson"
+security:
+  gotemplates:
+    allowActionJSTmpl: true
 
 params:
   title: "浣心／Heart of Sleeve"
