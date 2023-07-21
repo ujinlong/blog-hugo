@@ -4,15 +4,21 @@
 
 Well, here we are. Migration purely for ~~new content~~ fun.
 
-## Commands
+## Build
 
 ### Local
 
-```bash
-subl . && hugo server --buildDrafts --disableFastRender
+```sh
+# generate pagefind index first
+hugo && npm_config_yes=true npx pagefind --source "public"
+# run local server
+hugo server --buildDrafts --disableFastRender
 ```
 
 ### Codespace
+
+<details>
+<summary>Not in use any more</summary>
 
 - Install Browser Preview (`auchenberg.vscode-browser-preview`)
 
@@ -53,8 +59,12 @@ subl . && hugo server --buildDrafts --disableFastRender
 
 - Notice that any draft (only exists on local machine) will not show up.
 
+</details>
+
+
 ## Refs
 
 - [Host on Netlify | Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#configure-hugo-version-in-netlify)
 - [[SOLVED]Do I need to build the public folder if I host on Netlify? - support - HUGO](https://discourse.gohugo.io/t/18615)
 - [public directory and output not generated · Issue #4407 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/4407#issuecomment-365530120)
+- [Pagefind is quite a find for site search | BryceWray.com](https://www.brycewray.com/posts/2022/07/pagefind-quite-find-site-search/)
