@@ -2,7 +2,6 @@
 author: loikein
 published: "2018-11-28T08:40:00+01:00"
 lastmod: "2021-05-08T17:41:37+0200"
-slug: 2018-11-28-card-links
 categories:
 - 编程笔记
 tags:
@@ -17,7 +16,7 @@ title: 把链接做成卡片形式：一个纯 HTML 的尝试
 
 使用：
 
-```html
+```go-html-template
 {{</* preview "…" */>}}
 ```
 
@@ -30,7 +29,7 @@ title: 把链接做成卡片形式：一个纯 HTML 的尝试
 Shortcode 代码如下：（保存为 `/layouts/shortcodes/preview.html`）  
 CSS 有点多就不贴了，都在 `custom.css` 里，有兴趣的朋友可以用 inspector 查看。
 
-```html
+```go-html-template
 {{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src" | default (.Get 0))) }}
 <div class="link-card">
     <div class="link-card--body">

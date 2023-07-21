@@ -65,7 +65,7 @@ draft/
 
 这个蓝色的草稿标签正是完美的草稿一览页面入口。因此，只要在 `/layouts/_default/single.html` 里，将对应的代码改一下就行了。点击之后，就会跳转到跟「博文归档」一模一样的「草稿归档」，且这两个页面列出的文章是完全没有交集的。
 
-```html
+```go-html-template
 {{- if .Draft -}}
 <span class="draft-label"><a href="/archives/drafts/">{{ i18n "draft" }}</a></span>
 {{- end -}}
@@ -79,7 +79,7 @@ draft/
 
 对了，忘记加上，我平时在 Hugo 里新建草稿的命令如下：
 
-```bash
+```sh
 hugo new drafts/$(date +"%Y-%m-%d")-draft$(date +"%H%M%S").md
 ```
 

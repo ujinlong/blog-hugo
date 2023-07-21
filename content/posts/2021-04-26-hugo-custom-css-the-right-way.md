@@ -27,7 +27,7 @@ description: 又名：浪费生命的一百种方法
 
 那个主题是 Yihui 改过的，可以添加自定义 CSS 代码，`head.html` 里面的 [layout 是这样的](https://github.com/yihui/hugo-lithium/blob/master/layouts/partials/head.html#L35-L37)：
 
-```html
+```go-html-template
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
@@ -60,7 +60,7 @@ static/
 
 这位名为 Polarhardboiled 的网友是这么写的：
 
-```html
+```go-html-template
 {{ with $.Resources.GetMatch "**.css*" }}
 {{ $style := . | minify | fingerprint }}
 <link type=text/css rel="stylesheet" href="{{ $style.Permalink }}">
@@ -77,7 +77,7 @@ static/
 <!-- {{< sticker name="question.png" h=120 animated="false" >}} -->
 
 <!-- 
-```html
+```go-html-template
 {{ range resources.GetMatch "css/**.css" }}
 {{ $style := . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
@@ -110,7 +110,7 @@ static/
 
 总之，浪费了一些生命，[再学了一点 `resources.Concat`](https://discourse.gohugo.io/t/combining-css-files-into-one-file/20380/4) 之后，以下是最终版本：
 
-```html
+```go-html-template
 {{ if .Site.Params.customCSS }}
 {{ $style := resources.Match "css/**.css" | resources.Concat "custom.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

@@ -84,7 +84,7 @@ if (navigator && navigator.clipboard) {
 
 然后，在 `./themes/diary/layouts/partials/footer.html` 中添加如下代码：
 
-```html
+```go-html-template
 <footer>
 ...
 <!-- copy code -->

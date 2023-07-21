@@ -28,7 +28,7 @@ tags:
 
 代码：（[hugo-theme-diary/series.html](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/partials/series.html)）
 
-```html
+```go-html-template
 {{ range $index, $series := .Params.series }}
 <dl class="post-series">
   <dt>

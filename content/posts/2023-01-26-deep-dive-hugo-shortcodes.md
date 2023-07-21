@@ -28,23 +28,23 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 
 容易忘记的东西主要是参数可以这么定义：（flexible / positional or named parameters）
 
-```go
+```go-html-template
 {{ $var := .Get "var" | default (.Get 0) }}
 {{ $var := .Get "var" | default "something" }}
 ```
 
 也可以这么定义：（positional parameters）
 
-```go
+```go-html-template
 {{ $var := .Get 0 }}
 {{ $var := index .Params 0 }}
 ```
 
 也可以在不需要设置默认值的时候跳过定义直接使用：（named parameters）
 
-```go
-{{ .Get "var" }}... {{ end }}        // 必须参数
-{{ with .Get "var" }}...{{ end }}    // 可选参数
+```go-html-template
+{{ .Get "var" }}... {{ end }}        {{/* 必须参数 */}}
+{{ with .Get "var" }}...{{ end }}    {{/* 可选参数 */}}
 {{ if .Get "var" }}... {{ end }} 
 ```
 
@@ -63,7 +63,7 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 
 原文中的代码是这样的：
 
-```go
+```go-html-template
 {{ $cols := split .RawContent "||" }}
 
 {{ range $cols }}
@@ -85,7 +85,7 @@ description: "总结一些使用和编写短代码的时候碰到的坑。"
 
 Shortcode 代码：
 
-```go {hl_lines=[2,5,6]}
+```go-html-template {hl_lines=[2,5,6]}
 {{ $cols := split .Inner "||" }}
 {{ $lang := .Params }}
 
@@ -100,7 +100,7 @@ Shortcode 代码：
 
 使用：
 
-```html
+```go-html-template
 {{</* colx zh-Hans en ja */>}}
 你好世界
 ||
@@ -126,7 +126,7 @@ Hello world
 
 Shortcode 代码：
 
-```go {hl_lines=[2,3]}
+```go-html-template {hl_lines=[2,3]}
 {{ $cols := split .Inner "||" }}
 {{ $lang := .Get "lang" | default ( .Get 0 ) }}
 {{ $lang  = split $lang "," }}
@@ -142,8 +142,8 @@ Shortcode 代码：
 
 使用：（都不能有空格）
 
-```html
-{{</* cols lang="zh-Hans,en,ja" */>}} {{/* lang= 可省略 */}}
+```go-html-template
+{{</* cols lang="zh-Hans,en,ja" */>}}  {{/* lang= 可省略 */}}
 你好世界
 ||
 Hello world
@@ -175,15 +175,15 @@ Hello world
 
 作为参考，在 shortcode 里一个正常的列表长这样：（注释是渲染出来的网页内容）
 
-```go
+```go-html-template
 {{ slice "zh" "en" }}
-// [zh en]
+{{/* [zh en] */}}
 
 {{ index ( slice "zh" "en" ) 0 }}
-// zh
+{{/* zh */}}
 
 {{ printf "%T" ( slice "zh" "en" ) }}
-// []string <-- 列表
+{{/* []string <-- 列表 */}}
 ```
 
 
@@ -213,7 +213,7 @@ Hello world
 
 其一：
 
-````html
+````go-html-template
 {{</* fold */>}}
 ```lang
 code
@@ -232,7 +232,7 @@ Hello world
 
 其二：
 
-````html
+````go-html-template
 {{%/* fold */%}}
 ```lang
 code
@@ -255,7 +255,7 @@ I'm fine thank you
 
 其三：
 
-````html
+````go-html-template
 {{</* fold */>}}
 {{</* highlight lang */>}}
 code
@@ -310,20 +310,20 @@ And you?
 
 所以，最简单的实现方式就是编写 `md.html` 为：
 
-```go
+```go-html-template
 {{ .Inner | $.Page.RenderString (dict "display" "block") }}
 ```
 
 然后在任何（任何，包括 raw HTML tag 里面）需要渲染 Markdown 的地方使用：
 
-```text
+```go-html-template
 {{</* md */>}}...{{</* /md */>}}
 ```
 
 那么问题来了，虽然大部分时候这么设置没问题，但是偶尔（比如在 raw HTML tag 里）想渲染一小段话但是不加 `<p>`，可以吗？  
 在另外一些[补课](https://kodify.net/hugo/functions/hugo-cond-function/)之后，发现只需要添加一个条件即可。修改 `md.html` 为：
 
-```go
+```go-html-template
 {{ $block := .Get "block" | default "true" }}
 {{ $optBlock := cond (ne $block "true") (dict "display" "inline") (dict "display" "block") }}
 {{ .Inner | $.Page.RenderString $optBlock }}
@@ -332,13 +332,13 @@ And you?
 （其实只定义 `$block` 应该也足够了，但那样最后一行就会要写一个很长的条件式，不方便读，所以我把条件额外拆成了一个变量。）  
 然后在需要渲染 inline Markdown 的地方使用：
 
-```text
+```go-html-template
 {{</* md block="false" */>}}...{{</* /md */>}}
 ```
 
 比如：
 
-````html
+````go-html-template
 {{</* fold */>}}
 {{</* highlight */>}}
 code
@@ -375,7 +375,7 @@ I'm free!
 
 代码 1：
 
-```text
+```go-html-template
 {{</* md */>}}
 **我~~免费~~自由了！** [^2]
 
@@ -393,7 +393,7 @@ I'm free!
 
 代码 2：
 
-```text
+```go-html-template
 {{</* md */>}}
 **我~~免费~~自由了！** [^3]
 {{</* /md */>}}
@@ -412,7 +412,7 @@ I'm free!
 
 代码 3：
 
-```text
+```go-html-template
 {{%/* md */%}}
 **我~~免费~~自由了！** [^4]
 
@@ -431,7 +431,7 @@ I'm free!
 
 代码 4：
 
-```text
+```go-html-template
 {{%/* md */%}}
 **我~~免费~~自由了！** [^4]
 {{%/* /md */%}}
@@ -463,7 +463,7 @@ I'm free!
 
 代码 1：
 
-```text
+```go-html-template
 {{</* md */>}}
 #### Heading1
 
@@ -489,7 +489,7 @@ More text...
 
 代码 2：
 
-```text
+```go-html-template
 {{</* fold "Is this real life?" */>}}
 {{</* md */>}}
 #### Heading3
