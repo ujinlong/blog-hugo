@@ -97,6 +97,10 @@ body.night a:visited {
   color: inherit;
 }
 
+.post-item-info-wrapper .draft-label {
+  margin-left: 1rem;
+}
+
 @media (max-width: 500px) {
   .post-meta {
     display: block;
@@ -105,8 +109,7 @@ body.night a:visited {
     display: block;
   }
   .post-meta .post-tags,
-  .post-meta .post-cats,
-  .draft-label {
+  .post-meta .post-cats {
     display: inline-block;
     margin-right: 1rem;
   }
@@ -235,7 +238,7 @@ body.night .post-body p del {
   grid-column: 1;
 }
 
-.post-body dd {
+.post-body dl:not(.post-series) dd {
   margin-bottom: 0;
   margin-left: 40px;
 }
@@ -245,7 +248,7 @@ body.night .post-body p del {
     grid-template-columns: fit-content(50%) auto;
   }
 
-  .post-body dd {
+  .post-body dl:not(.post-series) dd {
     grid-column: 2;
     margin-left: 0;
   }
