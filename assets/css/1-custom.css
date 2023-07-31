@@ -82,8 +82,8 @@ body.night a:visited {
 }
 
 .draft-label {
-  color: var(--theme-color-1);
-  border: 1px solid var(--theme-color-1);
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
   padding: 0 5px 0 5px ;
   border-radius: 20px !important;
 }

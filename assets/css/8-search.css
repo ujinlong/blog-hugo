@@ -1,8 +1,0 @@
-.pagefind-ui__result-excerpt > mark {
-  background: var(--mark);
-  font-style: italic;
-}
-
-.post-title + #search {
-  margin-top: 1em;
-}

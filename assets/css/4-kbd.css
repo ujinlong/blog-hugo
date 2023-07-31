@@ -1,9 +1,0 @@
-body.night kbd {
-    color: #212529 !important;
-    background-color: var(--black);
-}
-
-.kbd-wrapper .kbd-plus {
-    margin-right: 0.2rem;
-    margin-left: 0.2rem;
-}
