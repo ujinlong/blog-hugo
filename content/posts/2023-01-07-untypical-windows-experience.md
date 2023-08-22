@@ -63,7 +63,7 @@ Windows 11 自带了 Winget，但是不知出于什么原因，我第一次试�
 
 ### Bitdefender
 
-````bash
+````sh
 winget install Bitdefender.Bitdefender
 ````
 
@@ -77,7 +77,7 @@ winget install Bitdefender.Bitdefender
 
 ### Firefox
 
-````bash
+````sh
 winget install Mozilla.Firefox
 ````
 
@@ -90,7 +90,7 @@ winget install Mozilla.Firefox
 
 ### Microsoft PowerToys
 
-````bash
+````sh
 winget install Microsoft.PowerToys
 ````
 
@@ -104,7 +104,7 @@ winget install Microsoft.PowerToys
 
 <!-- ### f.lux
 
-````bash
+````sh
 winget install flux.flux
 ````
 
@@ -113,7 +113,7 @@ winget install flux.flux
 
 ### QL-Win
 
-````bash
+````sh
 winget install QL-Win.QuickLook
 ````
 
@@ -122,7 +122,7 @@ winget install QL-Win.QuickLook
 
 ### 小狼毫
 
-````bash
+````sh
 winget install Rime.Weasel
 ````
 
@@ -188,8 +188,7 @@ patch:
 
 根据[微软的帮助文档](https://support.microsoft.com/en-us/windows/clipboard-in-windows-c436501e-985d-1c8d-97ea-fe46ddf338c6)，Windows 10 及 11 自带剪贴板历史工具，启动方式是 {{< kbd Win V >}}。第一次使用时需要激活一下。
 
-
-### 截图
+### Game Bar 截图 \(已弃用\)
 
 我只想一键截全屏，不要多余步骤，并自动保存在硬盘里的某个地方（相当于 macOS 上的 {{< kbd command shift 3 >}}），怎么就这么难呢。
 
@@ -204,6 +203,19 @@ patch:
 
 注意它[只能截取当前活跃窗口](https://answers.microsoft.com/en-us/windows/forum/all/how-to-make-xbox-game-bar-record-the-whole-screen/d6d1a50b-dada-4236-bdd3-41953d70141b)，所以要么全屏打开需要截图的程序，或者截取的时候注意光标焦点。  
 想要在全屏程序之外截取全屏，就只能用愚蠢的 Windows 截图工具（快捷键：{{< kbd Win Shift S >}}，保存位置：`我的文档 > 图片 > 屏幕截图`）并忍耐必须多点一次的繁琐了。
+
+
+### Greenshot
+
+```sh
+winget install Greenshot.Greenshot
+```
+
+用久了发现 Game Bar 截图时不时还会崩溃一下，或者弹警告说目前程序不是游戏，浪费了许多宝贵的截图机会，故又开始寻找新的替代品，需求还是上一节那些个需求。这个是[开源](https://github.com/greenshot/greenshot)的。
+
+设置主要是全屏截图快捷键（已经用习惯了 {{< kbd Ctrl F12 >}}）和保存地点。截图成功提示我选的快门声，这样全屏勿扰模式下也能触发。终于……能够愉快地截图了。
+
+惟一不好用的地方是保存文件名时检测部分程序标题总是出错，但我本来也不是靠文件名分类截图的，所以问题不大。
 
 
 ## 已经卸载

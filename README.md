@@ -13,8 +13,6 @@ Well, here we are. Migration purely for ~~new content~~ fun.
 hugo && npm_config_yes=true npx pagefind --source "public"
 # run local server
 hugo server --buildDrafts --disableFastRender
-# debug local server
-hugo server --buildDrafts --disableFastRender --logLevel info
 ```
 
 ### Codespace

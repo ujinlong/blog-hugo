@@ -277,6 +277,8 @@ And you?
 
 ## 在任何地方正确渲染 Markdown 内容（几乎）
 
+<!-- update (?): [markdown footnotes don't work within columns shortcode · Issue #10203 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/10203) -->
+
 <!-- ok -->
 
 文档：
