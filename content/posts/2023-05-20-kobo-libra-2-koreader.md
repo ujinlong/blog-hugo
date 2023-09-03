@@ -82,9 +82,9 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 用户制作的手册：[KOReader compendium](https://dmpop.github.io/koreader-compendium/)
 
 设置屏幕四角点击功能
-: top menu > 齿轮 > 手势管理 > 点击角落
+: top menu ▸ 齿轮 ▸ 手势管理 ▸ 点击角落
 : 默认：左上：切换页面翻转；右上：书签；左下：开关背光；右下：无
-: 我的设置：左上：一般 > 显示菜单（top menu），右下：阅读器 > 目录
+: 我的设置：左上：一般 ▸ 显示菜单（top menu），右下：阅读器 ▸ 目录
 
 不容易误触的打开 top menu 和 bottom menu 的方式
 : 从屏幕顶端／底端往中心滑动（像手机通知中心那样）
@@ -94,13 +94,13 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 : 保存路径：`.adds/koreader/screenshots`
 
 设置锁屏画面
-: top menu > 齿轮 > 屏幕设置 > 屏幕保护
+: top menu ▸ 齿轮 ▸ 屏幕设置 ▸ 屏幕保护
 
 在文件管理器里打开 top menu 的方式
 : 点击屏幕顶上最中间的 KOReader 字样
 
 反转翻页按钮
-: top menu > 齿轮 > 点击与手势 > 翻页 > 反转翻页按钮。这个是全盘设置，包括文件管理器和设置中的翻页都会随之更改。
+: top menu ▸ 齿轮 ▸ 点击与手势 ▸ 翻页 ▸ 反转翻页按钮。这个是全盘设置，包括文件管理器和设置中的翻页都会随之更改。
 
 
 ## 已知问题
@@ -112,7 +112,7 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 ### 词典
 
-管理词典入口：top menu > 放大镜 > 词典设置。
+管理词典入口：top menu ▸ 放大镜 ▸ 词典设置。
 
 内置的可下载词典一览：[koreader/dictionaries.lua ](https://github.com/koreader/koreader/blob/master/frontend/ui/data/dictionaries.lua)
 
@@ -168,14 +168,14 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 技巧：
 
-1. 修改书本字体的方式是 top menu > 左起第二个图标（写了字的纸） > 字体。
-1. 如果觉得设置满意，可以点击 top menu > 左起第二个图标 > 文档设置 > 保存文档设置为默认。不能分语言保存默认，只能设一种。
+1. 修改书本字体的方式是 top menu ▸ 左起第二个图标（写了字的纸） ▸ 字体。
+1. 如果觉得设置满意，可以点击 top menu ▸ 左起第二个图标 ▸ 文档设置 ▸ 保存文档设置为默认。不能分语言保存默认，只能设一种。
 1. Fanwood Text / ET Book 设置：行间距 130%，字号 24。
 2. Noto Serif SC 设置：行间距 140%，字号 19，字重 +1。
 
 ### 配置文件
 
-如果需要看多种语言的文档，那么显然一个默认主字体和一个默认后备字体是不够用的。在 top menu > 扳手 > 配置文件（默认在第二页）里面，可以保存不同场景下的文档设置，包括字体，行距，字重，等等等等。照不同语言各设置一个即可。
+如果需要看多种语言的文档，那么显然一个默认主字体和一个默认后备字体是不够用的。在 top menu ▸ 扳手 ▸ 配置文件（默认在第二页）里面，可以保存不同场景下的文档设置，包括字体，行距，字重，等等等等。照不同语言各设置一个即可。
 
 设置好之后，短按编辑，长按直接应用。
 
@@ -184,7 +184,7 @@ ExcludeSyncFolders=(\\.(?!kobo|adobe).+|([^.][^/]*/)+\\..+)
 
 ### 导出笔记（高亮）
 
-top menu > 扳手 > 导出所有笔记，默认文件夹是 `.adds/koreader/clipboard`，非常难找。
+top menu ▸ 扳手 ▸ 导出所有笔记，默认文件夹是 `.adds/koreader/clipboard`，非常难找。
 
 
 ### 导出单词本
