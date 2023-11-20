@@ -135,15 +135,21 @@ body.night a:visited {
   font-weight: 700;
 }
 
-.post-body b,
-.post-body strong {
-/*   font-weight: normal;
+.post-body b:not(:lang(en)),
+.post-body strong:not(:lang(en)) {
+  text-emphasis: dot ;
+  text-emphasis-position: under right;
+}
+
+.post-body em:not(:lang(en)) {
+  text-emphasis: open dot ;
+  text-emphasis-position: under right;
+}
+
+.post-body u,
+.post-body underline {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--dark-gray); */
-/*   text-decoration: underline wavy 1.3px var(--light-gray);
-  text-underline-position: auto; */
-  background-color: var(--mark);
+  text-decoration-color: var(--gray);
 }
 
 .post-body del,

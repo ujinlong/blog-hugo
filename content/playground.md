@@ -14,39 +14,35 @@ _build:
 ---
 ## Custom Shortcodes
 
-### Two-column layout
+### diffcode
 
-{{< row >}}
-{{< col >}}
-你好世界
-{{< /col >}}
-{{< col "en" >}}
-Hello world
+Adapted from: [CloudCannon/alto-hugo-template/layouts/shortcodes/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/shortcodes/diffcode.html) and [CloudCannon/alto-hugo-template/layouts/partials/diffcode.html](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/partials/diffcode.html).
 
-Hello world [test](#)[^3]
-{{< /col >}}
-{{< col "ja" >}}
-こんにちは
-{{< /col >}}
-{{< /row >}}
-
-[^3]: test
-
-```html
-{{</* row */>}}
-{{</* col */>}}
-你好世界
-{{</* /col */>}}
-{{</* col "en" */>}}
-Hello world
-{{</* /col */>}}
-{{</* col "ja" */>}}
-こんにちは
-{{</* /col */>}}
-{{</* /row */>}}
+{{< diffcode >}}
+```sh
+[submodule "something"]
+    path = something
+    url = https://github.com/something/something.git
++    ignore = untracked
+-    branch = new-branch
 ```
+{{< /diffcode >}}
 
-### New! two-column layout
+Usage: \(add `+` or `-` \(no space\) before the lines to be highlighted\)
+
+````html
+{{</* diffcode */>}}
+```sh
+[submodule "something"]
+    path = something
+    url = https://github.com/something/something.git
++    ignore = untracked
+-    branch = new-branch
+```
+{{</* /diffcode */>}}
+````
+
+### Two-column layout \(new version\)
 
 {{< cols "zh-Hans,en,ja" >}}
 你好世界
@@ -179,9 +175,9 @@ Begin [test file](https://gist.github.com/loikein/27ef6913386b206d1b3c18b8e93c57
 
 ### Formatting
 
-**Bold**, __bold__, **加粗**
+<span lang="en">**Bold**, __bold__</span>, **加粗**
 
-*Italic*, _italic_, *斜体*
+<span lang="en">*Italic*, _italic_</span>, *斜体*
 
 <u>Underline</u>, <underline>underline</underline>
 

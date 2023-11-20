@@ -17,8 +17,8 @@ css:
 
 | 表情 | 名称             | 含义        |
 |:---:|------------------|------------|
-| ✨ | Sparkles          | 新功能      |
-| 💄 | Lipstick          | 更新用户界面或样式文件 |
+| ✨ | sparkles          | 新功能      |
+| 💄 | lipstick          | 更新用户界面或样式文件 |
 | ⚡ | zap / high_voltage | 优化性能    |
 | 🔧 | wrench            | 更新配置文件 |
 | 📝 | memo / pencil     | 更新说明文档 |
@@ -42,6 +42,15 @@ css:
 - [ ] 在归档页面增加显示博文分类及标签
 - [x] 修复 Fediverse CW code
 - [x] 制作 `<dl>` shortcodes（发现 Goldmark 直接支持，不需要了）
+
+
+## 2023-11-20 ✨
+
+新功能：添加了 `diffcode` 短代码，现在可以在表现 diff 的同时保留原本的代码高亮了。  
+代码来自 CloudCannon（[1](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/shortcodes/diffcode.html)，[2](https://github.com/CloudCannon/alto-hugo-template/blob/main/layouts/partials/diffcode.html)），修改颜色以及适配黑夜模式。
+
+效果和用法见：[Playground#diffcode](/playground/#diffcode)
+
 
 ## 2023-07-12 ✨
 
@@ -141,7 +150,7 @@ css:
 博文：[如何在 Hugo 中添加复制代码按钮（键盘友好型）](/posts/2022-08-11-hugo-copy-code-button/)
 
 
-## ？？（待添加）
+## ・・・（待添加）
 
 
 ## 2021-05-17 🧱♻️💥

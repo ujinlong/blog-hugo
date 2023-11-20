@@ -58,9 +58,11 @@ tags:
 
 站点设置需要更改：（`config.yaml`）
 
-```diff
+{{< diffcode >}}
+```yaml
 taxonomies:
     tag: tags
     category: categories
 +    series: series
 ```
+{{< /diffcode >}}

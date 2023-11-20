@@ -112,10 +112,12 @@ if (navigator && navigator.clipboard) {
 
 关于添加按钮这部分，原作者放在了 `<pre>` 前面，应该只是个人喜好问题。然而由于我在测试键盘浏览时，网页上 `:focus` 的首选项是  `<pre>` 而不是 `<div class="highlight">`，所以如果把按钮放在 `<pre>` 前面，就没法用 sibling selector 为按钮添加 `:focus` 时的 CSS 了。经过一些搜索后，我发现进行如下修改即可把按钮添加到 `<pre>` 后面：
 
-```diff
+{{< diffcode >}}
+```js
 - pre.parentNode.insertBefore(button, pre);
 + pre.parentNode.insertBefore(button, pre.nextSibling);
 ```
+{{< /diffcode >}}
 
 完成上述添加修改后，渲染结果为如下格式的 HTML：
 
