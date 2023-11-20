@@ -194,7 +194,7 @@ _build:
 - [LaTeX and AMS-LaTeX Symbols](https://pic.plover.com/MISC/symbols.pdf)
 - [The Comprehensive LaTeX Symbol List](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf) \- 全表，不到必要的时候不要打开
 - [Online LaTeX Editor](https://latexbase.com/) \- LaTeX 测试
-- [LaTex Style Files](https://web.stanford.edu/~chadj/latex2.html) \- Charles I. Jones 教授的 LaTeX 论文模板
+- [LaTeX Style Files](https://web.stanford.edu/~chadj/latex2.html) \- Charles I. Jones 教授的 LaTeX 论文模板
 - [LaTeX Templates](http://www.latextemplates.com/) \- 一大堆很好看的 LaTeX 模板
 - [TikZ and PGF examples](http://www.texample.net/tikz/examples/) \- 一大堆 TikZ 画图模板
 
