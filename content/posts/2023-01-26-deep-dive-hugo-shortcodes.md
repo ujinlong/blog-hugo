@@ -189,90 +189,12 @@ Hello world
 
 ## 编写
 
-<!-- ok -->
-
-问题：该用 `{{- .Inner -}}` 还是 `{{- .Inner }}` 还是 `{{ .Inner -}}` 还是 `{{ .Inner }}`？
-
-参考： [Introduction to Hugo Templating | Hugo](https://gohugo.io/templates/introduction/#whitespace)
-
-简而言之，在左边添加 `-` 就是删除 `.Inner` 以左的空白字符，以此类推。（但似乎不会影响括号内的空白字符，比如 [`{{- if ... -}}` 后的换行](https://github.com/loikein/hugo-book/commit/dc180e04588a3aa2ec5574a04f36613aecc7212d)。）在 Partial 里也是一样的。
+<time>2023-12-01</time> 编辑：本节原本的内容作废，[点这里回顾](https://github.com/loikein/blog-hugo/blob/41fa507acea95c099bf15d572b1bcb20c3902543/content/posts/2023-01-26-deep-dive-hugo-shortcodes.md?plain=1#L190)。我为此新写了（半篇）博文，链接：[续・深入探究 Hugo 短代码：我今天还就非得把这个脚注写出来不可#空格太多](/posts/2023-11-22-deep-dive-hugo-shortcodes-revisit/#%e5%9b%be%e7%89%87%e7%a9%ba%e6%a0%bc%e5%a4%aa%e5%a4%9a)
 
 
 ## 两种调用方式
 
-<!-- ok -->
-
-问题：该用 `{{</* shortcode */>}}…{{</* /shortcode */>}}` 还是 `{{%/* shortcode */%}}…{{%/* /shortcode */%}}` ？
-
-参考： [.Inner in paired shortcodes should be (markdown) rendered · Issue #185 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/185#issuecomment-340534318)
-
-前者标签中的内容（`.Inner`）会直接显示，完全不经过 Markdown 渲染器（目前默认为 [Goldmark](https://github.com/yuin/goldmark)），而后者的内容会被 Markdown 渲染。  
-这种功能区分虽然很有趣，但有时候可能会产生预料之外的问题。
-
-试对比嵌套使用时，两种不同调用方式的渲染结果：
-
-其一：
-
-````go-html-template
-{{</* fold */>}}
-```lang
-code
-```
-{{</* figure … */>}}
-{{</* /fold */>}}
-````
-
-{{< fold "外层使用 `{{</* fold */>}}`，内层混合使用 Markdown 代码框及 `{{</* figure */>}}`（代码框渲染错误，图片渲染正确）" >}}
-````plaintext
-Hello world
-````
-
-{{< figure folder="sticker" name="shocked.png" alt="I did not understand but I was shocked" h="200px" >}}
-{{< /fold >}}
-
-其二：
-
-````go-html-template
-{{%/* fold */%}}
-```lang
-code
-```
-{{</* figure … */>}}
-{{%/* /fold */%}}
-````
-
-{{% fold "外层使用 `{{%/* fold */%}}`，内层混合使用 Markdown 代码框及 `{{</* figure */>}}`（代码框渲染正确，图片渲染错误）" %}}
-````plaintext
-I'm fine thank you
-````
-
-{{< figure folder="sticker" name="shocked.png" alt="I did not understand but I was shocked" h="200px" >}}
-{{% /fold %}}
-
-这个问题正是促使我想要写这篇文章，以及先前[某次技术性更新](/changelog/#2023-01-11-)改了又改的原因。
-
-目前为止我发现的最好的解决方案是：外层一律使用 `{{</* code */>}}`，内层一律使用 shortcodes。
-
-其三：
-
-````go-html-template
-{{</* fold */>}}
-{{</* highlight lang */>}}
-code
-{{</* /highlight */>}}
-{{</* figure … */>}}
-{{</* /fold */>}}
-````
-
-{{< fold "外层使用 `{{</* fold */>}}`，内层使用 `{{</* highlight */>}}` 及 `{{</* figure */>}}`（代码框及图片均渲染正确）" >}}
-{{< highlight plaintext >}}
-And you?
-{{< /highlight >}}
-
-{{< figure folder="sticker" name="shocked.png" alt="I did not understand but I was shocked" h="200px" >}}
-{{< /fold >}}
-
-那么您可能会想问了，外层用了 `{{</* shortcode */>}}`，但是又想在内层写普通的 Markdown 内容的时候怎么办呢？问得好，这又是一个全新的兔子洞。
+<time>2023-12-01</time> 编辑：本节原本的内容作废，[点这里回顾](https://github.com/loikein/blog-hugo/blob/41fa507acea95c099bf15d572b1bcb20c3902543/content/posts/2023-01-26-deep-dive-hugo-shortcodes.md?plain=1#L201)。我为此新写了（另外半篇）博文，链接：[续・深入探究 Hugo 短代码：我今天还就非得把这个脚注写出来不可#短代码分隔符](/posts/2023-11-22-deep-dive-hugo-shortcodes-revisit/#%e8%84%9a%e6%b3%a8%e7%9f%ad%e4%bb%a3%e7%a0%81%e5%88%86%e9%9a%94%e7%ac%a6)
 
 
 ## 在任何地方正确渲染 Markdown 内容（几乎）
@@ -288,25 +210,29 @@ And you?
 
 您可能会想这不就是一个 `markdownify` 的事儿吗？直到您看到了这两段话：
 
-> To keep the wrapping `p` tags for a single paragraph, use the [`.Page.RenderString`](https://gohugo.io/functions/renderstring/) method, setting the `display` option to `block`.
-> 
-> If the resulting HTML is two or more paragraphs, Hugo leaves the wrapping `p` tags in place.
-> 
-> <footer>— <cite>{{< md block="false" >}}[markdownify | Hugo](https://gohugo.io/functions/markdownify/){{< /md >}}</cite></footer>
+{{< quote
+cite=`[markdownify | Hugo](https://gohugo.io/functions/markdownify/)` >}}
+To keep the wrapping `p` tags for a single paragraph, use the [`.Page.RenderString`](https://gohugo.io/functions/renderstring/) method, setting the `display` option to `block`.
+
+If the resulting HTML is two or more paragraphs, Hugo leaves the wrapping `p` tags in place.
+{{< /quote >}}
 
 所以如果只给 `markdownify` 一行字，它是不会加上 `<p>` tag 的，除非写一些[疯狂的丑陋的我很不喜欢的补丁](https://github.com/gohugoio/hugo/issues/7372#issuecomment-643115084)（而且我测试过了，链接中的代码也不能解决下面提到的脚注问题），或者依赖[不知道什么时候才能解决的 Issue](https://github.com/gohugoio/hugo/issues/5975)。但是
 
-> `.RenderString` is a method on `Page`
-> 
-> <footer>— <cite>{{< md block="false" >}}[.RenderString | Hugo](https://gohugo.io/functions/renderstring/){{< /md >}}</cite></footer>
+{{< quote
+cite=`[.RenderString | Hugo](https://gohugo.io/functions/renderstring/)` >}}
+`.RenderString` is a method on `Page`
+{{< /quote >}}
 
 所以直接写 `{{ .Inner.RenderString }}` 也是不可以的，甚至这个页面上的实例代码也根本无法单独成立（minimal reproducible example，MRE）。于是您在 Hugo Discourse 里查阅了半天，终于发现了：
 
-> If you add options to the mix, I think it’s easier to reason about if you use the pipe syntax, e.g.
-> 
-> `{{ .Text | $.Page.RenderString $options }}`
-> 
-> <footer>— <cite>{{< md block="false" >}}[bep](https://discourse.gohugo.io/u/bep) on [Questions about .RenderString - support - HUGO](https://discourse.gohugo.io/t/questions-about-renderstring/22448/5){{< /md >}}</cite></footer>
+{{< quote
+author="[bep](https://discourse.gohugo.io/u/bep)"
+cite=`[Questions about .RenderString - support - HUGO](https://discourse.gohugo.io/t/questions-about-renderstring/22448/5)` >}}
+If you add options to the mix, I think it’s easier to reason about if you use the pipe syntax, e.g.
+
+`{{ .Text | $.Page.RenderString $options }}`
+{{< /quote >}}
 
 虽然它依旧不是一个 MRE，但至少能提供一些头绪。
 
@@ -449,19 +375,25 @@ I'm free!
 
 [^5]: 算了，没救了。
 
-
 ### 例外可能之二：小标题
 
-但其实使用我的代码并没有这个问题。
+<time>2023-12-01</time> 编辑：重写本小节。[点这里回顾初始版本](https://github.com/loikein/blog-hugo/blob/41fa507acea95c099bf15d572b1bcb20c3902543/content/posts/2023-01-26-deep-dive-hugo-shortcodes.md?plain=1#L453)。
 
-这句话真的很好笑：
+一个我才意识到的事实是，下面的例子在这个博客里没有问题，是因为 Diary 主题用的页面目录并不是 Hugo 自带的目录（`{{ .TableOfContents }}`），而是原作者自己重新写了一个[目录布局文件](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/partials/toc.html)。而如果一个主题确实使用了 Hugo 自带的目录，那么就会出现各种各样的问题。最近我在摆弄另外一个 Hugo 网站（wiki）的时候就碰到了。
 
-> It’s crucial to have 1-3 space before the first `{{`. zero or four spaces won’t work. But I’m not sure why!
-> 
-> <footer>— <cite>{{< md block="false" >}}[lar](https://discourse.gohugo.io/u/lar) on [Shortcode - markdown vs html vs table of content - support - HUGO](https://discourse.gohugo.io/t/shortcode-markdown-vs-html-vs-table-of-content/18282/5){{< /md >}}</cite></footer>
+由于在本网站上无法展示失败例子，我找了一篇别人写的博客，详细地解说了各种失败例和唯一能够成功的方法，链接如下：
+[A hack way to use shortcode headings in the Hugo TOC](https://wellshapedwords.com/posts/shortcode-headings-in-toc/)（[存档](https://web.archive.org/web/20231125172218/https://wellshapedwords.com/posts/shortcode-headings-in-toc/)）。
 
+唯一能够成功的方法即是，在使用 `%%` 调用的短代码里，用 Markdown 语法写标题，那么标题就能成功加入 `{{ .TableOfContents }}`。
+
+这包含了两种情况，首先，如果想在短代码的布局文件中添加每次调用时都自动产生的标题，必须用 Markdown 语法写（`## ...`），并始终以 `%%` 方式调用（例外情况：跟脚注一样，作为嵌套内层时，需要以 `<>` 方式调用；而嵌套最外层需要以 `%%` 调用，并且不包含 `markdownify` 或 `RenderString` 方程）。  
+其次，如果想在使用短代码时，在 Markdown 内包含标题，只能使用以 `%%` 方式调用的短代码。
+
+我据此修改的代码在这里：[loikein/hugo-book/layouts/shortcodes/section2.html](https://github.com/loikein/hugo-book/blob/master/layouts/shortcodes/section2.html#L8)。至于更具体的解释和成功失败对比例子，请看本系列的下一篇文章（很明显，使用的例子是脚注而不是目录）：[续・深入探究 Hugo 短代码：我今天还就非得把这个脚注写出来不可](/posts/2023-11-22-deep-dive-hugo-shortcodes-revisit/#%e8%84%9a%e6%b3%a8%e7%9f%ad%e4%bb%a3%e7%a0%81%e5%88%86%e9%9a%94%e7%ac%a6)
 
 <!-- 在 [Hugo shortcodes with markdown, gotchas | Nelis Oostens](https://oostens.me/posts/hugo-shortcodes-with-markdown-gotchas/) 一文中有详细的总结， -->
+
+#### 原本的成功例子
 
 代码 1：
 
@@ -470,10 +402,6 @@ I'm free!
 #### Heading1
 
 Some text...
-
-#### Heading2
-
-More text...
 {{</* /md */>}}
 ```
 
@@ -483,10 +411,6 @@ More text...
 #### Heading1
 
 Some text...
-
-#### Heading2
-
-More text...
 {{< /md >}}
 
 代码 2：
@@ -494,13 +418,9 @@ More text...
 ```go-html-template
 {{</* fold "Is this real life?" */>}}
 {{</* md */>}}
-#### Heading3
+#### Heading2
 
 Some text...
-
-#### Heading4
-
-More text...
 {{</* /md */>}}
 {{</* /fold */>}}
 ```
@@ -509,13 +429,31 @@ More text...
 
 {{< fold "Is this real life?" >}}
 {{< md >}}
-#### Heading3
+#### Heading2
 
 Some text...
+{{< /md >}}
+{{< /fold >}}
 
-#### Heading4
+代码 3：（新增）
 
-More text...
+```go-html-template
+{{</* fold "Is this real life?" */>}}
+{{</* md */>}}
+### Heading3
+
+Some text...
+{{</* /md */>}}
+{{</* /fold */>}}
+```
+
+效果 3：
+
+{{< fold "Is this real life?" >}}
+{{< md >}}
+### Heading3
+
+Some text...
 {{< /md >}}
 {{< /fold >}}
 

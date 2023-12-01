@@ -38,10 +38,19 @@ css:
 
 按照优先度：
 
+- [ ] 修复带行号的代码高亮的代码复制功能
 - [ ] 制作 CW partial
 - [ ] 在归档页面增加显示博文分类及标签
+- [x] 修复带行号的代码高亮的 CSS
 - [x] 修复 Fediverse CW code
 - [x] 制作 `<dl>` shortcodes（发现 Goldmark 直接支持，不需要了）
+
+
+## 2023-12-01 ✨
+
+新功能：添加了 `quote` 短代码。
+
+效果和用法见：[Playground#quote](/playground/#quote)
 
 
 ## 2023-11-20 ✨

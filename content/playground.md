@@ -3,7 +3,7 @@ author: loikein
 # published: "2021-04-15 18:07:02.530 +0200"
 # lastmod: "2021-04-15 20:24:48.363 +0200"
 slug: playground
-description: "有些例子还挺魔性的，为了心理健康建议别看本文。"
+description: "有些例子还挺魔性的，为了心理健康建议别看全文。"
 featured_image: "/post-img/background-sky.jpg"
 enableMathJax: true
 categories:
@@ -13,6 +13,30 @@ _build:
   list: never
 ---
 ## Custom Shortcodes
+
+### Quote
+
+Adapted from: [loikein/hugo-tufte/layouts/shortcodes/blockquote.html](https://github.com/loikein/hugo-tufte/blob/main/layouts/shortcodes/blockquote.html), original author: [shawnohare (Shawn O'Hare)](https://github.com/shawnohare).
+
+Including at least one of `author` or `cite` will begin the footnote, and `detail` is purely optional.
+
+{{< quote
+author=`[Somebody famous](#)`
+cite=`[Some book famous](#)`
+detail=`pp.256-257` >}}
+Hello world.
+{{< /quote >}}
+
+Usage:
+
+```html
+{{</* quote
+author=`[Somebody famous](#)`
+cite=`[Something famous](#)`
+detail=`pp.256-27` */>}}
+Hello world.
+{{</* /quote */>}}
+```
 
 ### diffcode
 
@@ -56,6 +80,8 @@ Hello world [test](#)[^5]
 
 [^5]: test
 
+Usage:
+
 ```html
 {{</* cols "zh-Hans,en,ja" */>}}
 你好世界
@@ -70,6 +96,8 @@ Hello world
 
 {{< ruby "你好世界" "hello world" >}}　
 
+Usage:
+
 ```html
 {{</* ruby "你好世界" "hello world" */>}}
 ```
@@ -77,6 +105,8 @@ Hello world
 ### kbd
 
 {{< kbd I hate `typing` >}}　
+
+Usage:
 
 ```html
 {{</* kbd I hate `typing` */>}}
@@ -92,6 +122,8 @@ Hello world
 {{< /highlight >}}
 {{< /fold >}}
 
+Usage:
+
 ````html
 {{</* fold  "我是谁？`我在哪？`" */>}}
 {{</* md */>}}Hello world{{</* /md */>}}
@@ -106,19 +138,47 @@ Hello world
 
 Local picture:
 
-{{< figure folder="sticker" name="shocked.png" alt="I did not understand but I was shocked" h="200px" >}}
+{{< figure
+folder="sticker"
+name="shocked.png"
+alt="I did not understand but I was shocked"
+h="200px" >}}
+
+Usage:
+
+```html
+{{</* figure
+folder="sticker"
+name="shocked.png"
+alt="I did not understand but I was shocked"
+h="200px" */>}}
+```
 
 Remote picture:
 
 {{< figure 
 src="https://raw.githubusercontent.com/dracula/sublime/master/images/html.png"
 alt="Dracula theme HTML demo for Sublime Text"
-link="https://github.com/dracula/sublime/blob/master/README.md"
->}}
+link="https://github.com/dracula/sublime/blob/master/README.md" >}}
+
+Usage:
+
+```html
+{{</* figure 
+src="https://raw.githubusercontent.com/dracula/sublime/master/images/html.png"
+alt="Dracula theme HTML demo for Sublime Text"
+link="https://github.com/dracula/sublime/blob/master/README.md" */>}}
+```
 
 ### Video
 
 {{< video name="scream" folder="sticker" mute="false" w="50%" >}}
+
+Usage:
+
+```html
+{{</* video name="scream" folder="sticker" mute="false" w="50%" */>}}
+```
 
 ### Emoji sticker
 
@@ -126,14 +186,33 @@ Static:
 
 {{< sticker name="css-is-awesome.png" h=120 animated="false" >}}
 
+Usage:
+
+```html
+{{</* sticker name="css-is-awesome.png" h=120 animated="false" */>}}
+```
+
 Animated: not looping vs. looping
 
 {{< sticker name="nice" h=200 loop="false" >}}
 {{< sticker name="nice" h=200 >}}
 
+Usage:
+
+```html
+{{</* sticker name="nice" h=200 loop="false" */>}}
+{{</* sticker name="nice" h=200 */>}}
+```
+
 ### Link card
 
 {{< preview "https://blog.ypertex.com/articles/useful-hugo-templating/" >}}
+
+Usage:
+
+```html
+{{</* preview "https://blog.ypertex.com/articles/useful-hugo-templating/" */>}}
+```
 
 ### Fediverse status
 
@@ -149,6 +228,12 @@ Short CW + long main text:
 
 {{< mstdn "mastodon.social" "106353678279784184" >}}
 
+Usage: \(Everything is done automatically, no need for other variables\)
+
+```html
+{{</* mstdn mastodon.social 106070125652504343 */>}}
+```
+
 ### Tweet refined
 
 ~~Currently waiting for [gohugoio/hugo Issue #5617](https://github.com/gohugoio/hugo/issues/5617) to be implemented.~~
@@ -159,13 +244,31 @@ It will never happen due to changes in the Twitter API v2.
 
 {{< twitter 1621026986784337922 >}}
 
+Usage:
+
+```html
+{{</* twitter 1621026986784337922 */>}}
+```
+
 ### Bilibili
 
 {{< bilibili 52046593 >}}
 
+Usage: \(supports both AV and BV\)
+
+```html
+{{</* bilibili 52046593 */>}}
+```
+
 ### YouTube-nocookie
 
 {{< youtube id=kF8I_r9XT7A title="How to Become Pope" >}}
+
+Usage:
+
+```html
+{{</* youtube id=kF8I_r9XT7A title="How to Become Pope" */>}}
+```
 
 ***
 

@@ -7,7 +7,9 @@ publishDir: public
 
 title: "浣心"
 copyright: CC BY-NC loikein 2023
-theme: diary
+theme:
+  # - hugo-debugprint
+  - diary
 
 markup:
   highlight:
