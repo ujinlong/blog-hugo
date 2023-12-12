@@ -381,6 +381,8 @@ I'm free!
 
 一个我才意识到的事实是，下面的例子在这个博客里没有问题，是因为 Diary 主题用的页面目录并不是 Hugo 自带的目录（`{{ .TableOfContents }}`），而是原作者自己重新写了一个[目录布局文件](https://github.com/loikein/hugo-theme-diary/blob/main/layouts/partials/toc.html)。而如果一个主题确实使用了 Hugo 自带的目录，那么就会出现各种各样的问题。最近我在摆弄另外一个 Hugo 网站（wiki）的时候就碰到了。
 
+作为参考，Joe Mooring 的这篇文章详细地展示了各种目录写法：[Tables of content - Veriphor](https://www.veriphor.com/articles/tables-of-content/)。Diary 用的是 Method 4: Parse content。
+
 由于在本网站上无法展示失败例子，我找了一篇别人写的博客，详细地解说了各种失败例和唯一能够成功的方法，链接如下：
 [A hack way to use shortcode headings in the Hugo TOC](https://wellshapedwords.com/posts/shortcode-headings-in-toc/)（[存档](https://web.archive.org/web/20231125172218/https://wellshapedwords.com/posts/shortcode-headings-in-toc/)）。
 

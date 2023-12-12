@@ -327,8 +327,6 @@ console.log("hello world");
 alert("hello world");
 ```
 
-\(NOT optimised:\)
-
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
 // GetTitleFunc returns a func that can be used to transform a string to
 // title case.
