@@ -9,6 +9,8 @@ tags: ["英译中"]
 ---
 时隔四年终于又有勇气翻译西肯的诗，还是这么……令人着迷而又摸不着头脑。
 
+译注：山鲁佐德是阿拉伯民间故事集《一千零一夜》中通过每晚给国王讲故事成功感化了他的王后。
+
 [Scheherazade | Fishouse](https://www.fishousepoems.org/scheherazade/)  
 Richard Siken  
 "Scheherazade" is from  Crush (Yale University Press, 2005).
