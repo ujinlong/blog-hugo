@@ -48,11 +48,6 @@ params:
   favicon: "./favicon.ico"
   touchicon: "./touch-icon.png"
   disqusShortname: loikein-blogspot
-  # gitalk:
-  #   owner: user
-  #   repo: repo name
-  #   client_id: your client id
-  #   client_secret: your client secret
 
 taxonomies:
   tag: tags
@@ -76,9 +71,9 @@ menu:
     # - url: /categories/
     #   name: 分类／Categories
     #   weight: 4
-    - url: /toolbox/
-      name: 工具箱／Toolbox
-      weight: 5
+    # - url: /toolbox/
+    #   name: 工具箱／Toolbox
+    #   weight: 5
     - url: /projects/
       name: 个人项目／Projects
       weight: 8
@@ -89,13 +84,12 @@ menu:
       name: 订阅／RSS
       weight: 10
 
-
 privacy:
   disqus:
     disable: false
   googleAnalytics:
     anonymizeIP: true
-    disable: false
+    disable: true
     respectDoNotTrack: true
     useSessionStorage: true
   instagram:

@@ -14,16 +14,36 @@ _build:
 
 ![Github Calendar](https://ghchart.rshah.org/loikein)  
 
+### Websites
 
-## [摄影](https://www.instagram.com/loikein/)
+- [浣心／Heart of Sleeve](https://blog.loikein.one/) \(this site\)
+  + Repo: [loikein/blog-hugo](https://github.com/loikein/blog-hugo)
+- [Home | loikein's wiki](https://wiki.loikein.one/)
+  + Repo: [loikein/wiki](https://github.com/loikein/wiki)
+
+### Hugo themes
+
+- [hugo-theme-diary](https://github.com/loikein/hugo-theme-diary) \(fork of [AmazingRise/hugo-theme-diary](https://github.com/AmazingRise/hugo-theme-diary)\)
+- [hugo-book](https://github.com/loikein/hugo-book) \(fork of [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book)\)
+- [hugo-tufte](https://github.com/loikein/hugo-tufte) \(main maintainer\)
+- [hugo-novelist](https://github.com/loikein/hugo-novelist) \(fork of [ronv/simplist](https://github.com/ronv/simplist)\)
+- [hugo-lithium](https://github.com/loikein/hugo-lithium-loikein) \(fork of [yihui/hugo-lithium](https://github.com/yihui/hugo-lithium), no longer maintained\)
+
+
+## 摄影
+
+（目前没找到合适的公开方式，先不管了！）
 
 
 ## 翻译
 
+按日期从旧到新排列。
+
 ### 诗歌
 
-- [英译中：Litany in Which Certain Things Are Crossed Out by Richard Siken](https://loikein.blogspot.com/2019/06/litany-in-which-certain-things-are.html)
-
+- [英译中：Litany in Which Certain Things Are Crossed Out by Richard Siken](/posts/2019-06-09-litany-in-which-certain-things-are-crossed-out-by-richard-siken/)
+- [英译中：For the fallen by Laurence Binyon](/posts/2022-04-12-for-the-fallen-by-laurence-binyon/)
+- [英译中：Scheherazade by Richard Siken](/posts/2023-12-15-scheherazade-by-richard-siken/)
 
 ### 歌词
 
@@ -35,7 +55,9 @@ _build:
 - [日译中：愛を両手に by ACIDMAN](/posts/2019-11-10-ai-wo-ryoute-ni-by-acidman/)
 - [日译中：青春脱出速度 by 神様、僕は気づいてしまった](/posts/2019-12-14-seishun-datshutsu-sokudo-by-kami-sama-boku-wa-kizuiteshimatta/)
 - [日译中：Apologies (feat.sleepy.ab) by 福原美穂](/posts/2020-03-06-apologies-feat-sleepy-ab-by-fukuhara-miho/)
-
+- [日译中：Love*3 by 黒うさP](/posts/2020-07-31-love-times-3-by-kurousa-p/)
+- [日译中：神様なんていらない僕らの by PolyphonicBranch](/posts/2022-10-27-kami-sama-nante-iranai-bokura-no-by-polyphonicbranch/)
+- [日译中：2145 年 by ACIDMAN ](/posts/2023-01-16-year-2145-by-acidman/)
 
 ### 短文
 
