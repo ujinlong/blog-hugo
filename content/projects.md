@@ -1,7 +1,6 @@
 ---
 author: loikein
 published: "2020-05-31T16:55:00.000+02:00"
-lastmod: "2020-05-31T16:55:25.462+02:00"
 slug: projects
 categories:
 - 独立页面
@@ -9,7 +8,6 @@ title: 个人项目
 _build:
   list: never
 ---
-
 ## [编程](https://github.com/loikein)
 
 ![Github Calendar](https://ghchart.rshah.org/loikein)  
@@ -28,6 +26,10 @@ _build:
 - [hugo-tufte](https://github.com/loikein/hugo-tufte) \(main maintainer\)
 - [hugo-novelist](https://github.com/loikein/hugo-novelist) \(fork of [ronv/simplist](https://github.com/ronv/simplist)\)
 - [hugo-lithium](https://github.com/loikein/hugo-lithium-loikein) \(fork of [yihui/hugo-lithium](https://github.com/yihui/hugo-lithium), no longer maintained\)
+
+### 待办
+
+{{% include2 "todo" %}}
 
 
 ## 摄影
