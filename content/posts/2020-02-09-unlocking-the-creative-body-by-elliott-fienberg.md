@@ -9,7 +9,7 @@ tags:
 title: 中文翻译：Unlocking the Creative Body by Elliott Fienberg（解放妳的创造之身）
 ---
 点击原文查看狗狗照片：[Unlocking the Creative Body | Elliott
-Fienberg](https://elliottfienberg.com/unlocking-the-creative-body/)  
+Fienberg](https://web.archive.org/web/20200206010059/https://elliottfienberg.com/unlocking-the-creative-body/)  
 No rights reserved.  
   
 
