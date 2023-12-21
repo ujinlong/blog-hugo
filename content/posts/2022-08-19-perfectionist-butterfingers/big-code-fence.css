@@ -1,6 +1,0 @@
-.post-body div.highlight:nth-child(8) pre {
-  border-radius: 0;
-  padding: 0.8rem calc(var(--page-margin) + 3px + 3vw);
-  margin-left: calc(-1 * var(--page-margin));
-  margin-right: calc(-1 * var(--page-margin));
-}

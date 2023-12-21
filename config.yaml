@@ -5,8 +5,8 @@ DefaultContentLanguage: zh
 languageCode: zh-Hans
 publishDir: public
 
-title: "浣心"
-copyright: CC BY-NC loikein 2023
+title: "J1N10N9"
+copyright: CC BY-NC J1N10N9 2023
 theme:
   # - hugo-debugprint
   - diary
@@ -36,13 +36,13 @@ security:
     allowActionJSTmpl: true
 
 params:
-  title: "浣心／Heart of Sleeve"
-  subtitle: "用爱和理性对抗荒谬"
+  title: "J1N10N9"
+  subtitle: "道阻且长，行则将至"
   enableGitalk: false
   enableOpenGraph: true
   enableTwitterCards: true
   disableAutoCollapse: true
-  description: "一个无趣的人的无趣的博客。"
+  description: "一个没点意思的博客。"
   customCSS: true
   customJS: true
   favicon: "./favicon.ico"
@@ -65,24 +65,24 @@ menu:
     - name: 搜索／Search
       url: /search/
       weight: 3
-    # - url: /tags/
-    #   name: 标签／Tags
-    #   weight: 3
-    # - url: /categories/
-    #   name: 分类／Categories
-    #   weight: 4
+    - url: /tags/
+      name: 标签／Tags
+      weight: 3
+    - url: /categories/
+      name: 分类／Categories
+      weight: 4
     # - url: /toolbox/
     #   name: 工具箱／Toolbox
     #   weight: 5
-    - url: /projects/
-      name: 个人项目／Projects
-      weight: 8
-    - url: /changelog/
-      name: 更新履历／Changelog
-      weight: 9
-    - url: /rss/
-      name: 订阅／RSS
-      weight: 10
+    # - url: /projects/
+    #   name: 个人项目／Projects
+    #   weight: 8
+    # - url: /changelog/
+    #   name: 更新履历／Changelog
+    #   weight: 9
+    # - url: /rss/
+    #   name: 订阅／RSS
+    #   weight: 10
 
 privacy:
   disqus:
