@@ -47,7 +47,7 @@ params:
   customJS: true
   favicon: "./favicon.ico"
   touchicon: "./touch-icon.png"
-  disqusShortname: loikein-blogspot
+  # disqusShortname: loikein-blogspot
 
 taxonomies:
   tag: tags
@@ -65,12 +65,12 @@ menu:
     - name: 搜索／Search
       url: /search/
       weight: 3
-    - url: /tags/
-      name: 标签／Tags
-      weight: 3
     - url: /categories/
       name: 分类／Categories
       weight: 4
+    - url: /tags/
+      name: 标签／Tags
+      weight: 3
     # - url: /toolbox/
     #   name: 工具箱／Toolbox
     #   weight: 5
@@ -86,7 +86,7 @@ menu:
 
 privacy:
   disqus:
-    disable: false
+    disable: true
   googleAnalytics:
     anonymizeIP: true
     disable: true

@@ -3,8 +3,8 @@ author: J1N10N9
 published: "2020-05-31T14:51:15.860+02:00"
 lastmod: "2021-05-09T10:08:04+0200"
 slug: about
-categories:
-- 独立页面
+# categories:
+# - 独立页面
 title: 关于
 _build:
   list: never
