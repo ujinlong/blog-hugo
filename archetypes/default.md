@@ -5,6 +5,7 @@ date: "{{ .Date }}"
 # lastmod: ""
 categories: []
 tags: []
-draft: true
+draft: false
 # description: ""
+comments: false
 ---
