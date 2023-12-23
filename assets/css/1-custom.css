@@ -517,7 +517,7 @@ body.night h2.archive--year:first-of-type {
   display: inline-block;
   width: var(--archive-indent);
   padding-left: calc(var(--archive-indent) + 1rem);
-  font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace;
+  /* font-family: fira mono,cousine,Monaco,Menlo,source code pro,monospace; */
 }
 
 .post-item-summary {

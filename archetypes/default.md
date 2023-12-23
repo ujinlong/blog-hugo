@@ -1,8 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+slug: ""
 date: "{{ .Date }}"
-# published: ""
-# lastmod: ""
+published: "{{ .Date }}"
+lastmod: "{{ .Date }}"
 categories: []
 tags: []
 draft: false
