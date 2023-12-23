@@ -360,8 +360,8 @@ body.night blockquote a * {
 }
 
 .toc .toc-content {
-    padding-left: var(--page-margin);
-  }
+  padding-left: var(--page-margin);
+}
 
 .toc .toc-content > ul {
   padding: 0;
