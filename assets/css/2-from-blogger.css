@@ -6,35 +6,35 @@
   counter-increment: counter_h2;
   counter-reset: counter_h3;
 }
-
-.post-body:not(.archive-body) h2::before {
+/* 正文标题序号 */
+/* .post-body:not(.archive-body) h2::before {
   content: counter(counter_h2)". ";
-}
+} */
 
 .post-body:not(.archive-body) h3 {
   counter-increment: counter_h3;
 }
 
-.post-body:not(.archive-body) h3::before {
+/* .post-body:not(.archive-body) h3::before {
   content: counter(counter_h2)"."counter(counter_h3)". ";
-}
+} */
 
 .toc .toc-content > ul > ul > li {
   counter-increment: counter_toc_h2;
   counter-reset: counter_toc_h3;
 }
-
-.toc .toc-content > ul > ul > li::before {
+/* 目录标题序号 */
+/* .toc .toc-content > ul > ul > li::before {
   content: counter(counter_toc_h2)". ";
-}
+} */
 
 .toc .toc-content > ul > ul > ul > li {
   counter-increment: counter_toc_h3;
 }
 
-.toc .toc-content > ul > ul > ul > li::before {
+/* .toc .toc-content > ul > ul > ul > li::before {
   content: counter(counter_toc_h2)"."counter(counter_toc_h3)". ";
-}
+} */
 
 /* two-col */
 

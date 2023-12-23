@@ -6,7 +6,7 @@ languageCode: zh-Hans
 publishDir: public
 
 title: "J1N10N9"
-copyright: CC BY-NC J1N10N9 2023
+# copyright: CC BY-NC J1N10N9 2023
 theme:
   # - hugo-debugprint
   - diary
